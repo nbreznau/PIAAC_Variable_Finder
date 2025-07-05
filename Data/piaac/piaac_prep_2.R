@@ -8,7 +8,7 @@ library(tidyverse)
 
 
 # Step 2: Identify and combine ...2.csv files
-file_list <- list.files(path = here::here("Data", "piaac"), pattern = "2\\.csv$", full.names = TRUE)
+file_list <- list.files(path = here::here("Data", "piaac", "cycle2csvs"), pattern = "2\\.csv$", full.names = TRUE)
 
 combined_data <- file_list %>%
   lapply(read_delim, 
