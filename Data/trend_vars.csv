@@ -1,0 +1,385 @@
+﻿var_c1,var_c2,generic_label_en,generic_label_de,soft_trend_explanation,trend
+A_D01a1,A2_D01a1,Month of the interview,Monat des Interviews,,Strict
+A_D01a2,A2_D01a2,"Year, one year before interview","Jahr, ein Jahr vor dem Vorstellungsgespräch",,Strict
+A_D01a3,A2_D01a3,Year of interview,Jahr des Interviews,,Strict
+A_D01a4,A2_D01a4,Month and year combination,Kombination aus Monat und Jahr,,Strict
+A_N01,A2_N02,Sex,Sex,,Strict
+J_N05a2,A2_N04a2,More than one language at home in childhood,Mehr als eine Sprache zu Hause in der Kindheit,,Strict
+A_Q01a,A2_Q01a,Birth year,Geburtsjahr,,Strict
+A_Q01b,A2_Q01b,Birth month ,Geburtsmonat,,Strict
+J_Q04a,A2_Q03a,Country of birth,Geburtsland,,Strict
+J_Q04b,A2_Q03b,Country of birth,Geburtsland,,Strict
+J_Q04c1,A2_Q03c1,Age at time of immigration,Alter zum Zeitpunkt der Einwanderung,,Strict
+J_Q04c2,A2_Q03c2,Year at time of immigration,Jahr zum Zeitpunkt der Einwanderung,,Strict
+J_Q06a,A2_Q03d,Mother’s country of birth,Geburtsland der Mutter,‘Female guardian’ was dropped so that question on country of birth refers to the biological mother. ,Soft
+J_Q07a,A2_Q03e,Father’s country of birth,Geburtsland des Vaters,‘Male guardian’ was dropped so that question on country of birth refers to the biological mother.,Soft
+J_Q05a1,A2_Q04a1,First language learned at home in childhood,"Muttersprache, die in der Kindheit zu Hause gelernt wurde",,Strict
+J_Q05a2,A2_Q04a2,Second language learned at home in childhood,In der Kindheit zu Hause gelernte Zweitsprache,,Strict
+J_Q05b,A2_Q04b,Language most commonly spoken at home currently,"Sprache, die derzeit zu Hause am häufigsten gesprochen wird",,Strict
+J_S04b,A2_S03b,Country of birth,Geburtsland,,Strict
+J_S05b,A2_S04a1,First language learned at home in childhood,"Muttersprache, die in der Kindheit zu Hause gelernt wurde",,Strict
+J_S05a2,A2_S04a2,Second language learned at home in childhood,In der Kindheit zu Hause gelernte Zweitsprache,,Strict
+B_Q01a,B2_Q01,Educational attainment,Bildungsstand,"PIAAC Cycle 1 made use of the old version of ISCED (ISCED 1997) as the new one was not yet implemented at the time the national versions of the BQ were developed. For PIAAC Cycle 2 we use a coding scheme based on ISCED 2011, distinguishing a maximum of 29 different categories: this allows a good differentiation between different levels and types of qualifications ",Soft
+,B2_Q02a,Obtained other qualifications,Weitere Qualifikationen erworben,,New in Cy2
+,B2_Q02b,Which other qualifications obtained,Welche weiteren Qualifikationen erworben wurden,,New in Cy2
+,B2_Q03a ,Highest education obtained in country,Höchste im Land erworbene Ausbildung,,New in Cy2
+,B2_Q03b ,Country of highest education,Land mit höchster Bildung,,New in Cy2
+B_Q01b,B2_Q04a,Main area of study for highest qualification ,Hauptfachstudium für höchste Qualifikation,We have used a new classification based on ISCED-F 2013. ,Soft
+B_Q01c1,B2_Q04b1,Age obtained highest qualification,Alter erreicht höchste Qualifikation,,Strict
+B_Q01c2,B2_Q04b2,Year obtained highest qualification,"Jahr, in dem die höchste Qualifikation erreicht wurde",,Strict
+,B2_Q04c,Month obtained highest qualification,Monat erhielt höchste Qualifikation,,New in Cy2
+B_Q02a,B2_Q05a,Current participation in formal education ,Aktuelle Teilnahme an formaler Bildung,,Strict
+B_Q02b,B2_Q05b, Qualification currently studying for,"Qualifikation, für die derzeit studiert wird","PIAAC Cycle 1 made use of the old version of ISCED (ISCED 1997) as the new one was not yet implemented at the time the national versions of the BQ were developed. For PIAAC Cycle 2 we use a coding scheme based on ISCED 2011, distinguishing a maximum of 29 different categories: this allows a good differentiation between different levels and types of qualifications ",Soft
+B_Q02c,B2_Q05c,Main area of study for currently pursued qualification,Hauptfach des aktuell angestrebten Abschlusses,We have used a new classification based on ISCED-F 2013. ,Soft
+B_Q03a,B2_Q06a,Started studying without completing qualification,Studium ohne Abschluss begonnen,,Strict
+B_Q03b,B2_Q06b,Education started but not completed,"Die Ausbildung wurde begonnen, aber nicht abgeschlossen","PIAAC Cycle 1 made use of the old version of ISCED (ISCED 1997) as the new one was not yet implemented at the time the national versions of the BQ were developed. For PIAAC Cycle 2 we use a coding scheme based on ISCED 2011, distinguishing a maximum of 29 different categories: this allows a good differentiation between different levels and types of qualifications ",Soft
+B_Q03c1,B2_Q06c1,Age when stopped studying for qualification that was not completed,"Alter, in dem das Studium für einen nicht abgeschlossenen Abschluss abgebrochen wurde",,Strict
+B_Q03c2,B2_Q06c2,Year when stopped studying for qualification that was not completed,"Jahr, in dem das Studium für einen nicht abgeschlossenen Abschluss abgebrochen wurde",,Strict
+,B2_Q08a,Participation in training,Teilnahme an Schulungen,,New in Cy2
+,B2_Q08b,Number of training activities in the last 12 months,Anzahl der Trainingsaktivitäten in den letzten 12 Monaten,,New in Cy2
+,B2_Q09 ,Participation in training beyond 12 months,Teilnahme an Schulungen über 12 Monate hinaus,,New in Cy2
+,B2_Q10 ,Main focus of training,Schwerpunkt der Ausbildung,,New in Cy2
+B_Q14a,B2_Q11,Training mainly job-related,Ausbildung überwiegend berufsbezogen,"The term “activity” was changed into “training activity” for consistency reasons. Furthermore, the content of the interviewer instruction was included in the item itself (after some rewording) following suggestions resulting from the pretest.",Soft
+B_Q14b,B2_Q12,Main  reason  for participating in training,Hauptgrund für die Teilnahme am Training,"Some response categories were changed compared to Cycle 1, partly because they overlapped. One category was added to get information about important aspects not covered in Cycle 1 (“To better deal with new or changing work tasks”). The first response category, ""To do my job better and/or improve career prospects"" was split up for Cycle 2 and three categories which were not mentioned frequently in Cycle 1 or that overlapped with other response options were deleted (""To be less likely to lose my job""; ""To increase my possibilities of getting a job, or changing a job or profession""; “To start my own business”). In the category ""To obtain a certificate"", the aspect of renewing a certificate was included following the pretest. The wording of the question was changed slightly by dropping ""more precisely"" which was regarded as redundant. ",Soft
+,B2_Q13a,Mode of administration of training,Art der Durchführung der Ausbildung,,New in Cy2
+,B2_Q13d,Scheduling of training,Planung der Schulung,,New in Cy2
+B_Q15a,B2_Q15,Employment status when participating in training,Beschäftigungsstatus bei Teilnahme an der Ausbildung,"In Cycle 1, this item only asked whether the respondent was employed (full- or part-time). This was broadened to include other statuses. ",Soft
+,B2_Q16a,Training took place in normal work environment,Die Schulung fand in normaler Arbeitsumgebung statt,,New in Cy2
+B_Q15b,B2_Q16b,Participating in training during working hours,Teilnahme an Schulungen während der Arbeitszeit,"The interviewer instructions were simplified, and the broken stem style changed to a complete question. ",Soft
+,B2_Q16c ,Training for improving work performance by digitalization,Schulung zur Verbesserung der Arbeitsleistung durch Digitalisierung,,New in Cy2
+B_Q15c,B2_Q17,Usefulness of training for job,Nützlichkeit der Ausbildung für den Beruf,Wording of question was simplified. ,Soft
+,B2_Q18 ,Certificate for participation in training,Zertifikat für die Teilnahme an der Schulung,,New in Cy2
+,B2_Q20,Who paid for costs of training,Wer hat die Schulungskosten bezahlt?,,New in Cy2
+B_Q17,B2_Q21,Total time spent on training,"Gesamtzeit, die für das Training aufgewendet wurde",The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions. ,Soft
+B_Q18,B2_Q21,Total time spent on training,"Gesamtzeit, die für das Training aufgewendet wurde",The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions. ,Soft
+B_Q19,B2_Q21,Total time spent on training,"Gesamtzeit, die für das Training aufgewendet wurde",The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions. ,Soft
+B_Q20a,B2_Q21,Total time spent on training,"Gesamtzeit, die für das Training aufgewendet wurde",The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions. ,Soft
+B_Q26a,B2_Q22,Barriers to training,Hindernisse für die Ausbildung,The wording of this item was adjusted to exclude formal education. ,Soft
+B_Q26b,B2_Q23,Barriers to training - reasons,Ausbildungshindernisse – Gründe,The response categories were slightly changed compared to Cycle 1 and include new categories in order to cover more different areas which might deter respondents from participation education and training. ,Soft
+,B2_S03b ,Other country of highest foreign education,Anderes Land mit höchster ausländischer Bildung,,New in Cy2
+C_Q01a,C2_Q01a ,PAID work in the last week,BEZAHLTE Arbeit in der letzten Woche,,Strict
+C_Q01b,C2_Q01b ,Temporarily away from a job or business in the last week,In der letzten Woche vorübergehend von der Arbeit oder dem Unternehmen abwesend,,Strict
+C_Q01c,C2_Q01c,UNPAID work in own or family business in the last week,UNBEZAHLTE Arbeit im eigenen oder Familienunternehmen in der letzten Woche,,Strict
+C_Q02a,C2_Q02a ,ACTIVELY looking for paid work,AKTIV auf der Suche nach bezahlter Arbeit,The word “ACTIVELY” plus examples have been added to this question.,Soft
+C_Q02b,C2_Q02b,Waiting to start a job,"Ich warte darauf, einen Job zu beginnen",,Strict
+C_Q03,C2_Q03,Reasons for not looking for work,"Gründe dafür, keine Arbeit zu suchen",,Strict
+C_S03,C2_Q04,Job search duration,Dauer der Jobsuche,,Strict
+C_Q05,C2_Q05,Available to start work within 2 weeks,"Verfügbar, um innerhalb von 2 Wochen mit der Arbeit zu beginnen",,Strict
+C_Q06,C2_Q06,Number of jobs,Anzahl der Arbeitsplätze,,Strict
+C_Q07,C2_Q07,Self-reported current situation,Selbstberichtete aktuelle Situation,"Changed the category ''apprentice, internship'' into ''apprentice, intern'' for consistency reasons. The other categories remained unchanged.",Soft
+,C2_Q08a,Total time out of work in last 5 years,Gesamtzeit der Arbeitsunfähigkeit in den letzten 5 Jahren,,New in Cy2
+,C2_Q08b,Total time out of work in last 5 years,Gesamtzeit der Arbeitsunfähigkeit in den letzten 5 Jahren,,New in Cy2
+C_Q08a,C2_Q09a,Ever had paid work,Hatte jemals bezahlte Arbeit,,Strict
+C_Q08b,C2_Q09b,Paid work in last 12 months,Bezahlte Arbeit in den letzten 12 Monaten,,Strict
+C_Q08c1,C2_Q09c1,Age stopped working,Das Alter hat aufgehört zu funktionieren,,Strict
+C_Q08c2,C2_Q09c2,Year stopped working,Das Jahr funktionierte nicht mehr,,Strict
+C_Q09,C2_Q10,Total years in paid work,Gesamtzahl der Jahre in bezahlter Arbeit,,Strict
+,C2_Q11,"Unemployment benefits, disability benefits, sickness benefits or retirement benefits","Arbeitslosengeld, Invaliditätsgeld, Krankengeld oder Altersrente",,New in Cy2
+C_Q10a,C2_Q12,Number of firms or organizations in last 5 years,Anzahl der Firmen oder Organisationen in den letzten 5 Jahren,,Strict
+D_Q01a,D2_Q01a,Job title,Berufsbezeichnung,,Strict
+D_Q01b,D2_Q01b,Most important responsibilities in job,Wichtigste Aufgaben im Job,,Strict
+D_Q02a,D2_Q02a,"Kind of business, industry or service","Art von Geschäft, Branche oder Dienstleistung",,Strict
+D_Q02b,D2_Q02b,Firm or organisation ,Firma oder Organisation,,Strict
+D_Q03,D2_Q03,Sector,Sektor,,Strict
+D_Q04,D2_Q04,Employee or self-employed,Angestellter oder Selbstständiger,,Strict
+D_Q05a1,D2_Q05a1,Age start working current employer,"Alter bei Arbeitsbeginn, aktueller Arbeitgeber",,Strict
+D_Q05a2,D2_Q05a2,Year start working current employer,Jahr des Arbeitsbeginns beim derzeitigen Arbeitgeber,,Strict
+D_Q05a3,D2_Q05a3,Month  start working current employer,Monat Arbeitsbeginn beim aktuellen Arbeitgeber,,Strict
+D_Q05b1,D2_Q05b1,Age start working in current business,Alter Beginn der Arbeit im aktuellen Geschäft,,Strict
+D_Q05b2,D2_Q05b2,Year start working in current business ,Jahr Beginn der Arbeit im laufenden Geschäft,,Strict
+D_Q05b3,D2_Q05b3,Month start working in current business,Monat Beginn der Arbeit im laufenden Geschäft,,Strict
+,D2_Q06a,Changes in job level,Änderungen in der Jobebene,,New in Cy2
+,D2_Q06b,Changes in tasks and responsibilities,Änderungen in Aufgaben und Verantwortlichkeiten,,New in Cy2
+,D2_Q06c,Changes in department or unit,Änderungen in der Abteilung oder Einheit,,New in Cy2
+D_Q06a,D2_Q07a,Firm size ,Feste Größe,The answer categories for firm size are changed to bring them in line with the international definition. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp. 17).  ,Soft
+D_Q06c,D2_Q07c,Part of larger organisation,Teil einer größeren Organisation,,Strict
+D_Q07a,D2_Q08a,Employees working for you,"Mitarbeiter, die für Sie arbeiten",,Strict
+D_Q07b,D2_Q08b,Number of employees,Anzahl der Mitarbeiter,The answer categories for firm size are changed to bring them in line with the international definition. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp. 17).  ,Soft
+D_Q08a,D2_Q09a,Supervisory status,Aufsichtsstatus,,Strict
+D_Q08b,D2_Q09b,Number of subordinates,Anzahl der Untergebenen,,Strict
+D_Q09,D2_Q10,Type of contract,Art des Vertrags,"The answer categories for the contract type are updated to bring them in line with the ongoing change on the labour market. Two contract types are added: a zero hour contract and a freelance, contractor and/or consultant contract. Also, seasonal contracts are now explicitly mentioned with the fixed term contracts category. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp.",Soft
+D_Q10,D2_Q11,Working hours,Arbeitszeit,,Strict
+D_Q12a,D2_Q12a,Required education for getting current job,"Erforderliche Ausbildung, um den aktuellen Job zu bekommen","PIAAC Cycle 1 made use of the old version of ISCED (ISCED 1997) as the new one was not yet implemented at the time the national versions of the BQ were developed. For PIAAC Cycle 2 we use a coding scheme based on ISCED 2011, distinguishing a maximum of 28 different categories: this allows a good differentiation between different levels and types of qualifications ",Soft
+,D2_Q12b,Qualification to get the job is also qualification to do the job,"Die Qualifikation, den Job zu bekommen, ist auch die Qualifikation, den Job auszuführen",,New in Cy2
+,D2_Q12c,Required education for doing current job,Erforderliche Ausbildung für die aktuelle Tätigkeit,,New in Cy2
+D_Q12c,D2_Q12d,Required work experience,Erforderliche Berufserfahrung,,Strict
+D_Q14,D2_Q13,Job satisfaction,Arbeitszufriedenheit,,Strict
+D_Q16a,D2_Q14a,Earnings basis,Verdienstbasis,,Strict
+D_Q16b,D2_Q14b,Usual gross pay,Üblicher Bruttolohn,,Strict
+D_Q16c,D2_Q14c,Usual gross pay,Üblicher Bruttolohn,,Strict
+D_Q16d1,D2_Q14d1,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q16d2,D2_Q14d2,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q16d3,D2_Q14d3,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q16d4,D2_Q14d4,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q16d5,D2_Q14d5,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q16d6,D2_Q14d6,Specification plausible hourly wage,Angabe eines plausiblen Stundenlohns,,Strict
+D_Q17a,D2_Q15a,Additional earnings?,Zusatzverdienst?,,Strict
+D_Q17b,D2_Q15b,How much additional earnings?,Wie viel Zusatzverdienst?,,Strict
+D_Q17c,D2_Q15c,Prepared to answer in broad categories,"Bereit, in breiten Kategorien zu antworten",,Strict
+D_Q17d,D2_Q15d,Broad ranges for additional payments,Große Bandbreiten für Nachzahlungen,,Strict
+D_Q18a,D2_Q16a,Earnings from business,Einnahmen aus dem Geschäft,,Strict
+D_Q18b,D2_Q16b,Earnings from business,Einnahmen aus dem Geschäft,,Strict
+D_Q18c1,D2_Q16c1,Broad earnings ranges for self-employed,Große Verdienstspannen für Selbstständige,,Strict
+D_Q18c2,D2_Q16c2,Broad earnings ranges for self-employed,Große Verdienstspannen für Selbstständige,,Strict
+D_S09,D2_S10,Specify type of contract,Vertragsart angeben,,Strict
+D_S16a,D2_S14a,Earnings basis,Verdienstbasis,,Strict
+E_Q01a,E2_Q01a,Job title of last job,Berufsbezeichnung der letzten Tätigkeit,,Strict
+E_Q01b,E2_Q01b,Most important responsibilities in last job,Wichtigste Aufgaben im letzten Job,,Strict
+E_Q02a,E2_Q02a,"Kind of business, industry or service","Art von Geschäft, Branche oder Dienstleistung",,Strict
+E_Q02b,E2_Q02b,Firm or organisation ,Firma oder Organisation,,Strict
+E_Q03,E2_Q03,Sector,Sektor,,Strict
+E_Q04,E2_Q04,Employee or self-employed,Angestellter oder Selbstständiger,,Strict
+E_Q05a1,E2_Q05a1,Age start working former employer,Alter des früheren Arbeitgebers,,Strict
+E_Q05a2,E2_Q05a2,Year start working former employer,Jahr Beginn der Arbeit beim ehemaligen Arbeitgeber,,Strict
+E_Q05b1,E2_Q05b1,Age start working in former business,Alter beginnt in einem früheren Unternehmen zu arbeiten,,Strict
+E_Q05b2,E2_Q05b2,Year start working in former business ,Jahr Beginn der Arbeit im ehemaligen Unternehmen,,Strict
+E_Q06,E2_Q06,Firm size,Feste Größe,The answer categories for firm size are changed to bring them in line with the international definition. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp. 17).  ,Soft
+E_Q07a,E2_Q07a,Employees working for you,"Mitarbeiter, die für Sie arbeiten",,Strict
+E_Q07b,E2_Q07b,Number of employees,Anzahl der Mitarbeiter, The answer categories for firm size are changed to bring them in line with the international definition. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp. 17).  ,Soft
+E_Q10,E2_Q08,Type of contract in last job,Art des Vertrags im letzten Job,"The answer categories for the contract type are updated to bring them in line with the ongoing change on the labour market. Two contract types are added: a zero hour contract and a freelance, contractor and/or consultant contract. Also, seasonal contracts are now explicitly mentioned with the fixed term contracts category. This was recommended by the working group on 'Skills use and mismatch'. See document 'Improving the measurement of skills use and mismatch in the second cycle of PIAAC' (pp. 17).",Soft
+E_Q09,E2_Q09,Working hours in last job,Arbeitszeiten im letzten Job,,Strict
+,E2_Q10a,Required education for getting last job,Erforderliche Ausbildung für den letzten Job,,New in Cy2
+,E2_Q10b,Qualification to get the job is also qualification to do the job,"Die Qualifikation, den Job zu bekommen, ist auch die Qualifikation, den Job auszuführen",,New in Cy2
+,E2_Q10c,Required education for doing last job,Erforderliche Ausbildung für die letzte Tätigkeit,,New in Cy2
+,E2_Q10d,Required work experience,Erforderliche Berufserfahrung,,New in Cy2
+,E2_Q11a,Stopped working in last job voluntarily or involuntarily,Hat im letzten Job freiwillig oder unfreiwillig aufgehört zu arbeiten,,New in Cy2
+,E2_Q11b,Main reason stopped working in last job,"Der Hauptgrund dafür war, dass ich im letzten Job nicht mehr gearbeitet habe",,New in Cy2
+E_S08,E2_S08,Specify former contract type,Geben Sie die frühere Vertragsart an,,Strict
+G_Q01a,F2_Q01a,Read directions and instruction,Lesen Sie die Anweisungen und Anweisungen,,Strict
+G_Q01b,F2_Q01b,"Read letters, memos or e-mails","Lesen Sie Briefe, Memos oder E-Mails",,Strict
+G_Q01c,F2_Q01c,"Read articles in newspaper, magazines or newsletters ","Lesen Sie Artikel in Zeitungen, Zeitschriften oder Newslettern",,Strict
+,F2_Q01d,"Read books, scholarly publications, or articles in professional journals ","Lesen Sie Bücher, wissenschaftliche Veröffentlichungen oder Artikel in Fachzeitschriften",,New in Cy2
+G_Q01f,F2_Q01e,Read manuals or reference materials,Lesen Sie Handbücher oder Referenzmaterialien,,Strict
+G_Q01g,F2_Q01f,"Read bills, invoices, bank statements or other financial statements","Lesen Sie Rechnungen, Rechnungen, Kontoauszüge oder andere Finanzberichte",,Strict
+,F2_Q01g,Read posts or commentaries on social media,Lesen Sie Beiträge oder Kommentare in sozialen Medien,,New in Cy2
+G_Q02a,F2_Q02a,"Write letters, memos or emails","Schreiben Sie Briefe, Memos oder E-Mails",,Strict
+,F2_Q02b,Write reports or articles,Schreiben Sie Berichte oder Artikel,,New in Cy2
+G_Q02d,F2_Q02c,Fill in forms,Füllen Sie Formulare aus,,Strict
+,F2_Q02d,Write posts or commentaries on social media,Schreiben Sie Beiträge oder Kommentare in sozialen Medien,,New in Cy2
+,F2_Q03a,Undertake calculations,Führen Sie Berechnungen durch,,New in Cy2
+,F2_Q03b,"Use maps, plans or GPS for finding directions and locations","Verwenden Sie Karten, Pläne oder GPS, um Wegbeschreibungen und Standorte zu finden",,New in Cy2
+,F2_Q03c,Undertake measurements,Nehmen Sie Messungen vor,,New in Cy2
+G_Q03f,F2_Q03d,"Read and prepare charts, graphs or tables","Lesen und bereiten Sie Diagramme, Grafiken oder Tabellen vor","An important use of graphs and charts is the ability to read them, not to just prepare them. Therefore the wording changed in ‘read and prepare’ instead of ‘prepare’.",Soft
+G_Q03h,F2_Q03e,Use advanced mathematics or statistics,Verwenden Sie fortgeschrittene Mathematik oder Statistik,These items are compared to Cycle 1 generally somewhat broader and generic.,Soft
+G_Q04,F2_Q04,Use a computer ,Benutzen Sie einen Computer,,Strict
+G_Q05a,F2_Q05a,Use email,Verwenden Sie E-Mail,Combined with G_Q05h for Cy2,Soft
+G_Q05h,F2_Q05a,Participate in real-time discussions on the internet,Nehmen Sie an Echtzeitdiskussionen im Internet teil,Combined with G_Q05a for Cy2,Soft
+,F2_Q05a,Use ICT to communicate with others,"Nutzen Sie IKT, um mit anderen zu kommunizieren",,New in Cy2
+G_Q05c,F2_Q05c,Use ICT to access information ,"Nutzen Sie IKT, um auf Informationen zuzugreifen",These items are compared to Cycle 1 generally somewhat broader and generic.,Soft
+,F2_Q05d,"Use ICT to create or edit electronic documents, spreadsheets or presentations","Nutzen Sie IKT, um elektronische Dokumente, Tabellenkalkulationen oder Präsentationen zu erstellen oder zu bearbeiten",,New in Cy2
+,F2_Q05e,Use ICT to use specialized software,"Nutzen Sie IKT, um spezielle Software zu nutzen",,New in Cy2
+G_Q05g,F2_Q05f,Use a programming language to program or write computer code,"Verwenden Sie IKT, um eine Programmiersprache zum Programmieren von Software zu verwenden",These items are compared to Cycle 1 generally somewhat broader and generic.,Soft
+H_Q01a,G2_Q01a,Read directions and instruction,Lesen Sie die Anweisungen und Anweisungen,,Strict
+H_Q01b,G2_Q01b,"Read letters, memos or e-mails","Lesen Sie Briefe, Memos oder E-Mails",,Strict
+H_Q01c,G2_Q01c,"Read articles in newspaper, magazines or newsletters ","Lesen Sie Artikel in Zeitungen, Zeitschriften oder Newslettern",,Strict
+H_Q01e,G2_Q01d,"Read books, fiction or non-fiction","Lesen Sie Bücher, Belletristik oder Sachbücher",,Strict
+H_Q01f,G2_Q01e,Read manuals or reference materials,Lesen Sie Handbücher oder Referenzmaterialien,,Strict
+H_Q01g,G2_Q01f ,"Read bills, invoices, bank statements or other financial statements","Lesen Sie Rechnungen, Rechnungen, Kontoauszüge oder andere Finanzberichte",,Strict
+,G2_Q01g,Read posts or commentaries on social media,Lesen Sie Beiträge oder Kommentare in sozialen Medien,,New in Cy2
+H_Q02a,G2_Q02a,"Write letters, memos or emails","Schreiben Sie Briefe, Memos oder E-Mails",,Strict
+,G2_Q02b,Write reports or articles,Schreiben Sie Berichte oder Artikel,,New in Cy2
+H_Q02d,G2_Q02c,Fill in forms,Füllen Sie Formulare aus,,Strict
+,G2_Q02d,Write posts or commentaries on social media,Schreiben Sie Beiträge oder Kommentare in sozialen Medien,,New in Cy2
+,G2_Q03a,Undertake calculations,Führen Sie Berechnungen durch,,New in Cy2
+,G2_Q03b,Use information to make financial decisions,"Nutzen Sie Informationen, um finanzielle Entscheidungen zu treffen",,New in Cy2
+,G2_Q03c,Undertake measurements,Nehmen Sie Messungen vor,,New in Cy2
+H_Q03f,G2_Q03d,"Read and prepare charts, graphs or tables","Lesen und bereiten Sie Diagramme, Grafiken oder Tabellen vor","An important use of graphs and charts is the ability to read them, not to just prepare them. Therefore the wording changed in ‘read and prepare’ instead of ‘prepare’.",Soft
+,G2_Q03e,Use mathematics,Verwenden Sie Mathematik,,New in Cy2
+,G2_Q04,"Ever used smartphone, tablet, laptop or desktop computer","Haben Sie jemals ein Smartphone, ein Tablet, einen Laptop oder einen Desktop-Computer verwendet?",,New in Cy2
+H_Q05a,G2_Q05a,Use email,Verwenden Sie E-Mail,Combined with H_Q05h for Cy2,Soft
+H_Q05h,G2_Q05a,Participate in real-time discussions on the internet,Nehmen Sie an Echtzeitdiskussionen im Internet teil,Combined with H_Q05a for Cy2,Soft
+,G2_Q05a,How often use smartphone,Wie oft Smartphone nutzen?,,New in Cy2
+,G2_Q05b,How often use tablet,Wie oft verwenden Sie das Tablet?,,New in Cy2
+,G2_Q05c,How often use desktop computer,Wie oft wird ein Desktop-Computer verwendet?,,New in Cy2
+,G2_Q06a,Use ICT to communicate with others,"Nutzen Sie IKT, um mit anderen zu kommunizieren",,New in Cy2
+H_Q05c,G2_Q06b,Use ICT to access information,"Nutzen Sie IKT, um auf Informationen zuzugreifen",The item is generally somewhat broader and generic.,Soft
+,G2_Q06c,Use ICT for entertainment or leisure,Nutzen Sie IKT zur Unterhaltung oder Freizeit,,New in Cy2
+,G2_Q06d,Use ICT for online banking or e-commerce,Nutzen Sie IKT für Online-Banking oder E-Commerce,,New in Cy2
+,G2_Q06e,Use ICT to manage your personal life,"Nutzen Sie IKT, um Ihr Privatleben zu verwalten",,New in Cy2
+F_Q01b,H2_Q01,Cooperating or collaborating with co-workers,Mit Kollegen kooperieren oder zusammenarbeiten,In Cycle 1 this question was asked with a broken stem (In your ^JobLastjob what proportion of your time ^DoDid you usually spend…). This is however not necessary as only 1 question is asked in this section. Therefore in Cycle 2 it changed into a complete question with dynamic text: ‘In your current job (last job) what proportion of your time do (did) you usually spend cooperating or collaborating with co-workers?’  ,Soft
+,H2_Q02a,Permanent/temporary team,Ständiges/temporäres Team,,New in Cy2
+,H2_Q02b,Team leader,Teamleiter,,New in Cy2
+,H2_Q02c,Influence selection team leader,Beeinflussen Sie den Leiter des Auswahlteams,,New in Cy2
+,H2_Q02d,Influence work targets for group,Beeinflussen Sie die Arbeitsziele der Gruppe,,New in Cy2
+,H2_Q02e,Influence others on tasks ,Beeinflussen Sie andere bei Aufgaben,,New in Cy2
+F_Q02a,H2_Q03a,Job involve sharing work-related information with co-workers,"Bei der Arbeit geht es darum, arbeitsbezogene Informationen mit Kollegen zu teilen",,Strict
+F_Q02b,H2_Q03b,"Job involve instructing, training or teaching people","Zu den Aufgaben gehört es, Menschen anzuleiten, auszubilden oder zu unterrichten",,Strict
+F_Q02c,H2_Q03c,Job involve making speeches/presenting,Der Job umfasst das Halten von Reden/Präsentationen,,Strict
+,H2_Q03d,Job involve dealing with people who are not employees at the workplace,"Der Job beinhaltet den Umgang mit Menschen, die nicht am Arbeitsplatz beschäftigt sind",,New in Cy2
+F_Q03a,H2_Q04a,Job involve planning own activities,Der Job beinhaltet die Planung eigener Aktivitäten,,Strict
+F_Q03c,H2_Q04b,Job involve organising own time,Der Job beinhaltet die Organisation der eigenen Zeit,,Strict
+F_Q04a,H2_Q05a,Job involve persuading/influencing people,"Der Job besteht darin, Menschen zu überzeugen/zu beeinflussen",,Strict
+F_Q04b,H2_Q05b,Job involve negotiating with people ,Der Job beinhaltet das Verhandeln mit Menschen,,Strict
+F_Q05a,H2_Q06a,Problem solving tasks in job: relatively simple problems,Problemlösungsaufgaben im Beruf: relativ einfache Probleme,,Strict
+F_Q05b,H2_Q06b,Problem solving tasks in job: complex problems ,Problemlösungsaufgaben im Beruf: komplexe Probleme,,Strict
+F_Q06b,H2_Q07a,Work physically,Arbeite körperlich,,Strict
+F_Q06c,H2_Q07b,Work using skill with hand,Arbeiten Sie mit Geschicklichkeit mit der Hand,The wording was changed to avoid that respondents consider e.g. typing when answering to this question. ,Soft
+D_Q11a,H2_Q08a,Work autonomy: choose/change sequence tasks,Arbeitsautonomie: Reihenfolge der Aufgaben auswählen/ändern,,Strict
+D_Q11b,H2_Q08b,Work autonomy: choose/change how to work,Arbeitsautonomie: Arbeitsweise wählen/ändern,,Strict
+D_Q11c,H2_Q08c,Work autonomy: choose/change speed or rate,Arbeitsautonomie: Geschwindigkeit oder Rate wählen/ändern,,Strict
+D_Q11d,H2_Q08d,Work autonomy: choose/change working hours,Arbeitsautonomie: Arbeitszeiten wählen/ändern,,Strict
+,H2_Q09a,Learning new things,Neue Dinge lernen,,New in Cy2
+D_Q13b,H2_Q09b,Learning-by-doing,Learning-by-doing,,Strict
+D_Q13c,H2_Q09c,Keep up to date with new products/services ,Bleiben Sie über neue Produkte/Dienstleistungen auf dem Laufenden,,Strict
+,H2_Q10,Helping co-workers learn new things,"Helfen Sie Ihren Kollegen, neue Dinge zu lernen",,New in Cy2
+,H2_Q11,Determining nature or content of work,Bestimmen der Art oder des Inhalts der Arbeit,,New in Cy2
+,H2_Q12,Working to tight deadlines/high speed,Arbeiten unter Einhaltung enger Fristen/hoher Geschwindigkeit,,New in Cy2
+,H2_Q13a,Need for assistance,Bedarf an Hilfe,,New in Cy2
+,H2_Q13b,Receive assistance from supervisor/manager ,Erhalten Sie Unterstützung vom Vorgesetzten/Manager,,New in Cy2
+,H2_Q13c,Receive assistance from co-workers,Erhalten Sie Unterstützung von Kollegen,,New in Cy2
+,H2_Q14a,Involved in improving work organisation,Beteiligt an der Verbesserung der Arbeitsorganisation,,New in Cy2
+,H2_Q14b,Apply own ideas in work,Wenden Sie eigene Ideen in der Arbeit an,,New in Cy2
+,H2_Q15a,Performance appraisal/evaluation interview,Leistungsbeurteilungs-/Bewertungsgespräch,,New in Cy2
+,H2_Q16,Consequences performance appraisal,Konsequenzen Leistungsbeurteilung,,New in Cy2
+,H2_Q17,Short repetitive tasks,"Kurze, sich wiederholende Aufgaben",,New in Cy2
+,H2_Q18a,Changes in workplace,Veränderungen am Arbeitsplatz,,New in Cy2
+,H2_Q18b,Changes supported by training activities,Durch Schulungsaktivitäten unterstützte Veränderungen,,New in Cy2
+,H2_Q19a,Skills in relation to what is required,"Fähigkeiten in Bezug auf das, was erforderlich ist",,New in Cy2
+,H2_Q19b,Specific skills in relation to what is required,"Spezifische Fähigkeiten in Bezug auf das, was erforderlich ist",,New in Cy2
+,H2_Q20,Skills in relation to what is required when started job,"Fähigkeiten in Bezug auf die Anforderungen, die bei Arbeitsbeginn erforderlich sind",,New in Cy2
+,I2_Q01a,Political trust,Politisches Vertrauen,,New in Cy2
+,I2_Q01b,Social trust,Soziales Vertrauen,,New in Cy2
+I_Q05f,I2_Q02,Voluntary work,Freiwilligenarbeit,,Strict
+I_Q08,I2_Q03,General subjective health ,Allgemeine subjektive Gesundheit,,Strict
+,I2_Q04,Patience,Geduld,,New in Cy2
+,I2_Q05,Life satisfaction,Lebenszufriedenheit,,New in Cy2
+J_Q01,J2_Q01,Household composition ,Haushaltszusammensetzung,,Strict
+J_Q02a,J2_Q02a,Cohabitation status,Zusammenlebensstatus,,Strict
+J_Q02c,J2_Q02b,Current  situation spouse  or partner,Aktuelle Situation des Ehepartners oder Partners,"Changed the category ''apprentice, internship'' into ''apprentice, intern'' for consistency reasons. The other categories have remained unchanged. ",Soft
+J_Q03a,J2_Q03a,Children,Kinder,,Strict
+J_Q03b,J2_Q03b,Number of children,Anzahl der Kinder,,Strict
+J_Q03c,J2_Q03c,Age of only child,Alter des Einzelkindes,,Strict
+J_Q03d1,J2_Q03d1,Age of youngest child,Alter des jüngsten Kindes,,Strict
+J_Q03d2,J2_Q03d2,Age of oldest child,Alter des ältesten Kindes,,Strict
+,J2_Q04a ,Mother/female guardian present during childhood,Während der Kindheit anwesende Mutter/Erziehungsberechtigte,,New in Cy2
+J_Q06b,J2_Q04b,Highest education mother,Mutter mit der höchsten Bildung,ISCED categories changed,Soft
+,J2_Q04d,Mother’s employment,Beschäftigung der Mutter,,New in Cy2
+,J2_Q04e ,Mother’s job title,Berufsbezeichnung der Mutter,,New in Cy2
+,J2_Q04f ,Mother’s occupation,Beruf der Mutter,,New in Cy2
+,J2_Q05a ,Father/female guardian present during childhood,Vater/Erziehungsberechtigte während der Kindheit anwesend,,New in Cy2
+J_Q07b,J2_Q05b,Highest education father,Vater mit höchster Bildung,ISCED categories changed,Soft
+,J2_Q05d ,Father’s employment,Beschäftigung des Vaters,,New in Cy2
+,J2_Q05e ,Father’s job title,Berufsbezeichnung des Vaters,,New in Cy2
+,J2_Q05f ,Father’s occupation,Beruf des Vaters,,New in Cy2
+J_Q08,J2_Q06,Number of books in childhood household,Anzahl der Bücher im Haushalt der Kindheit,Reference age changed to age 14 to bring in line with other international surveys that use age 14 as a reference age. ,Soft
+,J2_Q07,Level of urbanization of residence at age 14,Urbanisierungsgrad des Wohnortes im Alter von 14 Jahren,,New in Cy2
+,J2_Q08,Household composition at age 14,Haushaltszusammensetzung im Alter von 14 Jahren,,New in Cy2
+,J2_Q09a,Number of siblings,Anzahl der Geschwister,,New in Cy2
+,J2_Q09b,Birth order,Geburtsreihenfolge,,New in Cy2
+,J2_Q09c,Birth order,Geburtsreihenfolge,,New in Cy2
+,K2_Q01a,Extraversion - Sociability,Extraversion – Geselligkeit,,New in Cy2
+,K2_Q01b,Agreeableness - Compassion ,Verträglichkeit – Mitgefühl,,New in Cy2
+,K2_Q01c,Conscientiousness - Organization,Gewissenhaftigkeit – Organisation,,New in Cy2
+,K2_Q01d,Emotional Stability - Anxiety,Emotionale Stabilität – Angst,,New in Cy2
+,K2_Q01e,Open-Mindedness - Aesthetic Sensitivity,Aufgeschlossenheit – ästhetische Sensibilität,,New in Cy2
+,K2_Q02a,Extraversion - Assertiveness,Extraversion – Durchsetzungsvermögen,,New in Cy2
+,K2_Q02b,Agreeableness - Respectfulness,Verträglichkeit – Respekt,,New in Cy2
+,K2_Q02c,Conscientiousness - Productiveness,Gewissenhaftigkeit – Produktivität,,New in Cy2
+,K2_Q02d,Emotional Stability - Depression,Emotionale Stabilität – Depression,,New in Cy2
+,K2_Q02e,Open-Mindedness - Intellectual Curiosity,Aufgeschlossenheit – intellektuelle Neugier,,New in Cy2
+,K2_Q03a,Extraversion - Energy level,Extraversion – Energieniveau,,New in Cy2
+,K2_Q03b,Agreeableness - Trust,Verträglichkeit – Vertrauen,,New in Cy2
+,K2_Q03c,Conscientiousness - Responsibility,Gewissenhaftigkeit – Verantwortung,,New in Cy2
+,K2_Q03d,Emotional Stability - Emotional Volatility,Emotionale Stabilität – Emotionale Volatilität,,New in Cy2
+,K2_Q03e,Open-Mindedness - Creative imagination,Aufgeschlossenheit – kreative Vorstellungskraft,,New in Cy2
+,K2_Q04a,Extraversion - Sociability,Extraversion – Geselligkeit,,New in Cy2
+,K2_Q04b,Agreeableness - Compassion ,Verträglichkeit – Mitgefühl,,New in Cy2
+,K2_Q04c,Conscientiousness - Organization,Gewissenhaftigkeit – Organisation,,New in Cy2
+,K2_Q04d,Emotional Stability - Anxiety,Emotionale Stabilität – Angst,,New in Cy2
+,K2_Q04e,Open-Mindedness - Aesthetic Sensitivity,Aufgeschlossenheit – ästhetische Sensibilität,,New in Cy2
+,K2_Q05a,Extraversion - Assertiveness,Extraversion – Durchsetzungsvermögen,,New in Cy2
+,K2_Q05b,Agreeableness - Respectfulness,Verträglichkeit – Respekt,,New in Cy2
+,K2_Q05c,Conscientiousness - Productiveness,Gewissenhaftigkeit – Produktivität,,New in Cy2
+,K2_Q05d,Emotional Stability - Depression,Emotionale Stabilität – Depression,,New in Cy2
+,K2_Q05e,Open-Mindedness - Intellectual Curiosity,Aufgeschlossenheit – intellektuelle Neugier,,New in Cy2
+,K2_Q06a,Extraversion - Energy level,Extraversion – Energieniveau,,New in Cy2
+,K2_Q06b,Agreeableness - Trust,Verträglichkeit – Vertrauen,,New in Cy2
+,K2_Q06c,Conscientiousness - Responsibility,Gewissenhaftigkeit – Verantwortung,,New in Cy2
+,K2_Q06d,Emotional Stability - Emotional Volatility,Emotionale Stabilität – Emotionale Volatilität,,New in Cy2
+,K2_Q06e,Open-Mindedness - Creative Imagination,Aufgeschlossenheit – kreative Vorstellungskraft,,New in Cy2
+B_D01d,,Derived variable: Months elapsed since completing highest level of qualification,Abgeleitete Variable: Seit Abschluss der höchsten Qualifikationsstufe vergangene Monate,,Cy1 only
+B_D03d,,Derived variable: Months elapsed since leaving education without completing programme,"Abgeleitete Variable: Monate, die seit dem Schulabbruch ohne Abschluss des Programms vergangen sind",,Cy1 only
+B_D12h,,Derived variable: one or more learning activities reported,Abgeleitete Variable: eine oder mehrere gemeldete Lernaktivitäten,,Cy1 only
+B_Q01a2,,Country name foreign education ,Ländername ausländische Bildung,,Cy1 only
+B_Q01a3,,National qualification corresponds with foreign education,Der inländische Abschluss entspricht einer ausländischen Ausbildung,,Cy1 only
+B_Q01d,,Month completed last qualification ,"Monat, in dem die letzte Qualifikation abgeschlossen wurde",,Cy1 only
+B_Q03d,,Month stopped studying for uncompleted qualification,Monat brach das Studium wegen nicht abgeschlossenem Abschluss ab,,Cy1 only
+B_Q04a,,Formal qualification in last 12 months ,Formaler Abschluss in den letzten 12 Monaten,,Cy1 only
+B_Q04b,,Number of formal qualifications in last 12 months ,Anzahl der formalen Qualifikationen in den letzten 12 Monaten,,Cy1 only
+B_Q05a,,Level of highest/last qualification ,Niveau der höchsten/letzten Qualifikation,,Cy1 only
+B_Q05b,,Area of study highest/last qualification,Studienrichtung höchster/letzter Abschluss,,Cy1 only
+B_Q05c,,Reasons to study job related,Gründe für ein berufsbezogenes Studium,,Cy1 only
+B_Q10a,,Employed in last 12 months while studying ,In den letzten 12 Monaten während des Studiums beschäftigt,,Cy1 only
+B_Q10b,,Study take place during working hours,Das Studium findet während der Arbeitszeit statt,,Cy1 only
+B_Q10c,,Study useful for job or business ,Studie nützlich für Job oder Geschäft,,Cy1 only
+B_Q11,,Employer paid for studying the qualification ,Der Arbeitgeber hat das Studium der Qualifikation bezahlt,,Cy1 only
+B_Q12a,,Participate in open or distance education ,Nehmen Sie am offenen oder Fernunterricht teil,,Cy1 only
+B_Q12b,,Frequency of participating in open or distance education ,Häufigkeit der Teilnahme an offenem oder Fernunterricht,,Cy1 only
+B_Q12c,,Participate  in organized sessions for on-the-job training or training by supervisors or co-workers,Nehmen Sie an organisierten Schulungen am Arbeitsplatz oder Schulungen durch Vorgesetzte oder Kollegen teil,,Cy1 only
+B_Q12d,,Frequency of participating in organized sessions for on-the-job training or training by supervisors or co-workers,Häufigkeit der Teilnahme an organisierten Schulungen am Arbeitsplatz oder Schulungen durch Vorgesetzte oder Kollegen,,Cy1 only
+B_Q12e,,Participate in seminars or workshops,Nehmen Sie an Seminaren oder Workshops teil,,Cy1 only
+B_Q12f,,Frequency of participating in seminars or workshops ,Häufigkeit der Teilnahme an Seminaren oder Workshops,,Cy1 only
+B_Q12g,,Participate in courses or private lessons ,Nehmen Sie an Kursen oder Privatstunden teil,,Cy1 only
+B_Q12h,,Frequency of participating in courses or private lessons ,Häufigkeit der Teilnahme an Kursen oder Privatstunden,,Cy1 only
+B_Q20b,,Time job-related activities ,Zeitlich berufsbezogene Tätigkeiten,,Cy1 only
+B_R12,,Introduction to training questions,Einführung in Trainingsfragen,,Cy1 only
+B_R13,,Introduction to questions on most recent training,Einführung in Fragen zu den neuesten Schulungen,,Cy1 only
+B_S01a1,,Specify name of foreign education,Geben Sie den Namen der ausländischen Ausbildung an,,Cy1 only
+B_S01a2,,Specify country name foreign education,Geben Sie den Namen des Landes für ausländische Bildung an,,Cy1 only
+C_Q02c,,Start job within three months or in more than three months,Beginn der Stelle innerhalb von drei Monaten oder in mehr als drei Monaten,,Cy1 only
+C_Q04a,,Job search: get in contact public employment office,Stellensuche: Nehmen Sie Kontakt mit dem Arbeitsamt auf,,Cy1 only
+C_Q04b,,Job search: get in contact private agency,Jobsuche: Kontaktieren Sie eine private Agentur,,Cy1 only
+C_Q04c,,Job search: apply to employers directly,Jobsuche: Bewerben Sie sich direkt beim Arbeitgeber,,Cy1 only
+C_Q04d,,Job search: Ask among social network,Jobsuche: Fragen Sie in sozialen Netzwerken nach,,Cy1 only
+C_Q04e,,Job search: place or answer job advertisements ,Jobsuche: Stellenanzeigen schalten oder beantworten,,Cy1 only
+C_Q04f,,Job search: study job advertisements,Jobsuche: Stellenanzeigen studieren,,Cy1 only
+C_Q04g,,Job search: take a recruitment test/examination/undergo interview,Jobsuche: Machen Sie einen Einstellungstest/eine Prüfung/ein Vorstellungsgespräch,,Cy1 only
+C_Q04h,,"Job search: look for land, premises or equipment","Jobsuche: Suchen Sie nach Grundstücken, Räumlichkeiten oder Ausrüstung",,Cy1 only
+C_Q04i,,Job search: apply for permits/licenses or financial resources,Jobsuche: Beantragung von Genehmigungen/Lizenzen oder finanziellen Mitteln,,Cy1 only
+C_Q04j,,Job search: anything else,Jobsuche: alles andere,,Cy1 only
+C_S04j,,Job search: specify anything else ,Jobsuche: Geben Sie etwas anderes an,,Cy1 only
+D_Q13a,,Learning new work-related things from co-workers or supervisors,Lernen Sie neue arbeitsbezogene Dinge von Kollegen oder Vorgesetzten,,Cy1 only
+F_Q02d,,Selling a product or selling a service,Verkauf eines Produkts oder Verkauf einer Dienstleistung,,Cy1 only
+F_Q02e,,Advising people,Menschen beraten,,Cy1 only
+F_Q03b,,Planning the activities of others,Planen Sie die Aktivitäten anderer,,Cy1 only
+F_Q07a,,Skills to cope demanding duties that are required,Fähigkeiten zur Bewältigung anspruchsvoller Aufgaben,,Cy1 only
+F_Q07b,,Further training to cope ,Weiteres Training zur Bewältigung,,Cy1 only
+G_D07a,,Derived variable ^HaveHad,Abgeleitete Variable ^HaveHad,,Cy1 only
+G_D07b,,Derived variable ^NeedNeeded,Abgeleitete Variable ^NeedNeeded,,Cy1 only
+G_Q01d,,Read articles in professional journals or scholarly publications,Lesen Sie Artikel in Fachzeitschriften oder wissenschaftlichen Publikationen,,Cy1 only
+G_Q01e,,Read books,Bücher lesen,,Cy1 only
+G_Q01h,,"Read diagrams, maps or schematics ","Lesen Sie Diagramme, Karten oder Schaltpläne",,Cy1 only
+G_Q02b,,"Write articles for newspapers, magazines or newsletters","Schreiben Sie Artikel für Zeitungen, Zeitschriften oder Newsletter",,Cy1 only
+G_Q02c,,Write reports,Schreiben Sie Berichte,,Cy1 only
+G_Q03b,,"Calculate prices, costs or budgets","Berechnen Sie Preise, Kosten oder Budgets",,Cy1 only
+G_Q03c,,"Use or calculate fractions, decimals or percentages","Verwenden oder berechnen Sie Brüche, Dezimalzahlen oder Prozentsätze",,Cy1 only
+G_Q03d,,Use a calculator - either hand-held or computer based,Verwenden Sie einen Taschenrechner – entweder in der Hand oder am Computer,,Cy1 only
+G_Q03g,,Use simple algebra or formulas,Verwenden Sie einfache Algebra oder Formeln,,Cy1 only
+G_Q05d,,Conduct transactions on the internet,Führen Sie Transaktionen im Internet durch,,Cy1 only
+G_Q05e,,Use spreadsheet software,Verwenden Sie Tabellenkalkulationssoftware,,Cy1 only
+G_Q05f,,Use a word processor,Verwenden Sie ein Textverarbeitungsprogramm,,Cy1 only
+G_Q06,,Level of computer use needed to perform  job,"Grad der Computernutzung, die zur Ausführung der Aufgabe erforderlich ist",,Cy1 only
+G_Q07,,Computer skills needed in job,Computerkenntnisse sind im Job erforderlich,,Cy1 only
+G_Q08,,Lack of computer skills,Mangelnde Computerkenntnisse,,Cy1 only
+H_Q01d,,Read articles in professional journals or scholarly publications,Lesen Sie Artikel in Fachzeitschriften oder wissenschaftlichen Publikationen,,Cy1 only
+H_Q01h,,"Read diagrams, maps or schematics ","Lesen Sie Diagramme, Karten oder Schaltpläne",,Cy1 only
+H_Q02b,,"Write articles for newspapers, magazines or newsletters","Schreiben Sie Artikel für Zeitungen, Zeitschriften oder Newsletter",,Cy1 only
+H_Q02c,,Write reports,Schreiben Sie Berichte,,Cy1 only
+H_Q03b,,"Calculate prices, costs or budgets","Berechnen Sie Preise, Kosten oder Budgets",,Cy1 only
+H_Q03c,,"Use or calculate fractions, decimals or percentages","Verwenden oder berechnen Sie Brüche, Dezimalzahlen oder Prozentsätze",,Cy1 only
+H_Q03d,,Use a calculator - either hand-held or computer based,Verwenden Sie einen Taschenrechner – entweder in der Hand oder am Computer,,Cy1 only
+H_Q03g,,Use simple algebra or formulas,Verwenden Sie einfache Algebra oder Formeln,,Cy1 only
+H_Q03h,,Use more advanced math or statistics,Verwenden Sie fortgeschrittenere Mathematik oder Statistiken,,Cy1 only
+H_Q05d,,Conduct transactions on the internet,Führen Sie Transaktionen im Internet durch,,Cy1 only
+H_Q05e,,Use spreadsheet software,Verwenden Sie Tabellenkalkulationssoftware,,Cy1 only
+H_Q05f,,Use a word processor,Verwenden Sie ein Textverarbeitungsprogramm,,Cy1 only
+H_Q05g,,Use a programming language to program or write computer code,"Verwenden Sie eine Programmiersprache, um Computercode zu programmieren oder zu schreiben",,Cy1 only
+I_Q04b,,"When I hear or read about new ideas, I try to relate them to real life situations to which they might apply","Wenn ich von neuen Ideen höre oder lese, versuche ich, sie mit realen Situationen in Verbindung zu bringen, auf die sie anwendbar sein könnten",,Cy1 only
+I_Q04d,,I like learning new things,Ich lerne gerne neue Dinge,,Cy1 only
+I_Q04h,,"When I come across something new, I try to relate it to what I already know","Wenn ich auf etwas Neues stoße, versuche ich, es mit dem in Verbindung zu bringen, was ich bereits weiß",,Cy1 only
+I_Q04j,,I like to get to the bottom of difficult things,"Ich mag es, schwierigen Dingen auf den Grund zu gehen",,Cy1 only
+I_Q04l,,I like to figure out how different ideas fit together,"Ich mag es herauszufinden, wie verschiedene Ideen zusammenpassen",,Cy1 only
+I_Q04m,,"If I don't understand something, I look for additional information to make it clearer","Wenn ich etwas nicht verstehe, suche ich nach zusätzlichen Informationen, um es klarer zu machen",,Cy1 only
+I_Q06b,,Political efficacy,Politische Wirksamkeit,,Cy1 only
+I_Q07b,,Social trust,Soziales Vertrauen,,Cy1 only
+I_R01,,Introduction,Einführung,,Cy1 only

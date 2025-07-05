@@ -1,0 +1,2940 @@
+﻿FNFAET12NJR,0,"`""Participated in formal or non-formal AET for non JR reasons""', modify"
+FNFAET12NJR,1,"`""Did not participate in formal or non-formal AET for JR reasons""', modify"
+FNFAET12JR,0,"`""Participated in formal or non-formal AET for JR reasons""', modify"
+FNFAET12JR,1,"`""Did not participate in FE or NFE for JR reasons""', modify"
+FNFE12JR,0,"`""Participated in FE or NFE for JR reasons""', modify"
+FNFE12JR,1,"`""Did not participate in NFE for NJR reasons""', modify"
+NFE12NJR,0,"`""Participated in NFE for NJR reasons""', modify"
+NFE12NJR,1,"`""Did not participate in NFE for JR reasons""', modify"
+NFE12JR,0,"`""Participated in NFE for JR reasons""', modify"
+NFE12JR,1,"`""JK1 - Jackknife 1""', modify"
+VEMETHODN,1,"`""JK2 - Jackknife 2""', modify"
+VEMETHODN,2,"`""BRR - Balanced Repeated Replication""', modify"
+VEMETHODN,3,"`""FAY - Balanced Repeated Replication w Fay's adjustment""', modify"
+VEMETHODN,4,"`""Has PV""', modify"
+PSLSTATUS,1,"`""Literacy Related Non-Response""', modify"
+PSLSTATUS,2,"`""CBA Non-Response""', modify"
+PSLSTATUS,3,"`""Has PV""', modify"
+NUMSTATUS,1,"`""Literacy Related Non-Response""', modify"
+NUMSTATUS,2,"`""Has PV""', modify"
+LITSTATUS,1,"`""Literacy Related Non-Response""', modify"
+LITSTATUS,2,"`""All zero response""', modify"
+WRITWORK_WLE_CA,0,"`""Lowest to 20%""', modify"
+WRITWORK_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+WRITWORK_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+WRITWORK_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+WRITWORK_WLE_CA,4,"`""More than 80%""', modify"
+WRITWORK_WLE_CA,5,"`""All zero response""', modify"
+WRITHOME_WLE_CA,0,"`""Lowest to 20%""', modify"
+WRITHOME_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+WRITHOME_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+WRITHOME_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+WRITHOME_WLE_CA,4,"`""More than 80%""', modify"
+WRITHOME_WLE_CA,5,"`""All zero response""', modify"
+TASKDISC_WLE_CA,0,"`""Lowest to 20%""', modify"
+TASKDISC_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+TASKDISC_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+TASKDISC_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+TASKDISC_WLE_CA,4,"`""More than 80%""', modify"
+TASKDISC_WLE_CA,5,"`""All zero response""', modify"
+READWORK_WLE_CA,0,"`""Lowest to 20%""', modify"
+READWORK_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+READWORK_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+READWORK_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+READWORK_WLE_CA,4,"`""More than 80%""', modify"
+READWORK_WLE_CA,5,"`""All zero response""', modify"
+READHOME_WLE_CA,0,"`""Lowest to 20%""', modify"
+READHOME_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+READHOME_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+READHOME_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+READHOME_WLE_CA,4,"`""More than 80%""', modify"
+READHOME_WLE_CA,5,"`""All zero response""', modify"
+PLANNING_WLE_CA,0,"`""Lowest to 20%""', modify"
+PLANNING_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+PLANNING_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+PLANNING_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+PLANNING_WLE_CA,4,"`""More than 80%""', modify"
+PLANNING_WLE_CA,5,"`""All zero response""', modify"
+NUMWORK_WLE_CA,0,"`""Lowest to 20%""', modify"
+NUMWORK_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+NUMWORK_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+NUMWORK_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+NUMWORK_WLE_CA,4,"`""More than 80%""', modify"
+NUMWORK_WLE_CA,5,"`""All zero response""', modify"
+NUMHOME_WLE_CA,0,"`""Lowest to 20%""', modify"
+NUMHOME_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+NUMHOME_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+NUMHOME_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+NUMHOME_WLE_CA,4,"`""More than 80%""', modify"
+NUMHOME_WLE_CA,5,"`""All zero response""', modify"
+INFLUENCE_WLE_CA,0,"`""Lowest to 20%""', modify"
+INFLUENCE_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+INFLUENCE_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+INFLUENCE_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+INFLUENCE_WLE_CA,4,"`""More than 80%""', modify"
+INFLUENCE_WLE_CA,5,"`""All zero response""', modify"
+ICTWORK_WLE_CA,0,"`""Lowest to 20%""', modify"
+ICTWORK_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+ICTWORK_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+ICTWORK_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+ICTWORK_WLE_CA,4,"`""More than 80%""', modify"
+ICTWORK_WLE_CA,5,"`""All zero response""', modify"
+ICTHOME_WLE_CA,0,"`""Lowest to 20%""', modify"
+ICTHOME_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+ICTHOME_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+ICTHOME_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+ICTHOME_WLE_CA,4,"`""More than 80%""', modify"
+ICTHOME_WLE_CA,5,"`""All zero response""', modify"
+READYTOLEARN_WLE_CA,0,"`""Lowest to 20%""', modify"
+READYTOLEARN_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+READYTOLEARN_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+READYTOLEARN_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+READYTOLEARN_WLE_CA,4,"`""More than 80%""', modify"
+READYTOLEARN_WLE_CA,5,"`""All zero response""', modify"
+LEARNATWORK_WLE_CA,0,"`""Lowest to 20%""', modify"
+LEARNATWORK_WLE_CA,1,"`""More than 0.2 to 40%""', modify"
+LEARNATWORK_WLE_CA,2,"`""More than 0.4 to 60%""', modify"
+LEARNATWORK_WLE_CA,3,"`""More than 0.6 to 80%""', modify"
+LEARNATWORK_WLE_CA,4,"`""More than 80%""', modify"
+LEARNATWORK_WLE_CA,5,"`""Reported directly""', modify"
+EARNFLAG,1,"`""Earnings and/or bonuses imputed""', modify"
+EARNFLAG,2,"`""Lowest decile""', modify"
+EARNMTHALLDCL,1,"`""9th decile""', modify"
+EARNMTHALLDCL,2,"`""8th decile""', modify"
+EARNMTHALLDCL,3,"`""7th decile""', modify"
+EARNMTHALLDCL,4,"`""6th decile""', modify"
+EARNMTHALLDCL,5,"`""5th decile""', modify"
+EARNMTHALLDCL,6,"`""4th decile""', modify"
+EARNMTHALLDCL,7,"`""3rd decile""', modify"
+EARNMTHALLDCL,8,"`""2nd decile""', modify"
+EARNMTHALLDCL,9,"`""Highest decile""', modify"
+EARNMTHALLDCL,10,"`""Lowest decile""', modify"
+EARNHRBONUSDCL,1,"`""9th decile""', modify"
+EARNHRBONUSDCL,2,"`""8th decile""', modify"
+EARNHRBONUSDCL,3,"`""7th decile""', modify"
+EARNHRBONUSDCL,4,"`""6th decile""', modify"
+EARNHRBONUSDCL,5,"`""5th decile""', modify"
+EARNHRBONUSDCL,6,"`""4th decile""', modify"
+EARNHRBONUSDCL,7,"`""3rd decile""', modify"
+EARNHRBONUSDCL,8,"`""2nd decile""', modify"
+EARNHRBONUSDCL,9,"`""Highest decile""', modify"
+EARNHRBONUSDCL,10,"`""Lowest decile""', modify"
+EARNHRDCL,1,"`""9th decile""', modify"
+EARNHRDCL,2,"`""8th decile""', modify"
+EARNHRDCL,3,"`""7th decile""', modify"
+EARNHRDCL,4,"`""6th decile""', modify"
+EARNHRDCL,5,"`""5th decile""', modify"
+EARNHRDCL,6,"`""4th decile""', modify"
+EARNHRDCL,7,"`""3rd decile""', modify"
+EARNHRDCL,8,"`""2nd decile""', modify"
+EARNHRDCL,9,"`""Highest decile""', modify"
+EARNHRDCL,10,"`""Skilled occupations""', modify"
+ISCOSKIL4,1,"`""Semi-skilled white-collar occupations""', modify"
+ISCOSKIL4,2,"`""Semi-skilled blue-collar occupations""', modify"
+ISCOSKIL4,3,"`""Elementary occupations""', modify"
+ISCOSKIL4,4,"`""Has not had paid work in past 5 years""', modify"
+PAIDWORK5,0,"`""Has had paid work in past 5 years""', modify"
+PAIDWORK5,1,"`""Has not had paid work during the 12 months preceding the survey""', modify"
+PAIDWORK12,0,"`""Has had paid work during the 12 months preceding the survey""', modify"
+PAIDWORK12,1,"`""Has had paid work""', modify"
+NOPAIDWORKEVER,0,"`""Has not has paid work ever""', modify"
+NOPAIDWORKEVER,1,"`""Employed or participated in education or training in last 12 months""', modify"
+NEET,0,"`""Not currently employed and did not participate in education or training in last"
+NEET,1,"`""In education only""', modify"
+EDWORK,1,"`""In education and work""', modify"
+EDWORK,2,"`""In work only""', modify"
+EDWORK,3,"`""Not in education or work but has participated in education or training in"
+EDWORK,4,"`""Not in education or work and has not participated in education or training"
+EDWORK,5,"`""Did not participate in formal or non-formal AET""', modify"
+FNFAET12,0,"`""Participated in formal and/or non-formal AET""', modify"
+FNFAET12,1,"`""Did not participate in NFE""', modify"
+NFE12,0,"`""Participated in NFE""', modify"
+NFE12,1,"`""Did not participate in FE for NJR reasons""', modify"
+FAET12NJR,0,"`""Participated in FE for NJR reasons""', modify"
+FAET12NJR,1,"`""Did not participate in formal AET for JR reasons""', modify"
+FAET12JR,0,"`""Participated in formal AET for JR reasons""', modify"
+FAET12JR,1,"`""Did not participate in formal AET""', modify"
+FAET12,0,"`""Participated in formal AET""', modify"
+FAET12,1,"`""Excluded from AET population""', modify"
+AETPOP,0,"`""AET population""', modify"
+AETPOP,1,"`""Did not participate in FE""', modify"
+FE12,0,"`""Participated in FE""', modify"
+FE12,1,"`""Completed ISCED 3 or is still in education, aged 16 to 24""', modify"
+LEAVER1624,0,"`""Not in education, did not complete ISCED 3, aged 16 to 24""', modify"
+LEAVER1624,1,"`""Lower secondary or less (ISCED 1,2, 3C short or less) ', modify"
+EDCAT6,1,"`""Upper secondary (ISCED 3A-B, C long)""', modify"
+EDCAT6,2,"`""Post-secondary, non-tertiary (ISCED 4A-B-C)""', modify"
+EDCAT6,3,"`""Tertiary – professional degree (ISCED 5B)""', modify"
+EDCAT6,4,"`""Tertiary – bachelor degree (ISCED 5A)""', modify"
+EDCAT6,5,"`""Tertiary – master/research degree (ISCED 5A/6)""', modify"
+EDCAT6,6,"`""Tertiary - bachelor/master/research degree (ISCED 5A/6)""', modify"
+EDCAT6,7,"`""Primary or less (ISCED 1 or less)""', modify"
+EDCAT7,1,"`""Lower secondary (ISCED 2, ISCED 3C short)""', modify"
+EDCAT7,2,"`""Upper secondary (ISCED 3A-B, C long)""', modify"
+EDCAT7,3,"`""Post-secondary, non-tertiary (ISCED 4A-B-C)""', modify"
+EDCAT7,4,"`""Tertiary – professional degree (ISCED 5B)""', modify"
+EDCAT7,5,"`""Tertiary – bachelor degree (ISCED 5A)""', modify"
+EDCAT7,6,"`""Tertiary – master/research degree (ISCED 5A/6) ', modify"
+EDCAT7,7,"`""Tertiary - bachelor/master/research degree (ISCED 5A/6)""', modify"
+EDCAT7,8,"`""Primary or less (ISCED 1 or less)""', modify"
+EDCAT8,1,"`""Lower secondary (ISCED 2, ISCED 3C short)""', modify"
+EDCAT8,2,"`""Upper secondary (ISCED 3A-B, C long)""', modify"
+EDCAT8,3,"`""Post-secondary, non-tertiary (ISCED 4A-B-C)""', modify"
+EDCAT8,4,"`""Tertiary – professional degree (ISCED 5B)""', modify"
+EDCAT8,5,"`""Tertiary – bachelor degree (ISCED 5A)""', modify"
+EDCAT8,6,"`""Tertiary – master degree (ISCED 5A)""', modify"
+EDCAT8,7,"`""Tertiary – research degree (ISCED 6)""', modify"
+EDCAT8,8,"`""Tertiary - bachelor/master/research degree (ISCED 5A/6)""', modify"
+EDCAT8,9,"`""24 or less""', modify"
+AGEG10LFS_T,1,"`""25-34""', modify"
+AGEG10LFS_T,2,"`""35-44""', modify"
+AGEG10LFS_T,3,"`""45-54""', modify"
+AGEG10LFS_T,4,"`""55 plus""', modify"
+AGEG10LFS_T,5,"`""24 or less""', modify"
+AGEG10LFS,1,"`""25-34""', modify"
+AGEG10LFS,2,"`""35-44""', modify"
+AGEG10LFS,3,"`""45-54""', modify"
+AGEG10LFS,4,"`""55 plus""', modify"
+AGEG10LFS,5,"`""Aged 16-19""', modify"
+AGEG5LFS,1,"`""Aged 20-24""', modify"
+AGEG5LFS,2,"`""Aged 25-29""', modify"
+AGEG5LFS,3,"`""Aged 30-34""', modify"
+AGEG5LFS,4,"`""Aged 35-39""', modify"
+AGEG5LFS,5,"`""Aged 40-44""', modify"
+AGEG5LFS,6,"`""Aged 45-49""', modify"
+AGEG5LFS,7,"`""Aged 50-54""', modify"
+AGEG5LFS,8,"`""Aged 55-59""', modify"
+AGEG5LFS,9,"`""Aged 60-65""', modify"
+AGEG5LFS,10,"`""In host country 5 or fewer years""', modify"
+IMYRCAT,1,"`""In host country more than 5 years""', modify"
+IMYRCAT,2,"`""Non-immigrants""', modify"
+IMYRCAT,3,"`""0-5 years""', modify"
+IMYRS_C,1,"`""6-10 years""', modify"
+IMYRS_C,2,"`""11-15 years""', modify"
+IMYRS_C,3,"`""more than 15 years""', modify"
+IMYRS_C,4,"`""1st generation immigrants""', modify"
+IMGEN,1,"`""2nd generation immigrants""', modify"
+IMGEN,2,"`""Non 1st or 2nd generation immigrants""', modify"
+IMGEN,3,"`""Both parents foreign-born""', modify"
+IMPAR,1,"`""One parent foreign-born""', modify"
+IMPAR,2,"`""Both parents native-born""', modify"
+IMPAR,3,"`""Arab States""', modify"
+CTRYRGN,1,"`""South and West Asia""', modify"
+CTRYRGN,2,"`""Latin America and the Caribbean""', modify"
+CTRYRGN,3,"`""Sub-Saharan Africa""', modify"
+CTRYRGN,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+CTRYRGN,5,"`""Central Asia""', modify"
+CTRYRGN,6,"`""East Asia and the Pacific (richer countries)""', modify"
+CTRYRGN,7,"`""Central and Eastern Europe""', modify"
+CTRYRGN,8,"`""North America and Western Europe""', modify"
+CTRYRGN,9,"`""Test language not same as home language""', modify"
+HOMLANG,0,"`""Test language same as home language""', modify"
+HOMLANG,1,"`""Monolingual or at least bilingual including test language""', modify"
+FORBILANG,0,"`""At least bilingual not including test language""', modify"
+FORBILANG,1,"`""Monolingual or at least bilingual not including test language""', modify"
+NATBILANG,0,"`""At least bilingual including test language""', modify"
+NATBILANG,1,"`""Native-born and native-language""', modify"
+BORNLANG,1,"`""Native-born and foreign-language""', modify"
+BORNLANG,2,"`""Foreign-born and native-language""', modify"
+BORNLANG,3,"`""Foreign-born and foreign-language""', modify"
+BORNLANG,4,"`""Test language not same as native language""', modify"
+NATIVELANG,0,"`""Test language same as native language""', modify"
+NATIVELANG,1,"`""Neither parent has attained upper secondary""', modify"
+PARED,1,"`""At least one parent has attained secondary and post-secondary, non-tertiary""', modify"
+PARED,2,"`""At least one parent has attained tertiary""', modify"
+PARED,3,"`""Either native-born or native-language""', modify"
+FORBORNLANG,0,"`""Foreign-born and foreign-language""', modify"
+FORBORNLANG,1,"`""Arab States""', modify"
+HOMLGRGN,1,"`""South and West Asia""', modify"
+HOMLGRGN,2,"`""Latin America and the Caribbean""', modify"
+HOMLGRGN,3,"`""Sub-Saharan Africa""', modify"
+HOMLGRGN,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+HOMLGRGN,5,"`""Central Asia""', modify"
+HOMLGRGN,6,"`""East Asia and the Pacific (richer countries)""', modify"
+HOMLGRGN,7,"`""Central and Eastern Europe""', modify"
+HOMLGRGN,8,"`""North America and Western Europe""', modify"
+HOMLGRGN,9,"`""Arab States""', modify"
+SECLGRGN,1,"`""South and West Asia""', modify"
+SECLGRGN,2,"`""Latin America and the Caribbean""', modify"
+SECLGRGN,3,"`""Sub-Saharan Africa""', modify"
+SECLGRGN,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+SECLGRGN,5,"`""Central Asia""', modify"
+SECLGRGN,6,"`""East Asia and the Pacific (richer countries)""', modify"
+SECLGRGN,7,"`""Central and Eastern Europe""', modify"
+SECLGRGN,8,"`""North America and Western Europe""', modify"
+SECLGRGN,9,"`""Arab States""', modify"
+FIRLGRGN,1,"`""South and West Asia""', modify"
+FIRLGRGN,2,"`""Latin America and the Caribbean""', modify"
+FIRLGRGN,3,"`""Sub-Saharan Africa""', modify"
+FIRLGRGN,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+FIRLGRGN,5,"`""Central Asia""', modify"
+FIRLGRGN,6,"`""East Asia and the Pacific (richer countries)""', modify"
+FIRLGRGN,7,"`""Central and Eastern Europe""', modify"
+FIRLGRGN,8,"`""North America and Western Europe""', modify"
+FIRLGRGN,9,"`""Arab States""', modify"
+BIRTHRGN,1,"`""South and West Asia""', modify"
+BIRTHRGN,2,"`""Latin America and the Caribbean""', modify"
+BIRTHRGN,3,"`""Sub-Saharan Africa""', modify"
+BIRTHRGN,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+BIRTHRGN,5,"`""Central Asia""', modify"
+BIRTHRGN,6,"`""East Asia and the Pacific (richer countries)""', modify"
+BIRTHRGN,7,"`""Central and Eastern Europe""', modify"
+BIRTHRGN,8,"`""North America and Western Europe""', modify"
+BIRTHRGN,9,"`""Arab States""', modify"
+CTRYQUAL,1,"`""South and West Asia""', modify"
+CTRYQUAL,2,"`""Latin America and the Caribbean""', modify"
+CTRYQUAL,3,"`""Sub-Saharan Africa""', modify"
+CTRYQUAL,4,"`""East Asia and the Pacific (poorer countries)""', modify"
+CTRYQUAL,5,"`""Central Asia""', modify"
+CTRYQUAL,6,"`""East Asia and the Pacific (richer countries)""', modify"
+CTRYQUAL,7,"`""Central and Eastern Europe""', modify"
+CTRYQUAL,8,"`""North America and Western Europe""', modify"
+CTRYQUAL,9,"`""False""', modify"
+VET,0,"`""True""', modify"
+VET,1,"`""Afghanistan""', modify"
+CNT_BRTH,4,"`""Albania""', modify"
+CNT_BRTH,8,"`""Algeria""', modify"
+CNT_BRTH,12,"`""American Samoa""', modify"
+CNT_BRTH,16,"`""Andorra""', modify"
+CNT_BRTH,20,"`""Angola""', modify"
+CNT_BRTH,24,"`""Antigua and Barbuda""', modify"
+CNT_BRTH,28,"`""Azerbaijan""', modify"
+CNT_BRTH,31,"`""Argentina""', modify"
+CNT_BRTH,32,"`""Australia""', modify"
+CNT_BRTH,36,"`""Austria""', modify"
+CNT_BRTH,40,"`""Bahamas""', modify"
+CNT_BRTH,44,"`""Bahrain""', modify"
+CNT_BRTH,48,"`""Bangladesh""', modify"
+CNT_BRTH,50,"`""Armenia""', modify"
+CNT_BRTH,51,"`""Barbados""', modify"
+CNT_BRTH,52,"`""Belgium""', modify"
+CNT_BRTH,56,"`""Bermuda""', modify"
+CNT_BRTH,60,"`""Bhutan""', modify"
+CNT_BRTH,64,"`""Bolivia""', modify"
+CNT_BRTH,68,"`""Bosnia and Herzegovina""', modify"
+CNT_BRTH,70,"`""Botswana""', modify"
+CNT_BRTH,72,"`""Brazil""', modify"
+CNT_BRTH,76,"`""Belize""', modify"
+CNT_BRTH,84,"`""Solomon Islands""', modify"
+CNT_BRTH,90,"`""British Virgin Islands""', modify"
+CNT_BRTH,92,"`""Brunei Darussalam""', modify"
+CNT_BRTH,96,"`""Bulgaria""', modify"
+CNT_BRTH,100,"`""Myanmar""', modify"
+CNT_BRTH,104,"`""Burundi""', modify"
+CNT_BRTH,108,"`""Belarus""', modify"
+CNT_BRTH,112,"`""Cambodia""', modify"
+CNT_BRTH,116,"`""Cameroon""', modify"
+CNT_BRTH,120,"`""Canada""', modify"
+CNT_BRTH,124,"`""Cape Verde""', modify"
+CNT_BRTH,132,"`""Cayman Islands""', modify"
+CNT_BRTH,136,"`""Central African Republic""', modify"
+CNT_BRTH,140,"`""Sri Lanka""', modify"
+CNT_BRTH,144,"`""Chad""', modify"
+CNT_BRTH,148,"`""Chile""', modify"
+CNT_BRTH,152,"`""China""', modify"
+CNT_BRTH,156,"`""Colombia""', modify"
+CNT_BRTH,170,"`""Comoros""', modify"
+CNT_BRTH,174,"`""Mayotte""', modify"
+CNT_BRTH,175,"`""Congo""', modify"
+CNT_BRTH,178,"`""Democratic Republic of the Congo""', modify"
+CNT_BRTH,180,"`""Cook Islands""', modify"
+CNT_BRTH,184,"`""Costa Rica""', modify"
+CNT_BRTH,188,"`""Croatia""', modify"
+CNT_BRTH,191,"`""Cuba""', modify"
+CNT_BRTH,192,"`""Cyprus""', modify"
+CNT_BRTH,196,"`""Czech Republic""', modify"
+CNT_BRTH,203,"`""Benin""', modify"
+CNT_BRTH,204,"`""Denmark""', modify"
+CNT_BRTH,208,"`""Dominica""', modify"
+CNT_BRTH,212,"`""Dominican Republic""', modify"
+CNT_BRTH,214,"`""Ecuador""', modify"
+CNT_BRTH,218,"`""El Salvador""', modify"
+CNT_BRTH,222,"`""Equatorial Guinea""', modify"
+CNT_BRTH,226,"`""Ethiopia""', modify"
+CNT_BRTH,231,"`""Eritrea""', modify"
+CNT_BRTH,232,"`""Estonia""', modify"
+CNT_BRTH,233,"`""Faeroe Islands""', modify"
+CNT_BRTH,234,"`""Falkland Islands (Malvinas)""', modify"
+CNT_BRTH,238,"`""Fiji""', modify"
+CNT_BRTH,242,"`""Finland""', modify"
+CNT_BRTH,246,"`""Åland Islands""', modify"
+CNT_BRTH,248,"`""France""', modify"
+CNT_BRTH,250,"`""French Guiana""', modify"
+CNT_BRTH,254,"`""French Polynesia""', modify"
+CNT_BRTH,258,"`""Djibouti""', modify"
+CNT_BRTH,262,"`""Gabon""', modify"
+CNT_BRTH,266,"`""Georgia""', modify"
+CNT_BRTH,268,"`""Gambia""', modify"
+CNT_BRTH,270,"`""Occupied Palestinian Territory""', modify"
+CNT_BRTH,275,"`""Germany""', modify"
+CNT_BRTH,276,"`""Ghana""', modify"
+CNT_BRTH,288,"`""Gibraltar""', modify"
+CNT_BRTH,292,"`""Kiribati""', modify"
+CNT_BRTH,296,"`""Greece""', modify"
+CNT_BRTH,300,"`""Greenland""', modify"
+CNT_BRTH,304,"`""Grenada""', modify"
+CNT_BRTH,308,"`""Guadeloupe""', modify"
+CNT_BRTH,312,"`""Guam""', modify"
+CNT_BRTH,316,"`""Guatemala""', modify"
+CNT_BRTH,320,"`""Guinea""', modify"
+CNT_BRTH,324,"`""Guyana""', modify"
+CNT_BRTH,328,"`""Haiti""', modify"
+CNT_BRTH,332,"`""Holy See""', modify"
+CNT_BRTH,336,"`""Honduras""', modify"
+CNT_BRTH,340,"`""Hong Kong Special Administrative Region of China""', modify"
+CNT_BRTH,344,"`""Hungary""', modify"
+CNT_BRTH,348,"`""Iceland""', modify"
+CNT_BRTH,352,"`""India""', modify"
+CNT_BRTH,356,"`""Indonesia""', modify"
+CNT_BRTH,360,"`""Iran, Islamic Republic of""', modify"
+CNT_BRTH,364,"`""Iraq""', modify"
+CNT_BRTH,368,"`""Ireland""', modify"
+CNT_BRTH,372,"`""Israel""', modify"
+CNT_BRTH,376,"`""Italy""', modify"
+CNT_BRTH,380,"`""Côte d'Ivoire""', modify"
+CNT_BRTH,384,"`""Jamaica""', modify"
+CNT_BRTH,388,"`""Japan""', modify"
+CNT_BRTH,392,"`""Kazakhstan""', modify"
+CNT_BRTH,398,"`""Jordan""', modify"
+CNT_BRTH,400,"`""Kenya""', modify"
+CNT_BRTH,404,"`""Democratic People's Republic of Korea""', modify"
+CNT_BRTH,408,"`""Republic of Korea""', modify"
+CNT_BRTH,410,"`""Kuwait""', modify"
+CNT_BRTH,414,"`""Kyrgyzstan""', modify"
+CNT_BRTH,417,"`""Lao People's Democratic Republic""', modify"
+CNT_BRTH,418,"`""Lebanon""', modify"
+CNT_BRTH,422,"`""Lesotho""', modify"
+CNT_BRTH,426,"`""Latvia""', modify"
+CNT_BRTH,428,"`""Liberia""', modify"
+CNT_BRTH,430,"`""Libyan Arab Jamahiriya""', modify"
+CNT_BRTH,434,"`""Liechtenstein""', modify"
+CNT_BRTH,438,"`""Lithuania""', modify"
+CNT_BRTH,440,"`""Luxembourg""', modify"
+CNT_BRTH,442,"`""Macao Special Administrative Region of China""', modify"
+CNT_BRTH,446,"`""Madagascar""', modify"
+CNT_BRTH,450,"`""Malawi""', modify"
+CNT_BRTH,454,"`""Malaysia""', modify"
+CNT_BRTH,458,"`""Maldives""', modify"
+CNT_BRTH,462,"`""Mali""', modify"
+CNT_BRTH,466,"`""Malta""', modify"
+CNT_BRTH,470,"`""Martinique""', modify"
+CNT_BRTH,474,"`""Mauritania""', modify"
+CNT_BRTH,478,"`""Mauritius""', modify"
+CNT_BRTH,480,"`""Mexico""', modify"
+CNT_BRTH,484,"`""Monaco""', modify"
+CNT_BRTH,492,"`""Mongolia""', modify"
+CNT_BRTH,496,"`""Republic of Moldova""', modify"
+CNT_BRTH,498,"`""Montenegro""', modify"
+CNT_BRTH,499,"`""Montserrat""', modify"
+CNT_BRTH,500,"`""Morocco""', modify"
+CNT_BRTH,504,"`""Mozambique""', modify"
+CNT_BRTH,508,"`""Oman""', modify"
+CNT_BRTH,512,"`""Namibia""', modify"
+CNT_BRTH,516,"`""Nauru""', modify"
+CNT_BRTH,520,"`""Nepal""', modify"
+CNT_BRTH,524,"`""Netherlands""', modify"
+CNT_BRTH,528,"`""Netherlands Antilles""', modify"
+CNT_BRTH,530,"`""Aruba""', modify"
+CNT_BRTH,533,"`""New Caledonia""', modify"
+CNT_BRTH,540,"`""Vanuatu""', modify"
+CNT_BRTH,548,"`""New Zealand""', modify"
+CNT_BRTH,554,"`""Nicaragua""', modify"
+CNT_BRTH,558,"`""Niger""', modify"
+CNT_BRTH,562,"`""Nigeria""', modify"
+CNT_BRTH,566,"`""Niue""', modify"
+CNT_BRTH,570,"`""Norfolk Island""', modify"
+CNT_BRTH,574,"`""Norway""', modify"
+CNT_BRTH,578,"`""Northern Mariana Islands""', modify"
+CNT_BRTH,580,"`""Micronesia, Federated States of""', modify"
+CNT_BRTH,583,"`""Marshall Islands""', modify"
+CNT_BRTH,584,"`""Palau""', modify"
+CNT_BRTH,585,"`""Pakistan""', modify"
+CNT_BRTH,586,"`""Panama""', modify"
+CNT_BRTH,591,"`""Papua New Guinea""', modify"
+CNT_BRTH,598,"`""Paraguay""', modify"
+CNT_BRTH,600,"`""Peru""', modify"
+CNT_BRTH,604,"`""Philippines""', modify"
+CNT_BRTH,608,"`""Pitcairn""', modify"
+CNT_BRTH,612,"`""Poland""', modify"
+CNT_BRTH,616,"`""Portugal""', modify"
+CNT_BRTH,620,"`""Guinea-Bissau""', modify"
+CNT_BRTH,624,"`""Timor-Leste""', modify"
+CNT_BRTH,626,"`""Puerto Rico""', modify"
+CNT_BRTH,630,"`""Qatar""', modify"
+CNT_BRTH,634,"`""Réunion""', modify"
+CNT_BRTH,638,"`""Romania""', modify"
+CNT_BRTH,642,"`""Russian Federation""', modify"
+CNT_BRTH,643,"`""Rwanda""', modify"
+CNT_BRTH,646,"`""Saint-Barthélemy""', modify"
+CNT_BRTH,652,"`""Saint Helena""', modify"
+CNT_BRTH,654,"`""Saint Kitts and Nevis""', modify"
+CNT_BRTH,659,"`""Anguilla""', modify"
+CNT_BRTH,660,"`""Saint Lucia""', modify"
+CNT_BRTH,662,"`""Saint-Martin (French part)""', modify"
+CNT_BRTH,663,"`""Saint Pierre and Miquelon""', modify"
+CNT_BRTH,666,"`""Saint Vincent and the Grenadines""', modify"
+CNT_BRTH,670,"`""San Marino""', modify"
+CNT_BRTH,674,"`""Sao Tome and Principe""', modify"
+CNT_BRTH,678,"`""Saudi Arabia""', modify"
+CNT_BRTH,682,"`""Senegal""', modify"
+CNT_BRTH,686,"`""Serbia""', modify"
+CNT_BRTH,688,"`""Seychelles""', modify"
+CNT_BRTH,690,"`""Sierra Leone""', modify"
+CNT_BRTH,694,"`""Singapore""', modify"
+CNT_BRTH,702,"`""Slovakia""', modify"
+CNT_BRTH,703,"`""Viet Nam""', modify"
+CNT_BRTH,704,"`""Slovenia""', modify"
+CNT_BRTH,705,"`""Somalia""', modify"
+CNT_BRTH,706,"`""South Africa""', modify"
+CNT_BRTH,710,"`""Zimbabwe""', modify"
+CNT_BRTH,716,"`""Spain""', modify"
+CNT_BRTH,724,"`""Western Sahara""', modify"
+CNT_BRTH,732,"`""Sudan""', modify"
+CNT_BRTH,736,"`""Suriname""', modify"
+CNT_BRTH,740,"`""Svalbard and Jan Mayen Islands""', modify"
+CNT_BRTH,744,"`""Swaziland""', modify"
+CNT_BRTH,748,"`""Sweden""', modify"
+CNT_BRTH,752,"`""Switzerland""', modify"
+CNT_BRTH,756,"`""Syrian Arab Republic""', modify"
+CNT_BRTH,760,"`""Tajikistan""', modify"
+CNT_BRTH,762,"`""Thailand""', modify"
+CNT_BRTH,764,"`""Togo""', modify"
+CNT_BRTH,768,"`""Tokelau""', modify"
+CNT_BRTH,772,"`""Tonga""', modify"
+CNT_BRTH,776,"`""Trinidad and Tobago""', modify"
+CNT_BRTH,780,"`""United Arab Emirates""', modify"
+CNT_BRTH,784,"`""Tunisia""', modify"
+CNT_BRTH,788,"`""Turkey""', modify"
+CNT_BRTH,792,"`""Turkmenistan""', modify"
+CNT_BRTH,795,"`""Turks and Caicos Islands""', modify"
+CNT_BRTH,796,"`""Tuvalu""', modify"
+CNT_BRTH,798,"`""Uganda""', modify"
+CNT_BRTH,800,"`""Ukraine""', modify"
+CNT_BRTH,804,"`""The former Yugoslav Republic of Macedonia""', modify"
+CNT_BRTH,807,"`""Egypt""', modify"
+CNT_BRTH,818,"`""United Kingdom of Great Britain and Northern Ireland""', modify"
+CNT_BRTH,826,"`""Channel Islands""', modify"
+CNT_BRTH,830,"`""Guernsey""', modify"
+CNT_BRTH,831,"`""Jersey""', modify"
+CNT_BRTH,832,"`""Isle of Man""', modify"
+CNT_BRTH,833,"`""United Republic of Tanzania""', modify"
+CNT_BRTH,834,"`""United States of America""', modify"
+CNT_BRTH,840,"`""United States Virgin Islands""', modify"
+CNT_BRTH,850,"`""Burkina Faso""', modify"
+CNT_BRTH,854,"`""Uruguay""', modify"
+CNT_BRTH,858,"`""Uzbekistan""', modify"
+CNT_BRTH,860,"`""Venezuela (Bolivarian Republic of)""', modify"
+CNT_BRTH,862,"`""Wallis and Futuna Islands""', modify"
+CNT_BRTH,876,"`""Samoa""', modify"
+CNT_BRTH,882,"`""Yemen""', modify"
+CNT_BRTH,887,"`""Zambia""', modify"
+CNT_BRTH,894,"`""Afghanistan""', modify"
+CNT_H,4,"`""Albania""', modify"
+CNT_H,8,"`""Algeria""', modify"
+CNT_H,12,"`""American Samoa""', modify"
+CNT_H,16,"`""Andorra""', modify"
+CNT_H,20,"`""Angola""', modify"
+CNT_H,24,"`""Antigua and Barbuda""', modify"
+CNT_H,28,"`""Azerbaijan""', modify"
+CNT_H,31,"`""Argentina""', modify"
+CNT_H,32,"`""Australia""', modify"
+CNT_H,36,"`""Austria""', modify"
+CNT_H,40,"`""Bahamas""', modify"
+CNT_H,44,"`""Bahrain""', modify"
+CNT_H,48,"`""Bangladesh""', modify"
+CNT_H,50,"`""Armenia""', modify"
+CNT_H,51,"`""Barbados""', modify"
+CNT_H,52,"`""Belgium""', modify"
+CNT_H,56,"`""Bermuda""', modify"
+CNT_H,60,"`""Bhutan""', modify"
+CNT_H,64,"`""Bolivia""', modify"
+CNT_H,68,"`""Bosnia and Herzegovina""', modify"
+CNT_H,70,"`""Botswana""', modify"
+CNT_H,72,"`""Brazil""', modify"
+CNT_H,76,"`""Belize""', modify"
+CNT_H,84,"`""Solomon Islands""', modify"
+CNT_H,90,"`""British Virgin Islands""', modify"
+CNT_H,92,"`""Brunei Darussalam""', modify"
+CNT_H,96,"`""Bulgaria""', modify"
+CNT_H,100,"`""Myanmar""', modify"
+CNT_H,104,"`""Burundi""', modify"
+CNT_H,108,"`""Belarus""', modify"
+CNT_H,112,"`""Cambodia""', modify"
+CNT_H,116,"`""Cameroon""', modify"
+CNT_H,120,"`""Canada""', modify"
+CNT_H,124,"`""Cape Verde""', modify"
+CNT_H,132,"`""Cayman Islands""', modify"
+CNT_H,136,"`""Central African Republic""', modify"
+CNT_H,140,"`""Sri Lanka""', modify"
+CNT_H,144,"`""Chad""', modify"
+CNT_H,148,"`""Chile""', modify"
+CNT_H,152,"`""China""', modify"
+CNT_H,156,"`""Colombia""', modify"
+CNT_H,170,"`""Comoros""', modify"
+CNT_H,174,"`""Mayotte""', modify"
+CNT_H,175,"`""Congo""', modify"
+CNT_H,178,"`""Democratic Republic of the Congo""', modify"
+CNT_H,180,"`""Cook Islands""', modify"
+CNT_H,184,"`""Costa Rica""', modify"
+CNT_H,188,"`""Croatia""', modify"
+CNT_H,191,"`""Cuba""', modify"
+CNT_H,192,"`""Cyprus""', modify"
+CNT_H,196,"`""Czech Republic""', modify"
+CNT_H,203,"`""Benin""', modify"
+CNT_H,204,"`""Denmark""', modify"
+CNT_H,208,"`""Dominica""', modify"
+CNT_H,212,"`""Dominican Republic""', modify"
+CNT_H,214,"`""Ecuador""', modify"
+CNT_H,218,"`""El Salvador""', modify"
+CNT_H,222,"`""Equatorial Guinea""', modify"
+CNT_H,226,"`""Ethiopia""', modify"
+CNT_H,231,"`""Eritrea""', modify"
+CNT_H,232,"`""Estonia""', modify"
+CNT_H,233,"`""Faeroe Islands""', modify"
+CNT_H,234,"`""Falkland Islands (Malvinas)""', modify"
+CNT_H,238,"`""Fiji""', modify"
+CNT_H,242,"`""Finland""', modify"
+CNT_H,246,"`""Åland Islands""', modify"
+CNT_H,248,"`""France""', modify"
+CNT_H,250,"`""French Guiana""', modify"
+CNT_H,254,"`""French Polynesia""', modify"
+CNT_H,258,"`""Djibouti""', modify"
+CNT_H,262,"`""Gabon""', modify"
+CNT_H,266,"`""Georgia""', modify"
+CNT_H,268,"`""Gambia""', modify"
+CNT_H,270,"`""Occupied Palestinian Territory""', modify"
+CNT_H,275,"`""Germany""', modify"
+CNT_H,276,"`""Ghana""', modify"
+CNT_H,288,"`""Gibraltar""', modify"
+CNT_H,292,"`""Kiribati""', modify"
+CNT_H,296,"`""Greece""', modify"
+CNT_H,300,"`""Greenland""', modify"
+CNT_H,304,"`""Grenada""', modify"
+CNT_H,308,"`""Guadeloupe""', modify"
+CNT_H,312,"`""Guam""', modify"
+CNT_H,316,"`""Guatemala""', modify"
+CNT_H,320,"`""Guinea""', modify"
+CNT_H,324,"`""Guyana""', modify"
+CNT_H,328,"`""Haiti""', modify"
+CNT_H,332,"`""Holy See""', modify"
+CNT_H,336,"`""Honduras""', modify"
+CNT_H,340,"`""Hong Kong Special Administrative Region of China""', modify"
+CNT_H,344,"`""Hungary""', modify"
+CNT_H,348,"`""Iceland""', modify"
+CNT_H,352,"`""India""', modify"
+CNT_H,356,"`""Indonesia""', modify"
+CNT_H,360,"`""Iran, Islamic Republic of""', modify"
+CNT_H,364,"`""Iraq""', modify"
+CNT_H,368,"`""Ireland""', modify"
+CNT_H,372,"`""Israel""', modify"
+CNT_H,376,"`""Italy""', modify"
+CNT_H,380,"`""Côte d'Ivoire""', modify"
+CNT_H,384,"`""Jamaica""', modify"
+CNT_H,388,"`""Japan""', modify"
+CNT_H,392,"`""Kazakhstan""', modify"
+CNT_H,398,"`""Jordan""', modify"
+CNT_H,400,"`""Kenya""', modify"
+CNT_H,404,"`""Democratic People`'s Republic of Korea""', modify"
+CNT_H,408,"`""Republic of Korea""', modify"
+CNT_H,410,"`""Kuwait""', modify"
+CNT_H,414,"`""Kyrgyzstan""', modify"
+CNT_H,417,"`""Lao People`'s Democratic Republic""', modify"
+CNT_H,418,"`""Lebanon""', modify"
+CNT_H,422,"`""Lesotho""', modify"
+CNT_H,426,"`""Latvia""', modify"
+CNT_H,428,"`""Liberia""', modify"
+CNT_H,430,"`""Libyan Arab Jamahiriya""', modify"
+CNT_H,434,"`""Liechtenstein""', modify"
+CNT_H,438,"`""Lithuania""', modify"
+CNT_H,440,"`""Luxembourg""', modify"
+CNT_H,442,"`""Macao Special Administrative Region of China""', modify"
+CNT_H,446,"`""Madagascar""', modify"
+CNT_H,450,"`""Malawi""', modify"
+CNT_H,454,"`""Malaysia""', modify"
+CNT_H,458,"`""Maldives""', modify"
+CNT_H,462,"`""Mali""', modify"
+CNT_H,466,"`""Malta""', modify"
+CNT_H,470,"`""Martinique""', modify"
+CNT_H,474,"`""Mauritania""', modify"
+CNT_H,478,"`""Mauritius""', modify"
+CNT_H,480,"`""Mexico""', modify"
+CNT_H,484,"`""Monaco""', modify"
+CNT_H,492,"`""Mongolia""', modify"
+CNT_H,496,"`""Republic of Moldova""', modify"
+CNT_H,498,"`""Montenegro""', modify"
+CNT_H,499,"`""Montserrat""', modify"
+CNT_H,500,"`""Morocco""', modify"
+CNT_H,504,"`""Mozambique""', modify"
+CNT_H,508,"`""Oman""', modify"
+CNT_H,512,"`""Namibia""', modify"
+CNT_H,516,"`""Nauru""', modify"
+CNT_H,520,"`""Nepal""', modify"
+CNT_H,524,"`""Netherlands""', modify"
+CNT_H,528,"`""Netherlands Antilles""', modify"
+CNT_H,530,"`""Aruba""', modify"
+CNT_H,533,"`""New Caledonia""', modify"
+CNT_H,540,"`""Vanuatu""', modify"
+CNT_H,548,"`""New Zealand""', modify"
+CNT_H,554,"`""Nicaragua""', modify"
+CNT_H,558,"`""Niger""', modify"
+CNT_H,562,"`""Nigeria""', modify"
+CNT_H,566,"`""Niue""', modify"
+CNT_H,570,"`""Norfolk Island""', modify"
+CNT_H,574,"`""Norway""', modify"
+CNT_H,578,"`""Northern Mariana Islands""', modify"
+CNT_H,580,"`""Micronesia, Federated States of""', modify"
+CNT_H,583,"`""Marshall Islands""', modify"
+CNT_H,584,"`""Palau""', modify"
+CNT_H,585,"`""Pakistan""', modify"
+CNT_H,586,"`""Panama""', modify"
+CNT_H,591,"`""Papua New Guinea""', modify"
+CNT_H,598,"`""Paraguay""', modify"
+CNT_H,600,"`""Peru""', modify"
+CNT_H,604,"`""Philippines""', modify"
+CNT_H,608,"`""Pitcairn""', modify"
+CNT_H,612,"`""Poland""', modify"
+CNT_H,616,"`""Portugal""', modify"
+CNT_H,620,"`""Guinea-Bissau""', modify"
+CNT_H,624,"`""Timor-Leste""', modify"
+CNT_H,626,"`""Puerto Rico""', modify"
+CNT_H,630,"`""Qatar""', modify"
+CNT_H,634,"`""Réunion""', modify"
+CNT_H,638,"`""Romania""', modify"
+CNT_H,642,"`""Russian Federation""', modify"
+CNT_H,643,"`""Rwanda""', modify"
+CNT_H,646,"`""Saint-Barthélemy""', modify"
+CNT_H,652,"`""Saint Helena""', modify"
+CNT_H,654,"`""Saint Kitts and Nevis""', modify"
+CNT_H,659,"`""Anguilla""', modify"
+CNT_H,660,"`""Saint Lucia""', modify"
+CNT_H,662,"`""Saint-Martin (French part)""', modify"
+CNT_H,663,"`""Saint Pierre and Miquelon""', modify"
+CNT_H,666,"`""Saint Vincent and the Grenadines""', modify"
+CNT_H,670,"`""San Marino""', modify"
+CNT_H,674,"`""Sao Tome and Principe""', modify"
+CNT_H,678,"`""Saudi Arabia""', modify"
+CNT_H,682,"`""Senegal""', modify"
+CNT_H,686,"`""Serbia""', modify"
+CNT_H,688,"`""Seychelles""', modify"
+CNT_H,690,"`""Sierra Leone""', modify"
+CNT_H,694,"`""Singapore""', modify"
+CNT_H,702,"`""Slovakia""', modify"
+CNT_H,703,"`""Viet Nam""', modify"
+CNT_H,704,"`""Slovenia""', modify"
+CNT_H,705,"`""Somalia""', modify"
+CNT_H,706,"`""South Africa""', modify"
+CNT_H,710,"`""Zimbabwe""', modify"
+CNT_H,716,"`""Spain""', modify"
+CNT_H,724,"`""Western Sahara""', modify"
+CNT_H,732,"`""Sudan""', modify"
+CNT_H,736,"`""Suriname""', modify"
+CNT_H,740,"`""Svalbard and Jan Mayen Islands""', modify"
+CNT_H,744,"`""Swaziland""', modify"
+CNT_H,748,"`""Sweden""', modify"
+CNT_H,752,"`""Switzerland""', modify"
+CNT_H,756,"`""Syrian Arab Republic""', modify"
+CNT_H,760,"`""Tajikistan""', modify"
+CNT_H,762,"`""Thailand""', modify"
+CNT_H,764,"`""Togo""', modify"
+CNT_H,768,"`""Tokelau""', modify"
+CNT_H,772,"`""Tonga""', modify"
+CNT_H,776,"`""Trinidad and Tobago""', modify"
+CNT_H,780,"`""United Arab Emirates""', modify"
+CNT_H,784,"`""Tunisia""', modify"
+CNT_H,788,"`""Turkey""', modify"
+CNT_H,792,"`""Turkmenistan""', modify"
+CNT_H,795,"`""Turks and Caicos Islands""', modify"
+CNT_H,796,"`""Tuvalu""', modify"
+CNT_H,798,"`""Uganda""', modify"
+CNT_H,800,"`""Ukraine""', modify"
+CNT_H,804,"`""The former Yugoslav Republic of Macedonia""', modify"
+CNT_H,807,"`""Egypt""', modify"
+CNT_H,818,"`""United Kingdom of Great Britain and Northern Ireland""', modify"
+CNT_H,826,"`""Channel Islands""', modify"
+CNT_H,830,"`""Guernsey""', modify"
+CNT_H,831,"`""Jersey""', modify"
+CNT_H,832,"`""Isle of Man""', modify"
+CNT_H,833,"`""United Republic of Tanzania""', modify"
+CNT_H,834,"`""United States of America""', modify"
+CNT_H,840,"`""United States Virgin Islands""', modify"
+CNT_H,850,"`""Burkina Faso""', modify"
+CNT_H,854,"`""Uruguay""', modify"
+CNT_H,858,"`""Uzbekistan""', modify"
+CNT_H,860,"`""Venezuela (Bolivarian Republic of)""', modify"
+CNT_H,862,"`""Wallis and Futuna Islands""', modify"
+CNT_H,876,"`""Samoa""', modify"
+CNT_H,882,"`""Yemen""', modify"
+CNT_H,887,"`""Zambia""', modify"
+CNT_H,894,"`""No formal qualification or below ISCED 1""', modify"
+ISCED_HF_C,1,"`""ISCED 1""', modify"
+ISCED_HF_C,2,"`""ISCED 2""', modify"
+ISCED_HF_C,3,"`""ISCED 3C shorter than 2 years""', modify"
+ISCED_HF_C,4,"`""ISCED 3C 2 years or more""', modify"
+ISCED_HF_C,5,"`""ISCED 3A-B""', modify"
+ISCED_HF_C,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+ISCED_HF_C,7,"`""ISCED 4C""', modify"
+ISCED_HF_C,8,"`""ISCED 4A-B""', modify"
+ISCED_HF_C,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+ISCED_HF_C,10,"`""ISCED 5B""', modify"
+ISCED_HF_C,11,"`""ISCED 5A, bachelor degree""', modify"
+ISCED_HF_C,12,"`""ISCED 5A, master degree, and 6 (without distinction)""', modify"
+ISCED_HF_C,13,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+ISCED_HF_C,14,"`""No formal qualification or below ISCED 1""', modify"
+ISCED_HF,1,"`""ISCED 1""', modify"
+ISCED_HF,2,"`""ISCED 2""', modify"
+ISCED_HF,3,"`""ISCED 3C shorter than 2 years""', modify"
+ISCED_HF,4,"`""ISCED 3C 2 years or more""', modify"
+ISCED_HF,5,"`""ISCED 3A-B""', modify"
+ISCED_HF,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+ISCED_HF,7,"`""ISCED 4C""', modify"
+ISCED_HF,8,"`""ISCED 4A-B""', modify"
+ISCED_HF,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+ISCED_HF,10,"`""ISCED 5B""', modify"
+ISCED_HF,11,"`""ISCED 5A, bachelor degree""', modify"
+ISCED_HF,12,"`""ISCED 5A, master degree""', modify"
+ISCED_HF,13,"`""ISCED 6""', modify"
+ISCED_HF,14,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+ISCED_HF,15,"`""No computer experience""', modify"
+PBROUTE,1,"`""Failed ICT Core stage 1""', modify"
+PBROUTE,2,"`""Refused CBA""', modify"
+PBROUTE,3,"`""Took CBA""', modify"
+PBROUTE,4,"`""Uncategorized""', modify"
+PBROUTE,5,"`""Less than 10""', modify"
+YEARLYINCPR,1,"`""10 to less than 25""', modify"
+YEARLYINCPR,2,"`""25 to less than 50""', modify"
+YEARLYINCPR,3,"`""50 to less than 75""', modify"
+YEARLYINCPR,4,"`""75 to less than 90""', modify"
+YEARLYINCPR,5,"`""90 or more""', modify"
+YEARLYINCPR,6,"`""Less than 10""', modify"
+MONTHLYINCPR,1,"`""10 to less than 25""', modify"
+MONTHLYINCPR,2,"`""25 to less than 50""', modify"
+MONTHLYINCPR,3,"`""50 to less than 75""', modify"
+MONTHLYINCPR,4,"`""75 to less than 90""', modify"
+MONTHLYINCPR,5,"`""90 or more""', modify"
+MONTHLYINCPR,6,"`""Missing""', modify"
+CBAMOD2STG2,0,"`""Easy""', modify"
+CBAMOD2STG2,1,"`""Medium 1""', modify"
+CBAMOD2STG2,2,"`""Medium 2""', modify"
+CBAMOD2STG2,3,"`""Hard""', modify"
+CBAMOD2STG2,4,"`""Missing""', modify"
+CBAMOD1STG2,0,"`""Easy""', modify"
+CBAMOD1STG2,1,"`""Medium 1""', modify"
+CBAMOD1STG2,2,"`""Medium 2""', modify"
+CBAMOD1STG2,3,"`""Hard""', modify"
+CBAMOD1STG2,4,"`""Missing""', modify"
+CBAMOD2STG1,0,"`""Easy""', modify"
+CBAMOD2STG1,1,"`""Medium""', modify"
+CBAMOD2STG1,2,"`""Hard""', modify"
+CBAMOD2STG1,3,"`""Missing""', modify"
+CBAMOD1STG1,0,"`""Easy""', modify"
+CBAMOD1STG1,1,"`""Medium""', modify"
+CBAMOD1STG1,2,"`""Hard""', modify"
+CBAMOD1STG1,3,"`""Missing""', modify"
+CBAMOD2ALT,0,"`""LIT-NUM""', modify"
+CBAMOD2ALT,12,"`""LIT-PS2""', modify"
+CBAMOD2ALT,13,"`""NUM-LIT""', modify"
+CBAMOD2ALT,21,"`""NUM-PS2""', modify"
+CBAMOD2ALT,23,"`""PS1-LIT""', modify"
+CBAMOD2ALT,31,"`""PS1-NUM""', modify"
+CBAMOD2ALT,32,"`""PS1-PS2""', modify"
+CBAMOD2ALT,33,"`""Missing""', modify"
+CBAMOD2,0,"`""lit""', modify"
+CBAMOD2,1,"`""num""', modify"
+CBAMOD2,2,"`""PS2""', modify"
+CBAMOD2,3,"`""Missing""', modify"
+CBAMOD1,0,"`""lit""', modify"
+CBAMOD1,1,"`""num""', modify"
+CBAMOD1,2,"`""PS1""', modify"
+CBAMOD1,3,"`""Missing""', modify"
+PAPER,0,"`""PP1-LIT""', modify"
+PAPER,1,"`""PP2-NUM""', modify"
+PAPER,2,"`""Failed Paper Core""', modify"
+PAPER,3,"`""Continue to computer based exercise""', modify"
+CBA_START,1,"`""Continue to paper based exercise""', modify"
+CBA_START,2,"`""Passed""', modify"
+CORESTAGE2_PASS,1,"`""Not passed""', modify"
+CORESTAGE2_PASS,29,"`""Passed""', modify"
+CORESTAGE1_PASS,1,"`""Not passed""', modify"
+CORESTAGE1_PASS,29,"`""Low""', modify"
+EDLEVEL3,1,"`""Medium""', modify"
+EDLEVEL3,2,"`""High""', modify"
+EDLEVEL3,3,"`""Yes""', modify"
+NATIVESPEAKER,1,"`""No""', modify"
+NATIVESPEAKER,2,"`""Yes""', modify"
+COMPUTEREXPERIENCE,1,"`""No""', modify"
+COMPUTEREXPERIENCE,2,"`""10 books or less""', modify"
+J_Q08,1,"`""11 to 25 books""', modify"
+J_Q08,2,"`""26 to 100 books""', modify"
+J_Q08,3,"`""101 to 200 books""', modify"
+J_Q08,4,"`""201 to 500 books""', modify"
+J_Q08,5,"`""More than 500 books""', modify"
+J_Q08,6,"`""ISCED 1, 2, and 3C short""', modify"
+J_Q07B_T,1,"`""ISCED 3 (excluding 3C short) and 4""', modify"
+J_Q07B_T,2,"`""ISCED 5 and 6""', modify"
+J_Q07B_T,3,"`""Not definable""', modify"
+J_Q07B_T,4,"`""ISCED 1, 2, and 3C short""', modify"
+J_Q07B,1,"`""ISCED 3 (excluding 3C short) and 4""', modify"
+J_Q07B,2,"`""ISCED 5 and 6""', modify"
+J_Q07B,3,"`""Yes""', modify"
+J_Q07A_T,1,"`""No""', modify"
+J_Q07A_T,2,"`""Not applicable""', modify"
+J_Q07A_T,3,"`""Yes""', modify"
+J_Q07A,1,"`""No""', modify"
+J_Q07A,2,"`""ISCED 1, 2, and 3C short""', modify"
+J_Q06B_T,1,"`""ISCED 3 (excluding 3C short) and 4""', modify"
+J_Q06B_T,2,"`""ISCED 5 and 6""', modify"
+J_Q06B_T,3,"`""Not definable""', modify"
+J_Q06B_T,4,"`""ISCED 1, 2, and 3C short""', modify"
+J_Q06B,1,"`""ISCED 3 (excluding 3C short) and 4""', modify"
+J_Q06B,2,"`""ISCED 5 and 6""', modify"
+J_Q06B,3,"`""Yes""', modify"
+J_Q06A_T,1,"`""No""', modify"
+J_Q06A_T,2,"`""Not applicable""', modify"
+J_Q06A_T,3,"`""Yes""', modify"
+J_Q06A,1,"`""No""', modify"
+J_Q06A,2,"`""Yes""', modify"
+J_N05A2,1,"`""No""', modify"
+J_N05A2,2,"`""1900-1930""', modify"
+J_Q04C2_T1,1,"`""1931-1960""', modify"
+J_Q04C2_T1,2,"`""1961-1990""', modify"
+J_Q04C2_T1,3,"`""1991 or later""', modify"
+J_Q04C2_T1,4,"`""Citizen by birth""', modify"
+J_Q04C2_T1,5,"`""Aged 0-5""', modify"
+J_Q04C1_C,1,"`""Aged 6-10""', modify"
+J_Q04C1_C,2,"`""Aged 11-15""', modify"
+J_Q04C1_C,3,"`""Aged 16-20""', modify"
+J_Q04C1_C,4,"`""Aged 21-25""', modify"
+J_Q04C1_C,5,"`""Aged 26-30""', modify"
+J_Q04C1_C,6,"`""Aged 31-35""', modify"
+J_Q04C1_C,7,"`""Aged 36-40""', modify"
+J_Q04C1_C,8,"`""Aged 41 or older""', modify"
+J_Q04C1_C,9,"`""Yes""', modify"
+J_Q04A_T,1,"`""No""', modify"
+J_Q04A_T,2,"`""Yes""', modify"
+J_Q04A,1,"`""No""', modify"
+J_Q04A,2,"`""Aged 2 or younger""', modify"
+J_Q03D2_C,1,"`""Aged 3-5""', modify"
+J_Q03D2_C,2,"`""Aged 6-12""', modify"
+J_Q03D2_C,3,"`""Aged 13 or older""', modify"
+J_Q03D2_C,4,"`""Aged 2 or younger""', modify"
+J_Q03D1_C,1,"`""Aged 3-5""', modify"
+J_Q03D1_C,2,"`""Aged 6-12""', modify"
+J_Q03D1_C,3,"`""Aged 13 or older""', modify"
+J_Q03D1_C,4,"`""Aged 2 or younger""', modify"
+J_Q03C_C,1,"`""Aged 3-5""', modify"
+J_Q03C_C,2,"`""Aged 6-12""', modify"
+J_Q03C_C,3,"`""Aged 13 or older""', modify"
+J_Q03C_C,4,"`""Yes""', modify"
+J_Q03A,1,"`""No""', modify"
+J_Q03A,2,"`""Full-time employed (self-employed, employee)""', modify"
+J_Q02C,1,"`""Part-time employed (self-employed, employee)""', modify"
+J_Q02C,2,"`""Unemployed""', modify"
+J_Q02C,3,"`""Pupil, student""', modify"
+J_Q02C,4,"`""Apprentice, internship""', modify"
+J_Q02C,5,"`""In retirement or early retirement""', modify"
+J_Q02C,6,"`""Permanently disabled""', modify"
+J_Q02C,7,"`""In compulsory military or community service""', modify"
+J_Q02C,8,"`""Fulfilling domestic tasks or looking after children/family""', modify"
+J_Q02C,9,"`""Other""', modify"
+J_Q02C,10,"`""Yes""', modify"
+J_Q02A,1,"`""No""', modify"
+J_Q02A,2,"`""One person in the household""', modify"
+J_Q01_T1,1,"`""Two persons in the household""', modify"
+J_Q01_T1,2,"`""Three persons in the household""', modify"
+J_Q01_T1,3,"`""Four persons in the household""', modify"
+J_Q01_T1,4,"`""Five persons in the household""', modify"
+J_Q01_T1,5,"`""Six persons in the household""', modify"
+J_Q01_T1,6,"`""Seven persons or more in the household""', modify"
+J_Q01_T1,7,"`""Excellent""', modify"
+I_Q08_T,1,"`""Very good""', modify"
+I_Q08_T,2,"`""Good""', modify"
+I_Q08_T,3,"`""Fair""', modify"
+I_Q08_T,4,"`""Poor""', modify"
+I_Q08_T,5,"`""Excellent""', modify"
+I_Q08,1,"`""Very good""', modify"
+I_Q08,2,"`""Good""', modify"
+I_Q08,3,"`""Fair""', modify"
+I_Q08,4,"`""Poor""', modify"
+I_Q08,5,"`""Strongly agree""', modify"
+I_Q07B,1,"`""Agree""', modify"
+I_Q07B,2,"`""Neither agree nor disagree""', modify"
+I_Q07B,3,"`""Disagree""', modify"
+I_Q07B,4,"`""Strongly disagree""', modify"
+I_Q07B,5,"`""Strongly agree""', modify"
+I_Q07A,1,"`""Agree""', modify"
+I_Q07A,2,"`""Neither agree nor disagree""', modify"
+I_Q07A,3,"`""Disagree""', modify"
+I_Q07A,4,"`""Strongly disagree""', modify"
+I_Q07A,5,"`""Strongly agree""', modify"
+I_Q06A,1,"`""Agree""', modify"
+I_Q06A,2,"`""Neither agree nor disagree""', modify"
+I_Q06A,3,"`""Disagree""', modify"
+I_Q06A,4,"`""Strongly disagree""', modify"
+I_Q06A,5,"`""Never""', modify"
+I_Q05F,1,"`""Less than once a month""', modify"
+I_Q05F,2,"`""Less than once a week but at least once a month""', modify"
+I_Q05F,3,"`""At least once a week but not every day""', modify"
+I_Q05F,4,"`""Every day""', modify"
+I_Q05F,5,"`""Not at all""', modify"
+I_Q04M,1,"`""Very little""', modify"
+I_Q04M,2,"`""To some extent""', modify"
+I_Q04M,3,"`""To a high extent""', modify"
+I_Q04M,4,"`""To a very high extent""', modify"
+I_Q04M,5,"`""Not at all""', modify"
+I_Q04L,1,"`""Very little""', modify"
+I_Q04L,2,"`""To some extent""', modify"
+I_Q04L,3,"`""To a high extent""', modify"
+I_Q04L,4,"`""To a very high extent""', modify"
+I_Q04L,5,"`""Not at all""', modify"
+I_Q04J,1,"`""Very little""', modify"
+I_Q04J,2,"`""To some extent""', modify"
+I_Q04J,3,"`""To a high extent""', modify"
+I_Q04J,4,"`""To a very high extent""', modify"
+I_Q04J,5,"`""Not at all""', modify"
+I_Q04H,1,"`""Very little""', modify"
+I_Q04H,2,"`""To some extent""', modify"
+I_Q04H,3,"`""To a high extent""', modify"
+I_Q04H,4,"`""To a very high extent""', modify"
+I_Q04H,5,"`""Not at all""', modify"
+I_Q04D,1,"`""Very little""', modify"
+I_Q04D,2,"`""To some extent""', modify"
+I_Q04D,3,"`""To a high extent""', modify"
+I_Q04D,4,"`""To a very high extent""', modify"
+I_Q04D,5,"`""Not at all""', modify"
+I_Q04B,1,"`""Very little""', modify"
+I_Q04B,2,"`""To some extent""', modify"
+I_Q04B,3,"`""To a high extent""', modify"
+I_Q04B,4,"`""To a very high extent""', modify"
+I_Q04B,5,"`""Never""', modify"
+H_Q05H,1,"`""Less than once a month""', modify"
+H_Q05H,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05H,3,"`""At least once a week but not every day""', modify"
+H_Q05H,4,"`""Every day""', modify"
+H_Q05H,5,"`""Never""', modify"
+H_Q05G,1,"`""Less than once a month""', modify"
+H_Q05G,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05G,3,"`""At least once a week but not every day""', modify"
+H_Q05G,4,"`""Every day""', modify"
+H_Q05G,5,"`""Never""', modify"
+H_Q05F,1,"`""Less than once a month""', modify"
+H_Q05F,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05F,3,"`""At least once a week but not every day""', modify"
+H_Q05F,4,"`""Every day""', modify"
+H_Q05F,5,"`""Never""', modify"
+H_Q05E,1,"`""Less than once a month""', modify"
+H_Q05E,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05E,3,"`""At least once a week but not every day""', modify"
+H_Q05E,4,"`""Every day""', modify"
+H_Q05E,5,"`""Never""', modify"
+H_Q05D,1,"`""Less than once a month""', modify"
+H_Q05D,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05D,3,"`""At least once a week but not every day""', modify"
+H_Q05D,4,"`""Every day""', modify"
+H_Q05D,5,"`""Never""', modify"
+H_Q05C,1,"`""Less than once a month""', modify"
+H_Q05C,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05C,3,"`""At least once a week but not every day""', modify"
+H_Q05C,4,"`""Every day""', modify"
+H_Q05C,5,"`""Never""', modify"
+H_Q05A,1,"`""Less than once a month""', modify"
+H_Q05A,2,"`""Less than once a week but at least once a month""', modify"
+H_Q05A,3,"`""At least once a week but not every day""', modify"
+H_Q05A,4,"`""Every day""', modify"
+H_Q05A,5,"`""Yes""', modify"
+H_Q04B,1,"`""No""', modify"
+H_Q04B,2,"`""Yes""', modify"
+H_Q04A,1,"`""No""', modify"
+H_Q04A,2,"`""Never""', modify"
+H_Q03H,1,"`""Less than once a month""', modify"
+H_Q03H,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03H,3,"`""At least once a week but not every day""', modify"
+H_Q03H,4,"`""Every day""', modify"
+H_Q03H,5,"`""Never""', modify"
+H_Q03G,1,"`""Less than once a month""', modify"
+H_Q03G,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03G,3,"`""At least once a week but not every day""', modify"
+H_Q03G,4,"`""Every day""', modify"
+H_Q03G,5,"`""Never""', modify"
+H_Q03F,1,"`""Less than once a month""', modify"
+H_Q03F,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03F,3,"`""At least once a week but not every day""', modify"
+H_Q03F,4,"`""Every day""', modify"
+H_Q03F,5,"`""Never""', modify"
+H_Q03D,1,"`""Less than once a month""', modify"
+H_Q03D,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03D,3,"`""At least once a week but not every day""', modify"
+H_Q03D,4,"`""Every day""', modify"
+H_Q03D,5,"`""Never""', modify"
+H_Q03C,1,"`""Less than once a month""', modify"
+H_Q03C,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03C,3,"`""At least once a week but not every day""', modify"
+H_Q03C,4,"`""Every day""', modify"
+H_Q03C,5,"`""Never""', modify"
+H_Q03B,1,"`""Less than once a month""', modify"
+H_Q03B,2,"`""Less than once a week but at least once a month""', modify"
+H_Q03B,3,"`""At least once a week but not every day""', modify"
+H_Q03B,4,"`""Every day""', modify"
+H_Q03B,5,"`""Never""', modify"
+H_Q02D,1,"`""Less than once a month""', modify"
+H_Q02D,2,"`""Less than once a week but at least once a month""', modify"
+H_Q02D,3,"`""At least once a week but not every day""', modify"
+H_Q02D,4,"`""Every day""', modify"
+H_Q02D,5,"`""Never""', modify"
+H_Q02C,1,"`""Less than once a month""', modify"
+H_Q02C,2,"`""Less than once a week but at least once a month""', modify"
+H_Q02C,3,"`""At least once a week but not every day""', modify"
+H_Q02C,4,"`""Every day""', modify"
+H_Q02C,5,"`""Never""', modify"
+H_Q02B,1,"`""Less than once a month""', modify"
+H_Q02B,2,"`""Less than once a week but at least once a month""', modify"
+H_Q02B,3,"`""At least once a week but not every day""', modify"
+H_Q02B,4,"`""Every day""', modify"
+H_Q02B,5,"`""Never""', modify"
+H_Q02A,1,"`""Less than once a month""', modify"
+H_Q02A,2,"`""Less than once a week but at least once a month""', modify"
+H_Q02A,3,"`""At least once a week but not every day""', modify"
+H_Q02A,4,"`""Every day""', modify"
+H_Q02A,5,"`""Never""', modify"
+H_Q01H,1,"`""Less than once a month""', modify"
+H_Q01H,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01H,3,"`""At least once a week but not every day""', modify"
+H_Q01H,4,"`""Every day""', modify"
+H_Q01H,5,"`""Never""', modify"
+H_Q01G,1,"`""Less than once a month""', modify"
+H_Q01G,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01G,3,"`""At least once a week but not every day""', modify"
+H_Q01G,4,"`""Every day""', modify"
+H_Q01G,5,"`""Never""', modify"
+H_Q01F,1,"`""Less than once a month""', modify"
+H_Q01F,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01F,3,"`""At least once a week but not every day""', modify"
+H_Q01F,4,"`""Every day""', modify"
+H_Q01F,5,"`""At least once a week""', modify"
+H_Q01E_T,1,"`""Less than once a week but at least once a month""', modify"
+H_Q01E_T,2,"`""Rarely""', modify"
+H_Q01E_T,3,"`""Never""', modify"
+H_Q01E_T,4,"`""Never""', modify"
+H_Q01E,1,"`""Less than once a month""', modify"
+H_Q01E,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01E,3,"`""At least once a week but not every day""', modify"
+H_Q01E,4,"`""Every day""', modify"
+H_Q01E,5,"`""Never""', modify"
+H_Q01D,1,"`""Less than once a month""', modify"
+H_Q01D,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01D,3,"`""At least once a week but not every day""', modify"
+H_Q01D,4,"`""Every day""', modify"
+H_Q01D,5,"`""At least once a week""', modify"
+H_Q01C_T,1,"`""Less than once a week but at least once a month""', modify"
+H_Q01C_T,2,"`""Rarely""', modify"
+H_Q01C_T,3,"`""Never""', modify"
+H_Q01C_T,4,"`""Never""', modify"
+H_Q01C,1,"`""Less than once a month""', modify"
+H_Q01C,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01C,3,"`""At least once a week but not every day""', modify"
+H_Q01C,4,"`""Every day""', modify"
+H_Q01C,5,"`""At least once a week""', modify"
+H_Q01B_T,1,"`""Less than once a week but at least once a month""', modify"
+H_Q01B_T,2,"`""Rarely""', modify"
+H_Q01B_T,3,"`""Never""', modify"
+H_Q01B_T,4,"`""Never""', modify"
+H_Q01B,1,"`""Less than once a month""', modify"
+H_Q01B,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01B,3,"`""At least once a week but not every day""', modify"
+H_Q01B,4,"`""Every day""', modify"
+H_Q01B,5,"`""Never""', modify"
+H_Q01A,1,"`""Less than once a month""', modify"
+H_Q01A,2,"`""Less than once a week but at least once a month""', modify"
+H_Q01A,3,"`""At least once a week but not every day""', modify"
+H_Q01A,4,"`""Every day""', modify"
+H_Q01A,5,"`""Yes""', modify"
+G_Q08,1,"`""No""', modify"
+G_Q08,2,"`""Yes""', modify"
+G_Q07,1,"`""No""', modify"
+G_Q07,2,"`""Straightforward""', modify"
+G_Q06,1,"`""Moderate""', modify"
+G_Q06,2,"`""Complex""', modify"
+G_Q06,3,"`""Never""', modify"
+G_Q05H,1,"`""Less than once a month""', modify"
+G_Q05H,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05H,3,"`""At least once a week but not every day""', modify"
+G_Q05H,4,"`""Every day""', modify"
+G_Q05H,5,"`""Never""', modify"
+G_Q05G,1,"`""Less than once a month""', modify"
+G_Q05G,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05G,3,"`""At least once a week but not every day""', modify"
+G_Q05G,4,"`""Every day""', modify"
+G_Q05G,5,"`""Never""', modify"
+G_Q05F,1,"`""Less than once a month""', modify"
+G_Q05F,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05F,3,"`""At least once a week but not every day""', modify"
+G_Q05F,4,"`""Every day""', modify"
+G_Q05F,5,"`""Never""', modify"
+G_Q05E,1,"`""Less than once a month""', modify"
+G_Q05E,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05E,3,"`""At least once a week but not every day""', modify"
+G_Q05E,4,"`""Every day""', modify"
+G_Q05E,5,"`""Never""', modify"
+G_Q05D,1,"`""Less than once a month""', modify"
+G_Q05D,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05D,3,"`""At least once a week but not every day""', modify"
+G_Q05D,4,"`""Every day""', modify"
+G_Q05D,5,"`""Never""', modify"
+G_Q05C,1,"`""Less than once a month""', modify"
+G_Q05C,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05C,3,"`""At least once a week but not every day""', modify"
+G_Q05C,4,"`""Every day""', modify"
+G_Q05C,5,"`""Never""', modify"
+G_Q05A,1,"`""Less than once a month""', modify"
+G_Q05A,2,"`""Less than once a week but at least once a month""', modify"
+G_Q05A,3,"`""At least once a week but not every day""', modify"
+G_Q05A,4,"`""Every day""', modify"
+G_Q05A,5,"`""Yes""', modify"
+G_Q04_T,1,"`""No""', modify"
+G_Q04_T,2,"`""Yes""', modify"
+G_Q04,1,"`""No""', modify"
+G_Q04,2,"`""Never""', modify"
+G_Q03H,1,"`""Less than once a month""', modify"
+G_Q03H,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03H,3,"`""At least once a week but not every day""', modify"
+G_Q03H,4,"`""Every day""', modify"
+G_Q03H,5,"`""Never""', modify"
+G_Q03G,1,"`""Less than once a month""', modify"
+G_Q03G,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03G,3,"`""At least once a week but not every day""', modify"
+G_Q03G,4,"`""Every day""', modify"
+G_Q03G,5,"`""Never""', modify"
+G_Q03F,1,"`""Less than once a month""', modify"
+G_Q03F,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03F,3,"`""At least once a week but not every day""', modify"
+G_Q03F,4,"`""Every day""', modify"
+G_Q03F,5,"`""Never""', modify"
+G_Q03D,1,"`""Less than once a month""', modify"
+G_Q03D,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03D,3,"`""At least once a week but not every day""', modify"
+G_Q03D,4,"`""Every day""', modify"
+G_Q03D,5,"`""Never""', modify"
+G_Q03C,1,"`""Less than once a month""', modify"
+G_Q03C,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03C,3,"`""At least once a week but not every day""', modify"
+G_Q03C,4,"`""Every day""', modify"
+G_Q03C,5,"`""Never""', modify"
+G_Q03B,1,"`""Less than once a month""', modify"
+G_Q03B,2,"`""Less than once a week but at least once a month""', modify"
+G_Q03B,3,"`""At least once a week but not every day""', modify"
+G_Q03B,4,"`""Every day""', modify"
+G_Q03B,5,"`""Never""', modify"
+G_Q02D,1,"`""Less than once a month""', modify"
+G_Q02D,2,"`""Less than once a week but at least once a month""', modify"
+G_Q02D,3,"`""At least once a week but not every day""', modify"
+G_Q02D,4,"`""Every day""', modify"
+G_Q02D,5,"`""Never""', modify"
+G_Q02C,1,"`""Less than once a month""', modify"
+G_Q02C,2,"`""Less than once a week but at least once a month""', modify"
+G_Q02C,3,"`""At least once a week but not every day""', modify"
+G_Q02C,4,"`""Every day""', modify"
+G_Q02C,5,"`""Never""', modify"
+G_Q02B,1,"`""Less than once a month""', modify"
+G_Q02B,2,"`""Less than once a week but at least once a month""', modify"
+G_Q02B,3,"`""At least once a week but not every day""', modify"
+G_Q02B,4,"`""Every day""', modify"
+G_Q02B,5,"`""Never""', modify"
+G_Q02A,1,"`""Less than once a month""', modify"
+G_Q02A,2,"`""Less than once a week but at least once a month""', modify"
+G_Q02A,3,"`""At least once a week but not every day""', modify"
+G_Q02A,4,"`""Every day""', modify"
+G_Q02A,5,"`""At least once a week""', modify"
+G_Q01H_T1,1,"`""Less than once a week""', modify"
+G_Q01H_T1,2,"`""Rarely or never""', modify"
+G_Q01H_T1,3,"`""At least once a week""', modify"
+G_Q01H_T,1,"`""Less than once a week""', modify"
+G_Q01H_T,2,"`""Rarely""', modify"
+G_Q01H_T,3,"`""Never""', modify"
+G_Q01H_T,4,"`""Never""', modify"
+G_Q01H,1,"`""Less than once a month""', modify"
+G_Q01H,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01H,3,"`""At least once a week but not every day""', modify"
+G_Q01H,4,"`""Every day""', modify"
+G_Q01H,5,"`""At least once a week""', modify"
+G_Q01G_T1,1,"`""Less than once a week""', modify"
+G_Q01G_T1,2,"`""Rarely or never""', modify"
+G_Q01G_T1,3,"`""At least once a week""', modify"
+G_Q01G_T,1,"`""Less than once a week""', modify"
+G_Q01G_T,2,"`""Rarely""', modify"
+G_Q01G_T,3,"`""Never""', modify"
+G_Q01G_T,4,"`""Never""', modify"
+G_Q01G,1,"`""Less than once a month""', modify"
+G_Q01G,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01G,3,"`""At least once a week but not every day""', modify"
+G_Q01G,4,"`""Every day""', modify"
+G_Q01G,5,"`""At least once a week""', modify"
+G_Q01F_T1,1,"`""Less than once a week""', modify"
+G_Q01F_T1,2,"`""Rarely or never""', modify"
+G_Q01F_T1,3,"`""At least once a week""', modify"
+G_Q01F_T,1,"`""Less than once a week""', modify"
+G_Q01F_T,2,"`""Rarely""', modify"
+G_Q01F_T,3,"`""Never""', modify"
+G_Q01F_T,4,"`""Never""', modify"
+G_Q01F,1,"`""Less than once a month""', modify"
+G_Q01F,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01F,3,"`""At least once a week but not every day""', modify"
+G_Q01F,4,"`""Every day""', modify"
+G_Q01F,5,"`""Never""', modify"
+G_Q01E,1,"`""Less than once a month""', modify"
+G_Q01E,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01E,3,"`""At least once a week but not every day""', modify"
+G_Q01E,4,"`""Every day""', modify"
+G_Q01E,5,"`""Never""', modify"
+G_Q01D,1,"`""Less than once a month""', modify"
+G_Q01D,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01D,3,"`""At least once a week but not every day""', modify"
+G_Q01D,4,"`""Every day""', modify"
+G_Q01D,5,"`""At least once a week""', modify"
+G_Q01C_T1,1,"`""Less than once a week""', modify"
+G_Q01C_T1,2,"`""Rarely or never""', modify"
+G_Q01C_T1,3,"`""At least once a week""', modify"
+G_Q01C_T,1,"`""Less than once a week""', modify"
+G_Q01C_T,2,"`""Rarely""', modify"
+G_Q01C_T,3,"`""Never""', modify"
+G_Q01C_T,4,"`""Never""', modify"
+G_Q01C,1,"`""Less than once a month""', modify"
+G_Q01C,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01C,3,"`""At least once a week but not every day""', modify"
+G_Q01C,4,"`""Every day""', modify"
+G_Q01C,5,"`""At least once a week""', modify"
+G_Q01B_T1,1,"`""Less than once a week""', modify"
+G_Q01B_T1,2,"`""Rarely or never""', modify"
+G_Q01B_T1,3,"`""At least once a week""', modify"
+G_Q01B_T,1,"`""Less than once a week""', modify"
+G_Q01B_T,2,"`""Rarely""', modify"
+G_Q01B_T,3,"`""Never""', modify"
+G_Q01B_T,4,"`""Never""', modify"
+G_Q01B,1,"`""Less than once a month""', modify"
+G_Q01B,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01B,3,"`""At least once a week but not every day""', modify"
+G_Q01B,4,"`""Every day""', modify"
+G_Q01B,5,"`""At least once a week""', modify"
+G_Q01A_T1,1,"`""Less than once a week""', modify"
+G_Q01A_T1,2,"`""Rarely or never""', modify"
+G_Q01A_T1,3,"`""At least once a week""', modify"
+G_Q01A_T,1,"`""Less than once a week""', modify"
+G_Q01A_T,2,"`""Rarely""', modify"
+G_Q01A_T,3,"`""Never""', modify"
+G_Q01A_T,4,"`""Never""', modify"
+G_Q01A,1,"`""Less than once a month""', modify"
+G_Q01A,2,"`""Less than once a week but at least once a month""', modify"
+G_Q01A,3,"`""At least once a week but not every day""', modify"
+G_Q01A,4,"`""Every day""', modify"
+G_Q01A,5,"`""Yes""', modify"
+F_Q07B,1,"`""No""', modify"
+F_Q07B,2,"`""Yes""', modify"
+F_Q07A,1,"`""No""', modify"
+F_Q07A,2,"`""Never""', modify"
+F_Q06C,1,"`""Less than once a month""', modify"
+F_Q06C,2,"`""Less than once a week but at least once a month""', modify"
+F_Q06C,3,"`""At least once a week but not every day""', modify"
+F_Q06C,4,"`""Every day""', modify"
+F_Q06C,5,"`""Never""', modify"
+F_Q06B,1,"`""Less than once a month""', modify"
+F_Q06B,2,"`""Less than once a week but at least once a month""', modify"
+F_Q06B,3,"`""At least once a week but not every day""', modify"
+F_Q06B,4,"`""Every day""', modify"
+F_Q06B,5,"`""Never""', modify"
+F_Q05B,1,"`""Less than once a month""', modify"
+F_Q05B,2,"`""Less than once a week but at least once a month""', modify"
+F_Q05B,3,"`""At least once a week but not every day""', modify"
+F_Q05B,4,"`""Every day""', modify"
+F_Q05B,5,"`""Never""', modify"
+F_Q05A,1,"`""Less than once a month""', modify"
+F_Q05A,2,"`""Less than once a week but at least once a month""', modify"
+F_Q05A,3,"`""At least once a week but not every day""', modify"
+F_Q05A,4,"`""Every day""', modify"
+F_Q05A,5,"`""Never""', modify"
+F_Q04B,1,"`""Less than once a month""', modify"
+F_Q04B,2,"`""Less than once a week but at least once a month""', modify"
+F_Q04B,3,"`""At least once a week but not every day""', modify"
+F_Q04B,4,"`""Every day""', modify"
+F_Q04B,5,"`""Never""', modify"
+F_Q04A,1,"`""Less than once a month""', modify"
+F_Q04A,2,"`""Less than once a week but at least once a month""', modify"
+F_Q04A,3,"`""At least once a week but not every day""', modify"
+F_Q04A,4,"`""Every day""', modify"
+F_Q04A,5,"`""Never""', modify"
+F_Q03C,1,"`""Less than once a month""', modify"
+F_Q03C,2,"`""Less than once a week but at least once a month""', modify"
+F_Q03C,3,"`""At least once a week but not every day""', modify"
+F_Q03C,4,"`""Every day""', modify"
+F_Q03C,5,"`""Never""', modify"
+F_Q03B,1,"`""Less than once a month""', modify"
+F_Q03B,2,"`""Less than once a week but at least once a month""', modify"
+F_Q03B,3,"`""At least once a week but not every day""', modify"
+F_Q03B,4,"`""Every day""', modify"
+F_Q03B,5,"`""Never""', modify"
+F_Q03A,1,"`""Less than once a month""', modify"
+F_Q03A,2,"`""Less than once a week but at least once a month""', modify"
+F_Q03A,3,"`""At least once a week but not every day""', modify"
+F_Q03A,4,"`""Every day""', modify"
+F_Q03A,5,"`""Never""', modify"
+F_Q02E,1,"`""Less than once a month""', modify"
+F_Q02E,2,"`""Less than once a week but at least once a month""', modify"
+F_Q02E,3,"`""At least once a week but not every day""', modify"
+F_Q02E,4,"`""Every day""', modify"
+F_Q02E,5,"`""Never""', modify"
+F_Q02D,1,"`""Less than once a month""', modify"
+F_Q02D,2,"`""Less than once a week but at least once a month""', modify"
+F_Q02D,3,"`""At least once a week but not every day""', modify"
+F_Q02D,4,"`""Every day""', modify"
+F_Q02D,5,"`""Never""', modify"
+F_Q02C,1,"`""Less than once a month""', modify"
+F_Q02C,2,"`""Less than once a week but at least once a month""', modify"
+F_Q02C,3,"`""At least once a week but not every day""', modify"
+F_Q02C,4,"`""Every day""', modify"
+F_Q02C,5,"`""Never""', modify"
+F_Q02B,1,"`""Less than once a month""', modify"
+F_Q02B,2,"`""Less than once a week but at least once a month""', modify"
+F_Q02B,3,"`""At least once a week but not every day""', modify"
+F_Q02B,4,"`""Every day""', modify"
+F_Q02B,5,"`""Never""', modify"
+F_Q02A,1,"`""Less than once a month""', modify"
+F_Q02A,2,"`""Less than once a week but at least once a month""', modify"
+F_Q02A,3,"`""At least once a week but not every day""', modify"
+F_Q02A,4,"`""Every day""', modify"
+F_Q02A,5,"`""None of the time""', modify"
+F_Q01B,1,"`""Up to a quarter of the time""', modify"
+F_Q01B,2,"`""Up to half of the time""', modify"
+F_Q01B,3,"`""More than half of the time""', modify"
+F_Q01B,4,"`""All of the time""', modify"
+F_Q01B,5,"`""I was dismissed""', modify"
+E_Q10,1,"`""I was made redundant or took voluntary redundancy""', modify"
+E_Q10,2,"`""It was a temporary job which came to an end""', modify"
+E_Q10,3,"`""I resigned""', modify"
+E_Q10,4,"`""I gave up work for health reasons""', modify"
+E_Q10,5,"`""I took early retirement""', modify"
+E_Q10,6,"`""I retired (at or after State Pension age)""', modify"
+E_Q10,7,"`""I gave up work because of family responsibilities or child care""', modify"
+E_Q10,8,"`""I gave up work in order to study""', modify"
+E_Q10,9,"`""I left for some other reason""', modify"
+E_Q10,10,"`""An indefinite contract""', modify"
+E_Q08,1,"`""A fixed term contract""', modify"
+E_Q08,2,"`""A temporary employment agency contract""', modify"
+E_Q08,3,"`""An apprenticeship or other training scheme""', modify"
+E_Q08,4,"`""No contract""', modify"
+E_Q08,5,"`""Other""', modify"
+E_Q08,6,"`""1 to 10 people""', modify"
+E_Q07B,1,"`""11 to 50 people""', modify"
+E_Q07B,2,"`""51 to 250 people""', modify"
+E_Q07B,3,"`""251 to 1000 people""', modify"
+E_Q07B,4,"`""More than 1000 people""', modify"
+E_Q07B,5,"`""Yes""', modify"
+E_Q07A,1,"`""No""', modify"
+E_Q07A,2,"`""1 to 10 people""', modify"
+E_Q06,1,"`""11 to 50 people""', modify"
+E_Q06,2,"`""51 to 250 people""', modify"
+E_Q06,3,"`""251 to 1000 people""', modify"
+E_Q06,4,"`""More than 1000 people""', modify"
+E_Q06,5,"`""Aged 19 or younger""', modify"
+E_Q05B1_C,1,"`""Aged 20-24""', modify"
+E_Q05B1_C,2,"`""Aged 25-29""', modify"
+E_Q05B1_C,3,"`""Aged 30-34""', modify"
+E_Q05B1_C,4,"`""Aged 35-39""', modify"
+E_Q05B1_C,5,"`""Aged 40-44""', modify"
+E_Q05B1_C,6,"`""Aged 45-49""', modify"
+E_Q05B1_C,7,"`""Aged 50-54""', modify"
+E_Q05B1_C,8,"`""Aged 55 or older""', modify"
+E_Q05B1_C,9,"`""Aged 19 or younger""', modify"
+E_Q05A1_C,1,"`""Aged 20-24""', modify"
+E_Q05A1_C,2,"`""Aged 25-29""', modify"
+E_Q05A1_C,3,"`""Aged 30-34""', modify"
+E_Q05A1_C,4,"`""Aged 35-39""', modify"
+E_Q05A1_C,5,"`""Aged 40-44""', modify"
+E_Q05A1_C,6,"`""Aged 45-49""', modify"
+E_Q05A1_C,7,"`""Aged 50-54""', modify"
+E_Q05A1_C,8,"`""Aged 55 or older""', modify"
+E_Q05A1_C,9,"`""Employee""', modify"
+E_Q04,1,"`""Self-employed""', modify"
+E_Q04,2,"`""The private sector (for example a company)""', modify"
+E_Q03,1,"`""The public sector (for example the local government or a state school)""', modify"
+E_Q03,2,"`""A non-profit organisation (for example a charity, professional association or religious organisation)""', modify"
+E_Q03,3,"`""Less than #10%""', modify"
+D_Q18C2,1,"`""#10% to less than #25%""', modify"
+D_Q18C2,2,"`""#25% to less than #50%""', modify"
+D_Q18C2,3,"`""#50% to less than #75%""', modify"
+D_Q18C2,4,"`""#75% to less than #90%""', modify"
+D_Q18C2,5,"`""#90% or more""', modify"
+D_Q18C2,6,"`""Less than #10%""', modify"
+D_Q18C1,1,"`""#10% to less than #25%""', modify"
+D_Q18C1,2,"`""#25% to less than #50%""', modify"
+D_Q18C1,3,"`""#50% to less than #75%""', modify"
+D_Q18C1,4,"`""#75% to less than #90%""', modify"
+D_Q18C1,5,"`""#90% or more""', modify"
+D_Q18C1,6,"`""Yes""', modify"
+D_Q18B,1,"`""No""', modify"
+D_Q18B,2,"`""No income""', modify"
+D_Q18A_T,0,"`""Lowest quintile""', modify"
+D_Q18A_T,1,"`""Next lowest quintile""', modify"
+D_Q18A_T,2,"`""Mid-level quintile""', modify"
+D_Q18A_T,3,"`""Next to highest quintile""', modify"
+D_Q18A_T,4,"`""Highest quintile""', modify"
+D_Q18A_T,5,"`""Less than #5%""', modify"
+D_Q17D,1,"`""#5% to less than #10%""', modify"
+D_Q17D,2,"`""#10% or more""', modify"
+D_Q17D,3,"`""Yes""', modify"
+D_Q17C,1,"`""No""', modify"
+D_Q17C,2,"`""Yes""', modify"
+D_Q17A,1,"`""No""', modify"
+D_Q17A,2,"`""Less than #10%""', modify"
+D_Q16D6,1,"`""#10% to less than #25%""', modify"
+D_Q16D6,2,"`""#25% to less than #50%""', modify"
+D_Q16D6,3,"`""#50% to less than #75%""', modify"
+D_Q16D6,4,"`""#75% to less than #90%""', modify"
+D_Q16D6,5,"`""#90% or more""', modify"
+D_Q16D6,6,"`""Less than #10%""', modify"
+D_Q16D5,1,"`""#10% to less than #25%""', modify"
+D_Q16D5,2,"`""#25% to less than #50%""', modify"
+D_Q16D5,3,"`""#50% to less than #75%""', modify"
+D_Q16D5,4,"`""#75% to less than #90%""', modify"
+D_Q16D5,5,"`""#90% or more""', modify"
+D_Q16D5,6,"`""Less than #10%""', modify"
+D_Q16D4,1,"`""#10% to less than #25%""', modify"
+D_Q16D4,2,"`""#25% to less than #50%""', modify"
+D_Q16D4,3,"`""#50% to less than #75%""', modify"
+D_Q16D4,4,"`""#75% to less than #90%""', modify"
+D_Q16D4,5,"`""#90% or more""', modify"
+D_Q16D4,6,"`""Less than #10%""', modify"
+D_Q16D3,1,"`""#10% to less than #25%""', modify"
+D_Q16D3,2,"`""#25% to less than #50%""', modify"
+D_Q16D3,3,"`""#50% to less than #75%""', modify"
+D_Q16D3,4,"`""#75% to less than #90%""', modify"
+D_Q16D3,5,"`""#90% or more""', modify"
+D_Q16D3,6,"`""Less than #10%""', modify"
+D_Q16D2,1,"`""#10% to less than #25%""', modify"
+D_Q16D2,2,"`""#25% to less than #50%""', modify"
+D_Q16D2,3,"`""#50% to less than #75%""', modify"
+D_Q16D2,4,"`""#75% to less than #90%""', modify"
+D_Q16D2,5,"`""#90% or more""', modify"
+D_Q16D2,6,"`""Less than #10%""', modify"
+D_Q16D1,1,"`""#10% to less than #25%""', modify"
+D_Q16D1,2,"`""#25% to less than #50%""', modify"
+D_Q16D1,3,"`""#50% to less than #75%""', modify"
+D_Q16D1,4,"`""#75% to less than #90%""', modify"
+D_Q16D1,5,"`""#90% or more""', modify"
+D_Q16D1,6,"`""Yes""', modify"
+D_Q16C,1,"`""No""', modify"
+D_Q16C,2,"`""No income""', modify"
+D_Q16B_T,0,"`""Lowest quintile""', modify"
+D_Q16B_T,1,"`""Next lowest quintile""', modify"
+D_Q16B_T,2,"`""Mid-level quintile""', modify"
+D_Q16B_T,3,"`""Next to highest quintile""', modify"
+D_Q16B_T,4,"`""Highest quintile""', modify"
+D_Q16B_T,5,"`""Per hour""', modify"
+D_Q16A,1,"`""Per day""', modify"
+D_Q16A,2,"`""Per week""', modify"
+D_Q16A,3,"`""Per two weeks""', modify"
+D_Q16A,4,"`""Per month""', modify"
+D_Q16A,5,"`""Per year""', modify"
+D_Q16A,6,"`""Piece rate""', modify"
+D_Q16A,7,"`""I get no salary or wage at all""', modify"
+D_Q16A,8,"`""Extremely satisfied""', modify"
+D_Q14,1,"`""Satisfied""', modify"
+D_Q14,2,"`""Neither satisfied nor dissatisfied""', modify"
+D_Q14,3,"`""Dissatisfied""', modify"
+D_Q14,4,"`""Extremely dissatisfied""', modify"
+D_Q14,5,"`""Never""', modify"
+D_Q13C,1,"`""Less than once a month""', modify"
+D_Q13C,2,"`""Less than once a week but at least once a month""', modify"
+D_Q13C,3,"`""At least once a week but not every day""', modify"
+D_Q13C,4,"`""Every day""', modify"
+D_Q13C,5,"`""Never""', modify"
+D_Q13B,1,"`""Less than once a month""', modify"
+D_Q13B,2,"`""Less than once a week but at least once a month""', modify"
+D_Q13B,3,"`""At least once a week but not every day""', modify"
+D_Q13B,4,"`""Every day""', modify"
+D_Q13B,5,"`""Never""', modify"
+D_Q13A,1,"`""Less than once a month""', modify"
+D_Q13A,2,"`""Less than once a week but at least once a month""', modify"
+D_Q13A,3,"`""At least once a week but not every day""', modify"
+D_Q13A,4,"`""Every day""', modify"
+D_Q13A,5,"`""None""', modify"
+D_Q12C,1,"`""Less than 1 month""', modify"
+D_Q12C,2,"`""1 to 6 months""', modify"
+D_Q12C,3,"`""7 to 11 months""', modify"
+D_Q12C,4,"`""1 or 2 years""', modify"
+D_Q12C,5,"`""3 years or more""', modify"
+D_Q12C,6,"`""This level is necessary""', modify"
+D_Q12B,1,"`""A lower level would be sufficient""', modify"
+D_Q12B,2,"`""A higher level would be needed""', modify"
+D_Q12B,3,"`""No formal qualification or below ISCED 1""', modify"
+D_Q12A,1,"`""ISCED 1""', modify"
+D_Q12A,2,"`""ISCED 2""', modify"
+D_Q12A,3,"`""ISCED 3C shorter than 2 years""', modify"
+D_Q12A,4,"`""ISCED 3C 2 years or more""', modify"
+D_Q12A,5,"`""ISCED 3A-B""', modify"
+D_Q12A,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+D_Q12A,7,"`""ISCED 4C""', modify"
+D_Q12A,8,"`""ISCED 4A-B""', modify"
+D_Q12A,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+D_Q12A,10,"`""ISCED 5B""', modify"
+D_Q12A,11,"`""ISCED 5A, bachelor degree""', modify"
+D_Q12A,12,"`""ISCED 5A, master degree""', modify"
+D_Q12A,13,"`""ISCED 6""', modify"
+D_Q12A,14,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+D_Q12A,15,"`""Not at all""', modify"
+D_Q11D,1,"`""Very little""', modify"
+D_Q11D,2,"`""To some extent""', modify"
+D_Q11D,3,"`""To a high extent""', modify"
+D_Q11D,4,"`""To a very high extent""', modify"
+D_Q11D,5,"`""Not at all""', modify"
+D_Q11C,1,"`""Very little""', modify"
+D_Q11C,2,"`""To some extent""', modify"
+D_Q11C,3,"`""To a high extent""', modify"
+D_Q11C,4,"`""To a very high extent""', modify"
+D_Q11C,5,"`""Not at all""', modify"
+D_Q11B,1,"`""Very little""', modify"
+D_Q11B,2,"`""To some extent""', modify"
+D_Q11B,3,"`""To a high extent""', modify"
+D_Q11B,4,"`""To a very high extent""', modify"
+D_Q11B,5,"`""Not at all""', modify"
+D_Q11A,1,"`""Very little""', modify"
+D_Q11A,2,"`""To some extent""', modify"
+D_Q11A,3,"`""To a high extent""', modify"
+D_Q11A,4,"`""To a very high extent""', modify"
+D_Q11A,5,"`""0 - 20 hours""', modify"
+D_Q10_T1,1,"`""21 - 40 hours""', modify"
+D_Q10_T1,2,"`""41 - 60 hours""', modify"
+D_Q10_T1,3,"`""61 - 80 hours""', modify"
+D_Q10_T1,4,"`""81 - 100 hours""', modify"
+D_Q10_T1,5,"`""More than 100 hours""', modify"
+D_Q10_T1,6,"`""An indefinite contract""', modify"
+D_Q09,1,"`""A fixed term contract""', modify"
+D_Q09,2,"`""A temporary employment agency contract""', modify"
+D_Q09,3,"`""An apprenticeship or other training scheme""', modify"
+D_Q09,4,"`""No contract""', modify"
+D_Q09,5,"`""Other""', modify"
+D_Q09,6,"`""1 to 5 people""', modify"
+D_Q08B,1,"`""6 to 10 people""', modify"
+D_Q08B,2,"`""11 to 24 people""', modify"
+D_Q08B,3,"`""25 to 99 people""', modify"
+D_Q08B,4,"`""100 or more people""', modify"
+D_Q08B,5,"`""Yes""', modify"
+D_Q08A,1,"`""No""', modify"
+D_Q08A,2,"`""1 to 10 people""', modify"
+D_Q07B_C,1,"`""more than 10 people""', modify"
+D_Q07B_C,2,"`""1 to 10 people""', modify"
+D_Q07B,1,"`""11 to 50 people""', modify"
+D_Q07B,2,"`""51 to 250 people""', modify"
+D_Q07B,3,"`""251 to 1000 people""', modify"
+D_Q07B,4,"`""More than 1000 people""', modify"
+D_Q07B,5,"`""Yes""', modify"
+D_Q07A,1,"`""No""', modify"
+D_Q07A,2,"`""Yes""', modify"
+D_Q06C,1,"`""No""', modify"
+D_Q06C,2,"`""Increased""', modify"
+D_Q06B,1,"`""Decreased""', modify"
+D_Q06B,2,"`""Stayed more or less the same""', modify"
+D_Q06B,3,"`""1 to 10 people""', modify"
+D_Q06A,1,"`""11 to 50 people""', modify"
+D_Q06A,2,"`""51 to 250 people""', modify"
+D_Q06A,3,"`""251 to 1000 people""', modify"
+D_Q06A,4,"`""More than 1000 people""', modify"
+D_Q06A,5,"`""January""', modify"
+D_Q05B3,1,"`""February""', modify"
+D_Q05B3,2,"`""March""', modify"
+D_Q05B3,3,"`""April""', modify"
+D_Q05B3,4,"`""May""', modify"
+D_Q05B3,5,"`""June""', modify"
+D_Q05B3,6,"`""July""', modify"
+D_Q05B3,7,"`""August""', modify"
+D_Q05B3,8,"`""September""', modify"
+D_Q05B3,9,"`""October""', modify"
+D_Q05B3,10,"`""November""', modify"
+D_Q05B3,11,"`""December""', modify"
+D_Q05B3,12,"`""Aged 19 or younger""', modify"
+D_Q05B1_C,1,"`""Aged 20-24""', modify"
+D_Q05B1_C,2,"`""Aged 25-29""', modify"
+D_Q05B1_C,3,"`""Aged 30-34""', modify"
+D_Q05B1_C,4,"`""Aged 35-39""', modify"
+D_Q05B1_C,5,"`""Aged 40-44""', modify"
+D_Q05B1_C,6,"`""Aged 45-49""', modify"
+D_Q05B1_C,7,"`""Aged 50-54""', modify"
+D_Q05B1_C,8,"`""Aged 55 or older""', modify"
+D_Q05B1_C,9,"`""January""', modify"
+D_Q05A3,1,"`""February""', modify"
+D_Q05A3,2,"`""March""', modify"
+D_Q05A3,3,"`""April""', modify"
+D_Q05A3,4,"`""May""', modify"
+D_Q05A3,5,"`""June""', modify"
+D_Q05A3,6,"`""July""', modify"
+D_Q05A3,7,"`""August""', modify"
+D_Q05A3,8,"`""September""', modify"
+D_Q05A3,9,"`""October""', modify"
+D_Q05A3,10,"`""November""', modify"
+D_Q05A3,11,"`""December""', modify"
+D_Q05A3,12,"`""Aged 19 or younger""', modify"
+D_Q05A1_C,1,"`""Aged 20-24""', modify"
+D_Q05A1_C,2,"`""Aged 25-29""', modify"
+D_Q05A1_C,3,"`""Aged 30-34""', modify"
+D_Q05A1_C,4,"`""Aged 35-39""', modify"
+D_Q05A1_C,5,"`""Aged 40-44""', modify"
+D_Q05A1_C,6,"`""Aged 45-49""', modify"
+D_Q05A1_C,7,"`""Aged 50-54""', modify"
+D_Q05A1_C,8,"`""Aged 55 or older""', modify"
+D_Q05A1_C,9,"`""Employee, not supervisor""', modify"
+D_Q04_T1,1,"`""Employee, supervising fewer than 5 people""', modify"
+D_Q04_T1,2,"`""Employee, supervising more than 5 people""', modify"
+D_Q04_T1,3,"`""Self-employed or unpaid family worker""', modify"
+D_Q04_T1,4,"`""Employee, not supervisor""', modify"
+D_Q04_T,1,"`""Employee, supervising fewer than 5 people""', modify"
+D_Q04_T,2,"`""Employee, supervising more than 5 people""', modify"
+D_Q04_T,3,"`""Self-employed, not supervisor""', modify"
+D_Q04_T,4,"`""Self-employed, supervisor""', modify"
+D_Q04_T,5,"`""Unpaid family worker""', modify"
+D_Q04_T,6,"`""Employee""', modify"
+D_Q04,1,"`""Self-employed""', modify"
+D_Q04,2,"`""The private sector (for example a company)""', modify"
+D_Q03,1,"`""The public sector (for example the local government or a state school)""', modify"
+D_Q03,2,"`""A non-profit organisation (for example a charity, professional association or religious organisation)""', modify"
+D_Q03,3,"`""Yes""', modify"
+C_D09_T,1,"`""No""', modify"
+C_D09_T,2,"`""Currently working (paid or unpaid)""', modify"
+C_D09,1,"`""Recent work experience in last 12 months""', modify"
+C_D09,2,"`""Left paid work longer than 12 months ago""', modify"
+C_D09,3,"`""No work experience""', modify"
+C_D09,4,"`""Status unknown""', modify"
+C_D09,5,"`""Yes""', modify"
+C_D08C,1,"`""No or unknown""', modify"
+C_D08C,2,"`""Aged 19 or younger""', modify"
+C_Q08C1_C,1,"`""Aged 20-24""', modify"
+C_Q08C1_C,2,"`""Aged 25-29""', modify"
+C_Q08C1_C,3,"`""Aged 30-34""', modify"
+C_Q08C1_C,4,"`""Aged 35-39""', modify"
+C_Q08C1_C,5,"`""Aged 40-44""', modify"
+C_Q08C1_C,6,"`""Aged 45-49""', modify"
+C_Q08C1_C,7,"`""Aged 50-54""', modify"
+C_Q08C1_C,8,"`""Aged 55-59""', modify"
+C_Q08C1_C,9,"`""Aged 60-65""', modify"
+C_Q08C1_C,10,"`""Yes""', modify"
+C_Q08B,1,"`""No""', modify"
+C_Q08B,2,"`""Yes""', modify"
+C_Q08A,1,"`""No""', modify"
+C_Q08A,2,"`""Employed or self employed""', modify"
+C_Q07_T,1,"`""Retired""', modify"
+C_Q07_T,2,"`""Not working and looking for work""', modify"
+C_Q07_T,3,"`""Student (including work programs)""', modify"
+C_Q07_T,4,"`""Doing unpaid household work""', modify"
+C_Q07_T,5,"`""Other""', modify"
+C_Q07_T,6,"`""Full-time employed (self-employed, employee)""', modify"
+C_Q07,1,"`""Part-time employed (self-employed, employee)""', modify"
+C_Q07,2,"`""Unemployed""', modify"
+C_Q07,3,"`""Pupil, student""', modify"
+C_Q07,4,"`""Apprentice, internship""', modify"
+C_Q07,5,"`""In retirement or early retirement""', modify"
+C_Q07,6,"`""Permanently disabled""', modify"
+C_Q07,7,"`""In compulsory military or community service""', modify"
+C_Q07,8,"`""Fulfilling domestic tasks or looking after children/family""', modify"
+C_Q07,9,"`""Other""', modify"
+C_Q07,10,"`""Yes, paid work one job or business""', modify"
+C_D06,1,"`""Yes, paid work more than one job or business or number of jobs/businesses"
+C_D06,2,"`""Yes, unpaid work for family business""', modify"
+C_D06,3,"`""No""', modify"
+C_D06,4,"`""Not known""', modify"
+C_D06,5,"`""One job or business""', modify"
+C_Q06,1,"`""More than one job or business""', modify"
+C_Q06,2,"`""Employed""', modify"
+C_D05,1,"`""Unemployed""', modify"
+C_D05,2,"`""Out of the labour force""', modify"
+C_D05,3,"`""Not known""', modify"
+C_D05,4,"`""Yes""', modify"
+C_Q05,1,"`""No""', modify"
+C_Q05,2,"`""Yes""', modify"
+C_D04,1,"`""No""', modify"
+C_D04,2,"`""Not known""', modify"
+C_D04,3,"`""Yes""', modify"
+C_Q04J,1,"`""No""', modify"
+C_Q04J,2,"`""Yes""', modify"
+C_Q04I,1,"`""No""', modify"
+C_Q04I,2,"`""Yes""', modify"
+C_Q04H,1,"`""No""', modify"
+C_Q04H,2,"`""Yes""', modify"
+C_Q04G,1,"`""No""', modify"
+C_Q04G,2,"`""Yes""', modify"
+C_Q04F,1,"`""No""', modify"
+C_Q04F,2,"`""Yes""', modify"
+C_Q04E,1,"`""No""', modify"
+C_Q04E,2,"`""Yes""', modify"
+C_Q04D,1,"`""No""', modify"
+C_Q04D,2,"`""Yes""', modify"
+C_Q04C,1,"`""No""', modify"
+C_Q04C,2,"`""Yes""', modify"
+C_Q04B,1,"`""No""', modify"
+C_Q04B,2,"`""Yes""', modify"
+C_Q04A,1,"`""No""', modify"
+C_Q04A,2,"`""Marked""', modify"
+C_Q03_10,1,"`""Not marked""', modify"
+C_Q03_10,2,"`""Marked""', modify"
+C_Q03_09,1,"`""Not marked""', modify"
+C_Q03_09,2,"`""Marked""', modify"
+C_Q03_08,1,"`""Not marked""', modify"
+C_Q03_08,2,"`""Marked""', modify"
+C_Q03_07,1,"`""Not marked""', modify"
+C_Q03_07,2,"`""Marked""', modify"
+C_Q03_06,1,"`""Not marked""', modify"
+C_Q03_06,2,"`""Marked""', modify"
+C_Q03_05,1,"`""Not marked""', modify"
+C_Q03_05,2,"`""Marked""', modify"
+C_Q03_04,1,"`""Not marked""', modify"
+C_Q03_04,2,"`""Marked""', modify"
+C_Q03_03,1,"`""Not marked""', modify"
+C_Q03_03,2,"`""Marked""', modify"
+C_Q03_02,1,"`""Not marked""', modify"
+C_Q03_02,2,"`""Marked""', modify"
+C_Q03_01,1,"`""Not marked""', modify"
+C_Q03_01,2,"`""Within three months""', modify"
+C_Q02C,1,"`""In more than three months""', modify"
+C_Q02C,2,"`""Yes""', modify"
+C_Q02B,1,"`""No""', modify"
+C_Q02B,2,"`""Yes""', modify"
+C_Q02A,1,"`""No""', modify"
+C_Q02A,2,"`""Yes""', modify"
+C_Q01C,1,"`""No""', modify"
+C_Q01C,2,"`""Yes""', modify"
+C_Q01B,1,"`""No""', modify"
+C_Q01B,2,"`""Yes""', modify"
+C_Q01A,1,"`""No""', modify"
+C_Q01A,2,"`""I did not have the prerequisites""', modify"
+B_Q26B,1,"`""Education or training was too expensive/I could not afford it""', modify"
+B_Q26B,2,"`""Lack of employer’s support""', modify"
+B_Q26B,3,"`""I was too busy at work""', modify"
+B_Q26B,4,"`""The course or programme was offered at an inconvenient time or place""', modify"
+B_Q26B,5,"`""I did not have time because of child care or family responsibilities""', modify"
+B_Q26B,6,"`""Something unexpected came up that prevented me from taking education or training""', modify"
+B_Q26B,7,"`""Other""', modify"
+B_Q26B,8,"`""Yes""', modify"
+B_Q26A_T,1,"`""No""', modify"
+B_Q26A_T,2,"`""Yes""', modify"
+B_Q26A,1,"`""No""', modify"
+B_Q26A,2,"`""None of the time""', modify"
+B_Q20B,1,"`""Up to a quarter of the time""', modify"
+B_Q20B,2,"`""Up to half of the time""', modify"
+B_Q20B,3,"`""More than half of the time""', modify"
+B_Q20B,4,"`""All of the time""', modify"
+B_Q20B,5,"`""Weeks""', modify"
+B_Q17,1,"`""Days""', modify"
+B_Q17,2,"`""Hours""', modify"
+B_Q17,3,"`""Yes, totally""', modify"
+B_Q16,1,"`""Yes, partly""', modify"
+B_Q16,2,"`""No, not at all""', modify"
+B_Q16,3,"`""There were no such costs""', modify"
+B_Q16,4,"`""No employer or prospective employer at that time""', modify"
+B_Q16,5,"`""Not useful at all""', modify"
+B_Q15C,1,"`""Somewhat useful""', modify"
+B_Q15C,2,"`""Moderately useful""', modify"
+B_Q15C,3,"`""Very useful""', modify"
+B_Q15C,4,"`""Only during working hours""', modify"
+B_Q15B,1,"`""Mostly during working hours""', modify"
+B_Q15B,2,"`""Mostly outside working hours""', modify"
+B_Q15B,3,"`""Only outside working hours""', modify"
+B_Q15B,4,"`""Yes""', modify"
+B_Q15A,1,"`""No""', modify"
+B_Q15A,2,"`""To do my job better and/or improve career prospects""', modify"
+B_Q14B,1,"`""To be less likely to lose my job""', modify"
+B_Q14B,2,"`""To increase my possibilities of getting a job, or changing a job or"
+B_Q14B,3,"`""To start my own business""', modify"
+B_Q14B,4,"`""I was obliged to participate""', modify"
+B_Q14B,5,"`""To increase my knowledge or skills on a subject that interests me""', modify"
+B_Q14B,6,"`""To obtain a certificate""', modify"
+B_Q14B,7,"`""Other""', modify"
+B_Q14B,8,"`""Yes""', modify"
+B_Q14A,1,"`""No""', modify"
+B_Q14A,2,"`""A course conducted through open or distance education""', modify"
+B_Q13,1,"`""An organised session for on-the-job training or training by supervisors or co-workers""', modify"
+B_Q13,2,"`""A seminar or workshop""', modify"
+B_Q13,3,"`""Other kind of course or private lesson""', modify"
+B_Q13,4,"`""Respondent reported 1 learning activity""', modify"
+B_D12H,1,"`""Respondent reported more than 1 learning activity""', modify"
+B_D12H,2,"`""Respondent reported no learning activities""', modify"
+B_D12H,3,"`""Respondent reported learning activities but number is not known""', modify"
+B_D12H,4,"`""Information on learning activities is not known""', modify"
+B_D12H,5,"`""Yes""', modify"
+B_Q12G,1,"`""No""', modify"
+B_Q12G,2,"`""Yes""', modify"
+B_Q12E,1,"`""No""', modify"
+B_Q12E,2,"`""Yes""', modify"
+B_Q12C,1,"`""No""', modify"
+B_Q12C,2,"`""Yes""', modify"
+B_Q12A_T,1,"`""No""', modify"
+B_Q12A_T,2,"`""Yes""', modify"
+B_Q12A,1,"`""No""', modify"
+B_Q12A,2,"`""Yes, totally""', modify"
+B_Q11,1,"`""Yes, partly""', modify"
+B_Q11,2,"`""No, not at all""', modify"
+B_Q11,3,"`""There were no such costs""', modify"
+B_Q11,4,"`""No employer or prospective employer at that time""', modify"
+B_Q11,5,"`""Not useful at all""', modify"
+B_Q10C,1,"`""Somewhat useful""', modify"
+B_Q10C,2,"`""Moderately useful""', modify"
+B_Q10C,3,"`""Very useful""', modify"
+B_Q10C,4,"`""Only during working hours""', modify"
+B_Q10B,1,"`""Mostly during working hours""', modify"
+B_Q10B,2,"`""Mostly outside working hours""', modify"
+B_Q10B,3,"`""Only outside working hours""', modify"
+B_Q10B,4,"`""Yes""', modify"
+B_Q10A,1,"`""No""', modify"
+B_Q10A,2,"`""Yes""', modify"
+B_Q05C_T,1,"`""No""', modify"
+B_Q05C_T,2,"`""Yes""', modify"
+B_Q05C,1,"`""No""', modify"
+B_Q05C,2,"`""General programmes""', modify"
+B_Q05B,1,"`""Teacher training and education science""', modify"
+B_Q05B,2,"`""Humanities, languages and arts""', modify"
+B_Q05B,3,"`""Social sciences, business and law""', modify"
+B_Q05B,4,"`""Science, mathematics and computing""', modify"
+B_Q05B,5,"`""Engineering, manufacturing and construction""', modify"
+B_Q05B,6,"`""Agriculture and veterinary""', modify"
+B_Q05B,7,"`""Health and welfare""', modify"
+B_Q05B,8,"`""Services""', modify"
+B_Q05B,9,"`""ISCED 1""', modify"
+B_Q05A,1,"`""ISCED 2""', modify"
+B_Q05A,2,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q05A,3,"`""ISCED 3C 2 years or more""', modify"
+B_Q05A,4,"`""ISCED 3A-B""', modify"
+B_Q05A,5,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q05A,6,"`""ISCED 4C""', modify"
+B_Q05A,7,"`""ISCED 4A-B""', modify"
+B_Q05A,8,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q05A,9,"`""ISCED 5B""', modify"
+B_Q05A,10,"`""ISCED 5A, bachelor degree""', modify"
+B_Q05A,11,"`""ISCED 5A, master degree""', modify"
+B_Q05A,12,"`""ISCED 6""', modify"
+B_Q05A,13,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+B_Q05A,14,"`""Yes""', modify"
+B_Q04A,1,"`""No""', modify"
+B_Q04A,2,"`""less than 1 year""', modify"
+B_D03D_C,1,"`""1 to less than 2 years""', modify"
+B_D03D_C,2,"`""2 years or more""', modify"
+B_D03D_C,3,"`""January""', modify"
+B_Q03D,1,"`""February""', modify"
+B_Q03D,2,"`""March""', modify"
+B_Q03D,3,"`""April""', modify"
+B_Q03D,4,"`""May""', modify"
+B_Q03D,5,"`""June""', modify"
+B_Q03D,6,"`""July""', modify"
+B_Q03D,7,"`""August""', modify"
+B_Q03D,8,"`""September""', modify"
+B_Q03D,9,"`""October""', modify"
+B_Q03D,10,"`""November""', modify"
+B_Q03D,11,"`""December""', modify"
+B_Q03D,12,"`""Aged 15 or younger""', modify"
+B_Q03C1_C,1,"`""Aged 16-19""', modify"
+B_Q03C1_C,2,"`""Aged 20-24""', modify"
+B_Q03C1_C,3,"`""Aged 25-29""', modify"
+B_Q03C1_C,4,"`""Aged 30-34""', modify"
+B_Q03C1_C,5,"`""Aged 35 or older""', modify"
+B_Q03C1_C,6,"`""ISCED 3c and below""', modify"
+B_Q03B_C,1,"`""ISCED 3c long, 3A-B""', modify"
+B_Q03B_C,2,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q03B_C,3,"`""ISCED 4C""', modify"
+B_Q03B_C,4,"`""ISCED 4A-B""', modify"
+B_Q03B_C,5,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q03B_C,6,"`""ISCED 5B""', modify"
+B_Q03B_C,7,"`""ISCED 5A, bachelor degree""', modify"
+B_Q03B_C,8,"`""ISCED 5A, master degree, and ISCED 6 (without distinction)""', modify"
+B_Q03B_C,9,"`""ISCED 5A bachelor degree, 5A master degree, and ISCED 6 (without distinction)""', modify"
+B_Q03B_C,10,"`""ISCED 1""', modify"
+B_Q03B,1,"`""ISCED 2""', modify"
+B_Q03B,2,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q03B,3,"`""ISCED 3C 2 years or more""', modify"
+B_Q03B,4,"`""ISCED 3A-B""', modify"
+B_Q03B,5,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q03B,6,"`""ISCED 4C""', modify"
+B_Q03B,7,"`""ISCED 4A-B""', modify"
+B_Q03B,8,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q03B,9,"`""ISCED 5B""', modify"
+B_Q03B,10,"`""ISCED 5A, bachelor degree""', modify"
+B_Q03B,11,"`""ISCED 5A, master degree""', modify"
+B_Q03B,12,"`""ISCED 6""', modify"
+B_Q03B,13,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+B_Q03B,14,"`""Yes""', modify"
+B_Q03A,1,"`""No""', modify"
+B_Q03A,2,"`""General programmes""', modify"
+B_Q02C,1,"`""Teacher training and education science""', modify"
+B_Q02C,2,"`""Humanities, languages and arts""', modify"
+B_Q02C,3,"`""Social sciences, business and law""', modify"
+B_Q02C,4,"`""Science, mathematics and computing""', modify"
+B_Q02C,5,"`""Engineering, manufacturing and construction""', modify"
+B_Q02C,6,"`""Agriculture and veterinary""', modify"
+B_Q02C,7,"`""Health and welfare""', modify"
+B_Q02C,8,"`""Services""', modify"
+B_Q02C,9,"`""ISCED 3c and below""', modify"
+B_Q02B_C,1,"`""ISCED 3c long, 3A-B""', modify"
+B_Q02B_C,2,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q02B_C,3,"`""ISCED 4C""', modify"
+B_Q02B_C,4,"`""ISCED 4A-B""', modify"
+B_Q02B_C,5,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q02B_C,6,"`""ISCED 5B""', modify"
+B_Q02B_C,7,"`""ISCED 5A, bachelor degree""', modify"
+B_Q02B_C,8,"`""ISCED 5A, master degree, and ISCED 6 (without distinction)""', modify"
+B_Q02B_C,9,"`""ISCED 5A bachelor degree, 5A master degree, and ISCED 6 (without distinction)""', modify"
+B_Q02B_C,10,"`""ISCED 1""', modify"
+B_Q02B,1,"`""ISCED 2""', modify"
+B_Q02B,2,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q02B,3,"`""ISCED 3C 2 years or more""', modify"
+B_Q02B,4,"`""ISCED 3A-B""', modify"
+B_Q02B,5,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q02B,6,"`""ISCED 4C""', modify"
+B_Q02B,7,"`""ISCED 4A-B""', modify"
+B_Q02B,8,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q02B,9,"`""ISCED 5B""', modify"
+B_Q02B,10,"`""ISCED 5A, bachelor degree""', modify"
+B_Q02B,11,"`""ISCED 5A, master degree""', modify"
+B_Q02B,12,"`""ISCED 6""', modify"
+B_Q02B,13,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+B_Q02B,14,"`""Yes""', modify"
+B_Q02A_T2,1,"`""No""', modify"
+B_Q02A_T2,2,"`""Yes""', modify"
+B_Q02A_T1,1,"`""No""', modify"
+B_Q02A_T1,2,"`""Yes""', modify"
+B_Q02A,1,"`""No""', modify"
+B_Q02A,2,"`""less than 1 year""', modify"
+B_D01D_C,1,"`""1 to less than 2 years""', modify"
+B_D01D_C,2,"`""2 to less than 5 years""', modify"
+B_D01D_C,3,"`""5 to less than 10 years""', modify"
+B_D01D_C,4,"`""10 years or more""', modify"
+B_D01D_C,5,"`""January""', modify"
+B_Q01D,1,"`""February""', modify"
+B_Q01D,2,"`""March""', modify"
+B_Q01D,3,"`""April""', modify"
+B_Q01D,4,"`""May""', modify"
+B_Q01D,5,"`""June""', modify"
+B_Q01D,6,"`""July""', modify"
+B_Q01D,7,"`""August""', modify"
+B_Q01D,8,"`""September""', modify"
+B_Q01D,9,"`""October""', modify"
+B_Q01D,10,"`""November""', modify"
+B_Q01D,11,"`""December""', modify"
+B_Q01D,12,"`""Aged 15 or younger""', modify"
+B_Q01C1_C,1,"`""Aged 16-19""', modify"
+B_Q01C1_C,2,"`""Aged 20-24""', modify"
+B_Q01C1_C,3,"`""Aged 25-29""', modify"
+B_Q01C1_C,4,"`""Aged 30-34""', modify"
+B_Q01C1_C,5,"`""Aged 35 or older""', modify"
+B_Q01C1_C,6,"`""General programmes""', modify"
+B_Q01B,1,"`""Teacher training and education science""', modify"
+B_Q01B,2,"`""Humanities, languages and arts""', modify"
+B_Q01B,3,"`""Social sciences, business and law""', modify"
+B_Q01B,4,"`""Science, mathematics and computing""', modify"
+B_Q01B,5,"`""Engineering, manufacturing and construction""', modify"
+B_Q01B,6,"`""Agriculture and veterinary""', modify"
+B_Q01B,7,"`""Health and welfare""', modify"
+B_Q01B,8,"`""Services""', modify"
+B_Q01B,9,"`""No formal qualification or below ISCED 1""', modify"
+B_Q01A3_C,1,"`""ISCED 1""', modify"
+B_Q01A3_C,2,"`""ISCED 2""', modify"
+B_Q01A3_C,3,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q01A3_C,4,"`""ISCED 3C 2 years or more""', modify"
+B_Q01A3_C,5,"`""ISCED 3A-B""', modify"
+B_Q01A3_C,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q01A3_C,7,"`""ISCED 4C""', modify"
+B_Q01A3_C,8,"`""ISCED 4A-B""', modify"
+B_Q01A3_C,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q01A3_C,10,"`""ISCED 5B""', modify"
+B_Q01A3_C,11,"`""ISCED 5A, bachelor degree""', modify"
+B_Q01A3_C,12,"`""ISCED 5A, master degree, and ISCED 6 (without distinction)""', modify"
+B_Q01A3_C,13,"`""ISCED 5A bachelor degree, 5A master degree, and ISCED 6 (without distinction)""', modify"
+B_Q01A3_C,14,"`""No formal qualification or below ISCED 1""', modify"
+B_Q01A3,1,"`""ISCED 1""', modify"
+B_Q01A3,2,"`""ISCED 2""', modify"
+B_Q01A3,3,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q01A3,4,"`""ISCED 3C 2 years or more""', modify"
+B_Q01A3,5,"`""ISCED 3A-B""', modify"
+B_Q01A3,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q01A3,7,"`""ISCED 4C""', modify"
+B_Q01A3,8,"`""ISCED 4A-B""', modify"
+B_Q01A3,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q01A3,10,"`""ISCED 5B""', modify"
+B_Q01A3,11,"`""ISCED 5A, bachelor degree""', modify"
+B_Q01A3,12,"`""ISCED 5A, master degree""', modify"
+B_Q01A3,13,"`""ISCED 6""', modify"
+B_Q01A3,14,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+B_Q01A3,15,"`""Less than high school""', modify"
+B_Q01A_T,1,"`""High school""', modify"
+B_Q01A_T,2,"`""Above high school""', modify"
+B_Q01A_T,3,"`""Not definable""', modify"
+B_Q01A_T,4,"`""No formal qualification or below ISCED 1""', modify"
+B_Q01A,1,"`""ISCED 1""', modify"
+B_Q01A,2,"`""ISCED 2""', modify"
+B_Q01A,3,"`""ISCED 3C shorter than 2 years""', modify"
+B_Q01A,4,"`""ISCED 3C 2 years or more""', modify"
+B_Q01A,5,"`""ISCED 3A-B""', modify"
+B_Q01A,6,"`""ISCED 3 (without distinction A-B-C, 2y+)""', modify"
+B_Q01A,7,"`""ISCED 4C""', modify"
+B_Q01A,8,"`""ISCED 4A-B""', modify"
+B_Q01A,9,"`""ISCED 4 (without distinction A-B-C)""', modify"
+B_Q01A,10,"`""ISCED 5B""', modify"
+B_Q01A,11,"`""ISCED 5A, bachelor degree""', modify"
+B_Q01A,12,"`""ISCED 5A, master degree""', modify"
+B_Q01A,13,"`""ISCED 6""', modify"
+B_Q01A,14,"`""Foreign qualification""', modify"
+B_Q01A,15,"`""ISCED 5A bachelor degree, 5A master degree, and 6 (without distinction)""', modify"
+B_Q01A,16,"`""Male""', modify"
+A_N01_T,1,"`""Female""', modify"
+A_N01_T,2,"`""Not assigned""', modify"
+DISP_MAINWRC,0,"`""Complete""', modify"
+DISP_MAINWRC,1,"`""Partial complete/breakoff""', modify"
+DISP_MAINWRC,3,"`""Refusal - Sample person""', modify"
+DISP_MAINWRC,4,"`""Refusal - Other""', modify"
+DISP_MAINWRC,5,"`""Language problem""', modify"
+DISP_MAINWRC,7,"`""Reading and writing difficulty""', modify"
+DISP_MAINWRC,8,"`""Learning/mental disability""', modify"
+DISP_MAINWRC,9,"`""Hearing impairment""', modify"
+DISP_MAINWRC,12,"`""Blindness/visual impairment""', modify"
+DISP_MAINWRC,13,"`""Speech impairment""', modify"
+DISP_MAINWRC,14,"`""Physical disability""', modify"
+DISP_MAINWRC,15,"`""Other disability""', modify"
+DISP_MAINWRC,16,"`""Other (unspecified), such as sickness or unusual circumstances""', modify"
+DISP_MAINWRC,17,"`""Death""', modify"
+DISP_MAINWRC,18,"`""Maximum number of calls""', modify"
+DISP_MAINWRC,21,"`""Temporarily absent/unavailable during field period""', modify"
+DISP_MAINWRC,24,"`""Ineligible""', modify"
+DISP_MAINWRC,25,"`""Duplication - already interviewed""', modify"
+DISP_MAINWRC,27,"`""Technical problem occurred""', modify"
+DISP_MAINWRC,90,"`""Missing paper booklet""', modify"
+DISP_MAINWRC,91,"`""Not assigned""', modify"
+DISP_MAIN,0,"`""Complete""', modify"
+DISP_MAIN,1,"`""Partial complete/breakoff""', modify"
+DISP_MAIN,3,"`""Refusal - Sample person""', modify"
+DISP_MAIN,4,"`""Refusal - Other""', modify"
+DISP_MAIN,5,"`""Language problem""', modify"
+DISP_MAIN,7,"`""Reading and writing difficulty""', modify"
+DISP_MAIN,8,"`""Learning/mental disability""', modify"
+DISP_MAIN,9,"`""Hearing impairment""', modify"
+DISP_MAIN,12,"`""Blindness/visual impairment""', modify"
+DISP_MAIN,13,"`""Speech impairment""', modify"
+DISP_MAIN,14,"`""Physical disability""', modify"
+DISP_MAIN,15,"`""Other disability""', modify"
+DISP_MAIN,16,"`""Other (unspecified), such as sickness or unusual circumstances""', modify"
+DISP_MAIN,17,"`""Death""', modify"
+DISP_MAIN,18,"`""Maximum number of calls""', modify"
+DISP_MAIN,21,"`""Temporarily absent/unavailable during field period""', modify"
+DISP_MAIN,24,"`""Ineligible""', modify"
+DISP_MAIN,25,"`""Duplication - already interviewed""', modify"
+DISP_MAIN,27,"`""Technical problem occurred""', modify"
+DISP_MAIN,90,"`""Missing paper booklet""', modify"
+DISP_MAIN,91,"`""Not assigned""', modify"
+DISP_CIBQ,0,"`""Complete""', modify"
+DISP_CIBQ,1,"`""Partial complete/breakoff""', modify"
+DISP_CIBQ,3,"`""Refusal - Sample person""', modify"
+DISP_CIBQ,4,"`""Refusal - Other""', modify"
+DISP_CIBQ,5,"`""Language problem""', modify"
+DISP_CIBQ,7,"`""Reading and writing difficulty""', modify"
+DISP_CIBQ,8,"`""Learning/mental disability""', modify"
+DISP_CIBQ,9,"`""Hearing impairment""', modify"
+DISP_CIBQ,12,"`""Blindness/visual impairment""', modify"
+DISP_CIBQ,13,"`""Speech impairment""', modify"
+DISP_CIBQ,14,"`""Physical disability""', modify"
+DISP_CIBQ,15,"`""Other disability""', modify"
+DISP_CIBQ,16,"`""Other (unspecified), such as sickness or unusual circumstances""', modify"
+DISP_CIBQ,17,"`""Death""', modify"
+DISP_CIBQ,18,"`""Maximum number of calls""', modify"
+DISP_CIBQ,21,"`""Temporarily absent/unavailable during field period""', modify"
+DISP_CIBQ,24,"`""Ineligible""', modify"
+DISP_CIBQ,25,"`""Duplication - already interviewed""', modify"
+DISP_CIBQ,27,"`""Technical problem""', modify"
+DISP_CIBQ,90,"`""Male""', modify"
+GENDER_R,1,"`""Female""', modify"
+GENDER_R,2,"`""Australia""', modify"
+CNTRYID_E,36,"`""Austria""', modify"
+CNTRYID_E,40,"`""Canada""', modify"
+CNTRYID_E,124,"`""Cyprus""', modify"
+CNTRYID_E,196,"`""Czech Republic""', modify"
+CNTRYID_E,203,"`""Denmark""', modify"
+CNTRYID_E,208,"`""Estonia""', modify"
+CNTRYID_E,233,"`""Finland""', modify"
+CNTRYID_E,246,"`""France""', modify"
+CNTRYID_E,250,"`""Germany""', modify"
+CNTRYID_E,276,"`""Ireland""', modify"
+CNTRYID_E,372,"`""Italy""', modify"
+CNTRYID_E,380,"`""Japan""', modify"
+CNTRYID_E,392,"`""Korea""', modify"
+CNTRYID_E,410,"`""Netherlands""', modify"
+CNTRYID_E,528,"`""Norway""', modify"
+CNTRYID_E,578,"`""Poland""', modify"
+CNTRYID_E,616,"`""Russian Federation""', modify"
+CNTRYID_E,643,"`""Slovak Republic""', modify"
+CNTRYID_E,703,"`""Spain""', modify"
+CNTRYID_E,724,"`""Sweden""', modify"
+CNTRYID_E,752,"`""United States""', modify"
+CNTRYID_E,840,"`""England (UK)""', modify"
+CNTRYID_E,926,"`""Northern Ireland (UK)""', modify"
+CNTRYID_E,928,"`""Flanders (Belgium)""', modify"
+CNTRYID_E,956,"`""Canada (English)""', modify"
+CNTRYID_E,1241,"`""Canada (French)""', modify"
+CNTRYID_E,1242,"`""England/N. Ireland (UK)""', modify"
+CNTRYID_E,8261,"`""Australia""', modify"
+CNTRYID,36,"`""Austria""', modify"
+CNTRYID,40,"`""Belgium""', modify"
+CNTRYID,56,"`""Canada""', modify"
+CNTRYID,124,"`""Cyprus""', modify"
+CNTRYID,196,"`""Czech Republic""', modify"
+CNTRYID,203,"`""Denmark""', modify"
+CNTRYID,208,"`""Estonia""', modify"
+CNTRYID,233,"`""Finland""', modify"
+CNTRYID,246,"`""France""', modify"
+CNTRYID,250,"`""Germany""', modify"
+CNTRYID,276,"`""Ireland""', modify"
+CNTRYID,372,"`""Italy""', modify"
+CNTRYID,380,"`""Japan""', modify"
+CNTRYID,392,"`""Korea""', modify"
+CNTRYID,410,"`""Netherlands""', modify"
+CNTRYID,528,"`""Norway""', modify"
+CNTRYID,578,"`""Poland""', modify"
+CNTRYID,616,"`""Russian Federation""', modify"
+CNTRYID,643,"`""Slovak Republic""', modify"
+CNTRYID,703,"`""Spain""', modify"
+CNTRYID,724,"`""Sweden""', modify"
+CNTRYID,752,"`""United Kingdom""', modify"
+CNTRYID,826,"`""United States""', modify"
+CNTRYID,840,
+,,
+,,
+drop,,
+lamf,,
+,,
+  Labelling...,,
+cntryid_lab,,
+cntry_lab,,
+cntryid_e_lab,,
+cntry_e_lab,,
+caseid_lab,,
+seqid_lab,,
+samptype_lab,,
+calcage_lab,,
+dobyy_lab,,
+dobmm_lab,,
+age_r_lab,,
+gender_r_lab,,
+disp_scr_lab,,
+ci_persid_lab,,
+ci_gender_lab,,
+ci_month_lab,,
+ci_year_lab,,
+ci_age_lab,,
+disp_ci_lab,,
+disp_ci_in_lab,,
+disp_8_lab,,
+disp_9_lab,,
+bqlang_lab,,
+a_d01a1_lab,,
+a_d01a2_lab,,
+a_d01a3_lab,,
+a_q01a_lab,,
+a_q01b_lab,,
+a_n01_lab,,
+a_n01_t_lab,,
+b_q01a_lab,,
+b_q01a_t_lab,,
+b_s01a1_lab,,
+b_s016_lab,,
+b_s017_lab,,
+b_s01a2_lab,,
+b_s014_lab,,
+b_s015_lab,,
+b_q01a3_lab,,
+b_q01a3_c_lab,,
+b_q01b_lab,,
+b_q01c1_lab,,
+b_q01c1_c_lab,,
+b_q01c1_t_lab,,
+b_q01c2_lab,,
+b_q01d_lab,,
+b_d01d_lab,,
+b_d01d_c_lab,,
+b_q02a_lab,,
+b_q02a_t1_lab,,
+b_q02a_t2_lab,,
+b_q02b_lab,,
+b_q02b_c_lab,,
+b_q02c_lab,,
+b_q03a_lab,,
+b_q03b_lab,,
+b_q03b_c_lab,,
+b_q03c1_lab,,
+b_q03c1_c_lab,,
+b_q03c2_lab,,
+b_q03d_lab,,
+b_d03d_lab,,
+b_d03d_c_lab,,
+b_q04a_lab,,
+b_q04b_lab,,
+b_q04b_c_lab,,
+b_q05a_lab,,
+b_q05b_lab,,
+b_q05c_lab,,
+b_q05c_t_lab,,
+b_q10a_lab,,
+b_q10b_lab,,
+b_q10c_lab,,
+b_q11_lab,,
+b_q12a_lab,,
+b_q12a_t_lab,,
+b_q12b_lab,,
+b_q12c_lab,,
+b_q12d_lab,,
+b_q12d_c_lab,,
+b_q12e_lab,,
+b_q12f_lab,,
+b_q12f_c_lab,,
+b_q12g_lab,,
+b_q12h_lab,,
+b_q12h_c_lab,,
+b_d12h_lab,,
+b_q13_lab,,
+b_q14a_lab,,
+b_q14b_lab,,
+b_q15a_lab,,
+b_q15b_lab,,
+b_q15c_lab,,
+b_q16_lab,,
+b_q17_lab,,
+b_q18a_lab,,
+b_q19a_lab,,
+b_q20a_lab,,
+b_q20b_lab,,
+b_q26a_lab,,
+b_q26a_t_lab,,
+b_q26b_lab,,
+c_q01a_lab,,
+c_q01b_lab,,
+c_q01c_lab,,
+c_q02a_lab,,
+c_q02b_lab,,
+c_q02c_lab,,
+c_q03_01_lab,,
+c_q03_02_lab,,
+c_q03_03_lab,,
+c_q03_04_lab,,
+c_q03_05_lab,,
+c_q03_06_lab,,
+c_q03_07_lab,,
+c_q03_08_lab,,
+c_q03_09_lab,,
+c_q03_10_lab,,
+c_s03_lab,,
+c_q04a_lab,,
+c_q04b_lab,,
+c_q04c_lab,,
+c_q04d_lab,,
+c_q04e_lab,,
+c_q04f_lab,,
+c_q04g_lab,,
+c_q04h_lab,,
+c_q04i_lab,,
+c_q04j_lab,,
+c_s04j_lab,,
+c_s040_lab,,
+c_d04_lab,,
+c_q05_lab,,
+c_d05_lab,,
+c_q06_lab,,
+c_d06_lab,,
+c_q07_lab,,
+c_q07_t_lab,,
+c_q08a_lab,,
+c_q08b_lab,,
+c_q08c1_lab,,
+c_q08c1_c_lab,,
+c_q08c2_lab,,
+c_d08c_lab,,
+c_q09_lab,,
+c_q09_c_lab,,
+c_d09_lab,,
+c_d09_t_lab,,
+c_q10a_lab,,
+c_q10a_c_lab,,
+d_q01a_lab,,
+d_q012_lab,,
+d_q013_lab,,
+d_q01b_lab,,
+d_q010_lab,,
+d_q011_lab,,
+d_q02a_lab,,
+d_q022_lab,,
+d_q023_lab,,
+d_q02b_lab,,
+d_q020_lab,,
+d_q021_lab,,
+d_q03_lab,,
+d_q04_lab,,
+d_q04_t_lab,,
+d_q04_t1_lab,,
+d_q05a1_lab,,
+d_q05a1_c_lab,,
+d_q05a2_lab,,
+d_q05a3_lab,,
+d_q05b1_lab,,
+d_q05b1_c_lab,,
+d_q05b2_lab,,
+d_q05b3_lab,,
+d_q06a_lab,,
+d_q06b_lab,,
+d_q06c_lab,,
+d_q07a_lab,,
+d_q07b_lab,,
+d_q07b_c_lab,,
+d_q08a_lab,,
+d_q08b_lab,,
+d_q09_lab,,
+d_s09_lab,,
+d_s090_lab,,
+d_s091_lab,,
+d_q10_lab,,
+d_q10_c_lab,,
+d_q10_t_lab,,
+d_q10_t1_lab,,
+d_q11a_lab,,
+d_q11b_lab,,
+d_q11c_lab,,
+d_q11d_lab,,
+d_q12a_lab,,
+d_q12b_lab,,
+d_q12c_lab,,
+d_q13a_lab,,
+d_q13b_lab,,
+d_q13c_lab,,
+d_q14_lab,,
+d_q16a_lab,,
+d_s16a_lab,,
+d_d16a_lab,,
+d_q16b_lab,,
+d_q16b_t_lab,,
+d_q16c_lab,,
+d_q16d1_lab,,
+d_q16d2_lab,,
+d_q16d3_lab,,
+d_q16d4_lab,,
+d_q16d5_lab,,
+d_q16d6_lab,,
+d_q17a_lab,,
+d_q17b_lab,,
+d_q17c_lab,,
+d_q17d_lab,,
+d_q18a_lab,,
+d_q18b_lab,,
+d_q18c1_lab,,
+d_q18c2_lab,,
+e_q01a_lab,,
+e_q012_lab,,
+e_q013_lab,,
+e_q01b_lab,,
+e_q010_lab,,
+e_q011_lab,,
+e_q02a_lab,,
+e_q022_lab,,
+e_q023_lab,,
+e_q02b_lab,,
+e_q020_lab,,
+e_q021_lab,,
+e_q03_lab,,
+e_q04_lab,,
+e_q05a1_lab,,
+e_q05a1_c_lab,,
+e_q05a2_lab,,
+e_q05b1_lab,,
+e_q05b1_c_lab,,
+e_q05b2_lab,,
+e_q06_lab,,
+e_q07a_lab,,
+e_q07b_lab,,
+e_q08_lab,,
+e_s08_lab,,
+e_s080_lab,,
+e_s081_lab,,
+e_q09_lab,,
+e_q09_c_lab,,
+e_q10_lab,,
+f_q01b_lab,,
+f_q02a_lab,,
+f_q02b_lab,,
+f_q02c_lab,,
+f_q02d_lab,,
+f_q02e_lab,,
+f_q03a_lab,,
+f_q03b_lab,,
+f_q03c_lab,,
+f_q04a_lab,,
+f_q04b_lab,,
+f_q05a_lab,,
+f_q05b_lab,,
+f_q06b_lab,,
+f_q06c_lab,,
+f_q07a_lab,,
+f_q07b_lab,,
+g_q01a_lab,,
+g_q01a_t_lab,,
+g_q01a_t1_lab,,
+g_q01b_lab,,
+g_q01b_t_lab,,
+g_q01b_t1_lab,,
+g_q01c_lab,,
+g_q01c_t_lab,,
+g_q01c_t1_lab,,
+g_q01d_lab,,
+g_q01e_lab,,
+g_q01f_lab,,
+g_q01f_t_lab,,
+g_q01f_t1_lab,,
+g_q01g_lab,,
+g_q01g_t_lab,,
+g_q01g_t1_lab,,
+g_q01h_lab,,
+g_q01h_t_lab,,
+g_q01h_t1_lab,,
+g_q02a_lab,,
+g_q02b_lab,,
+g_q02c_lab,,
+g_q02d_lab,,
+g_q03b_lab,,
+g_q03c_lab,,
+g_q03d_lab,,
+g_q03f_lab,,
+g_q03g_lab,,
+g_q03h_lab,,
+g_q04_lab,,
+g_q04_t_lab,,
+g_q05a_lab,,
+g_q05c_lab,,
+g_q05d_lab,,
+g_q05e_lab,,
+g_q05f_lab,,
+g_q05g_lab,,
+g_q05h_lab,,
+g_q06_lab,,
+g_q07_lab,,
+g_q08_lab,,
+h_q01a_lab,,
+h_q01b_lab,,
+h_q01b_t_lab,,
+h_q01c_lab,,
+h_q01c_t_lab,,
+h_q01d_lab,,
+h_q01e_lab,,
+h_q01e_t_lab,,
+h_q01f_lab,,
+h_q01g_lab,,
+h_q01h_lab,,
+h_q02a_lab,,
+h_q02b_lab,,
+h_q02c_lab,,
+h_q02d_lab,,
+h_q03b_lab,,
+h_q03c_lab,,
+h_q03d_lab,,
+h_q03f_lab,,
+h_q03g_lab,,
+h_q03h_lab,,
+h_q04a_lab,,
+h_q04b_lab,,
+h_q05a_lab,,
+h_q05c_lab,,
+h_q05d_lab,,
+h_q05e_lab,,
+h_q05f_lab,,
+h_q05g_lab,,
+h_q05h_lab,,
+i_q04b_lab,,
+i_q04d_lab,,
+i_q04h_lab,,
+i_q04j_lab,,
+i_q04l_lab,,
+i_q04m_lab,,
+i_q05f_lab,,
+i_q06a_lab,,
+i_q07a_lab,,
+i_q07b_lab,,
+i_q08_lab,,
+i_q08_t_lab,,
+j_q01_lab,,
+j_q01_c_lab,,
+j_q01_t_lab,,
+j_q01_t1_lab,,
+j_q02a_lab,,
+j_q02c_lab,,
+j_q03a_lab,,
+j_q03b_lab,,
+j_q03b_c_lab,,
+j_q03c_lab,,
+j_q03c_c_lab,,
+j_q03d1_lab,,
+j_q03d1_c_lab,,
+j_q03d2_lab,,
+j_q03d2_c_lab,,
+j_q04a_lab,,
+j_q04a_t_lab,,
+j_s04b_lab,,
+j_s042_lab,,
+j_s043_lab,,
+j_q04c1_lab,,
+j_q04c1_c_lab,,
+j_q04c2_lab,,
+j_q04c2_t_lab,,
+j_q04c2_t1_lab,,
+j_s05a1_lab,,
+j_s054_lab,,
+j_s055_lab,,
+j_n05a2_lab,,
+j_s05a2_lab,,
+j_s052_lab,,
+j_s053_lab,,
+j_s05b_lab,,
+j_s050_lab,,
+j_s051_lab,,
+j_q06a_lab,,
+j_q06a_t_lab,,
+j_q06b_lab,,
+j_q06b_t_lab,,
+j_q07a_lab,,
+j_q07a_t_lab,,
+j_q07b_lab,,
+j_q07b_t_lab,,
+j_q08_lab,,
+computerexperience_lab,,
+nativespeaker_lab,,
+edlevel3_lab,,
+disp_bq_lab,,
+disp_bq_in_lab,,
+disp_6_lab,,
+disp_7_lab,,
+cilang_lab,,
+cba_core_stage1_score_lab,,
+cba_core_stage2_score_lab,,
+corestage1_pass_lab,,
+corestage2_pass_lab,,
+random_cba_module1_lab,,
+random_cba_module2_lab,,
+random_cba_module1_stage1_lab,,
+random_cba_module1_stage2_lab,,
+random_cba_module2_stage1_lab,,
+random_cba_module2_stage2_lab,,
+disp_core_lab,,
+cba_start_lab,,
+disp_cba_lab,,
+disp_cba_in_lab,,
+disp_4_lab,,
+disp_5_lab,,
+bookid_ppc_lab,,
+ppc_u600_lab,,
+ppc_u301_lab,,
+ppc_u330a_lab,,
+ppc_u302_lab,,
+ppc_u300_lab,,
+ppc_u601_lab,,
+ppc_u614_lab,,
+ppc_u645_lab,,
+ppc_score_lab,,
+random_pp_lab,,
+bookid_pp1_lab,,
+bookid_pp2_lab,,
+disp_pp_lab,,
+disp_pp_in_lab,,
+disp_2_lab,,
+disp_3_lab,,
+bookid_prc_lab,,
+prc_pv_q1_lab,,
+prc_sp_q1_lab,,
+prc_pf_q1_lab,,
+prc_pf_q2_lab,,
+prc_pf_q3_lab,,
+disp_prc_lab,,
+disp_prc_in_lab,,
+disp_0_lab,,
+disp_1_lab,,
+paper_lab,,
+cbamod1_lab,,
+cbamod2_lab,,
+cbamod2alt_lab,,
+cbamod1stg1_lab,,
+cbamod2stg1_lab,,
+cbamod1stg2_lab,,
+cbamod2stg2_lab,,
+monthlyincpr_lab,,
+yearlyincpr_lab,,
+etsageg5_lab,,
+pbroute_lab,,
+active_section_lab,,
+globaldispcode_lab,,
+isced_hf_lab,,
+isced_hf_c_lab,,
+isco08_c_lab,,
+isco88_c_lab,,
+isco08_l_lab,,
+isco88_l_lab,,
+isic4_c_lab,,
+isic4_l_lab,,
+lng_l1_lab,,
+lng_l2_lab,,
+lng_home_lab,,
+cnt_h_lab,,
+cnt_brth_lab,,
+reg_tl2_lab,,
+lng_bq_lab,,
+lng_ci_lab,,
+yrsqual_lab,,
+yrsqual_t_lab,,
+yrsget_lab,,
+vet_lab,,
+ctryqual_lab,,
+birthrgn_lab,,
+firlgrgn_lab,,
+seclgrgn_lab,,
+homlgrgn_lab,,
+forbornlang_lab,,
+pared_lab,,
+nativelang_lab,,
+bornlang_lab,,
+natbilang_lab,,
+forbilang_lab,,
+homlang_lab,,
+ctryrgn_lab,,
+impar_lab,,
+imgen_lab,,
+imyrs_lab,,
+imyrs_c_lab,,
+imyrcat_lab,,
+ageg5lfs_lab,,
+ageg10lfs_lab,,
+ageg10lfs_t_lab,,
+edcat8_lab,,
+edcat7_lab,,
+edcat6_lab,,
+leaver1624_lab,,
+leavedu_lab,,
+fe12_lab,,
+aetpop_lab,,
+faet12_lab,,
+faet12jr_lab,,
+faet12njr_lab,,
+nfe12_lab,,
+nfe12jr_lab,,
+nfe12njr_lab,,
+fnfaet12_lab,,
+fnfe12jr_lab,,
+fnfaet12jr_lab,,
+fnfaet12njr_lab,,
+edwork_lab,,
+neet_lab,,
+nfehrsnjr_lab,,
+nfehrsjr_lab,,
+nfehrs_lab,,
+nopaidworkever_lab,,
+paidwork12_lab,,
+paidwork5_lab,,
+iscoskil4_lab,,
+isic1l_lab,,
+isic2l_lab,,
+isic1c_lab,,
+isic2c_lab,,
+isco1c_lab,,
+isco2c_lab,,
+isco1l_lab,,
+isco2l_lab,,
+pvlit1_lab,,
+pvlit2_lab,,
+pvlit3_lab,,
+pvlit4_lab,,
+pvlit5_lab,,
+pvlit6_lab,,
+pvlit7_lab,,
+pvlit8_lab,,
+pvlit9_lab,,
+pvlit10_lab,,
+pvnum1_lab,,
+pvnum2_lab,,
+pvnum3_lab,,
+pvnum4_lab,,
+pvnum5_lab,,
+pvnum6_lab,,
+pvnum7_lab,,
+pvnum8_lab,,
+pvnum9_lab,,
+pvnum10_lab,,
+pvpsl1_lab,,
+pvpsl2_lab,,
+pvpsl3_lab,,
+pvpsl4_lab,,
+pvpsl5_lab,,
+pvpsl6_lab,,
+pvpsl7_lab,,
+pvpsl8_lab,,
+pvpsl9_lab,,
+pvpsl10_lab,,
+vemethod_lab,,
+vemethodn_lab,,
+vefayfac_lab,,
+venreps_lab,,
+varstrat_lab,,
+varunit_lab,,
+spfwt0_lab,,
+spfwt1_lab,,
+spfwt2_lab,,
+spfwt3_lab,,
+spfwt4_lab,,
+spfwt5_lab,,
+spfwt6_lab,,
+spfwt7_lab,,
+spfwt8_lab,,
+spfwt9_lab,,
+spfwt10_lab,,
+spfwt11_lab,,
+spfwt12_lab,,
+spfwt13_lab,,
+spfwt14_lab,,
+spfwt15_lab,,
+spfwt16_lab,,
+spfwt17_lab,,
+spfwt18_lab,,
+spfwt19_lab,,
+spfwt20_lab,,
+spfwt21_lab,,
+spfwt22_lab,,
+spfwt23_lab,,
+spfwt24_lab,,
+spfwt25_lab,,
+spfwt26_lab,,
+spfwt27_lab,,
+spfwt28_lab,,
+spfwt29_lab,,
+spfwt30_lab,,
+spfwt31_lab,,
+spfwt32_lab,,
+spfwt33_lab,,
+spfwt34_lab,,
+spfwt35_lab,,
+spfwt36_lab,,
+spfwt37_lab,,
+spfwt38_lab,,
+spfwt39_lab,,
+spfwt40_lab,,
+spfwt41_lab,,
+spfwt42_lab,,
+spfwt43_lab,,
+spfwt44_lab,,
+spfwt45_lab,,
+spfwt46_lab,,
+spfwt47_lab,,
+spfwt48_lab,,
+spfwt49_lab,,
+spfwt50_lab,,
+spfwt51_lab,,
+spfwt52_lab,,
+spfwt53_lab,,
+spfwt54_lab,,
+spfwt55_lab,,
+spfwt56_lab,,
+spfwt57_lab,,
+spfwt58_lab,,
+spfwt59_lab,,
+spfwt60_lab,,
+spfwt61_lab,,
+spfwt62_lab,,
+spfwt63_lab,,
+spfwt64_lab,,
+spfwt65_lab,,
+spfwt66_lab,,
+spfwt67_lab,,
+spfwt68_lab,,
+spfwt69_lab,,
+spfwt70_lab,,
+spfwt71_lab,,
+spfwt72_lab,,
+spfwt73_lab,,
+spfwt74_lab,,
+spfwt75_lab,,
+spfwt76_lab,,
+spfwt77_lab,,
+spfwt78_lab,,
+spfwt79_lab,,
+spfwt80_lab,,
+inpiaac_lab,,
+icthome_wle_lab,,
+ictwork_wle_lab,,
+influence_wle_lab,,
+learnatwork_wle_lab,,
+numhome_wle_lab,,
+numwork_wle_lab,,
+planning_wle_lab,,
+readhome_wle_lab,,
+readwork_wle_lab,,
+readytolearn_wle_lab,,
+taskdisc_wle_lab,,
+writhome_wle_lab,,
+writwork_wle_lab,,
+icthome_lab,,
+ictwork_lab,,
+influence_lab,,
+learnatwork_lab,,
+numhome_lab,,
+numwork_lab,,
+planning_lab,,
+readhome_lab,,
+readwork_lab,,
+readytolearn_lab,,
+taskdisc_lab,,
+writhome_lab,,
+writwork_lab,,
+icthome_wle_ca_lab,,
+ictwork_wle_ca_lab,,
+influence_wle_ca_lab,,
+learnatwork_wle_ca_lab,,
+numhome_wle_ca_lab,,
+numwork_wle_ca_lab,,
+planning_wle_ca_lab,,
+readhome_wle_ca_lab,,
+readwork_wle_ca_lab,,
+readytolearn_wle_ca_lab,,
+taskdisc_wle_ca_lab,,
+writhome_wle_ca_lab,,
+writwork_wle_ca_lab,,
+icthome_se_wle_lab,,
+ictwork_se_wle_lab,,
+influence_se_wle_lab,,
+learnatwork_se_wle_lab,,
+numhome_se_wle_lab,,
+numwork_se_wle_lab,,
+planning_se_wle_lab,,
+readhome_se_wle_lab,,
+readwork_se_wle_lab,,
+readytolearn_se_wle_lab,,
+taskdisc_se_wle_lab,,
+writhome_se_wle_lab,,
+earnhr_lab,,
+earnhrbonus_lab,,
+earnmth_lab,,
+earnmthbonus_lab,,
+earnmthall_lab,,
+earnhrppp_lab,,
+earnhrbonusppp_lab,,
+earnmthppp_lab,,
+earnmthbonusppp_lab,,
+earnmthselfppp_lab,,
+earnmthallppp_lab,,
+earnhrdcl_lab,,
+earnhrbonusdcl_lab,,
+earnmthalldcl_lab,,
+earnflag_lab,,
+d_q18a_t_lab,,
+persid_lab,,
+oecd_flag_lab,,
+round_lab,,
+cntry_out_lab,,
+techprob_lab,,
+disp_cibq_lab,,
+disp_main_lab,,
+disp_mainwrc_lab,,
+trimgrps_lab,,
+bookid_ppb_lab,,
+isco1c_n_lab,,
+isic1c_n_lab,,
+litstatus_lab,,
+numstatus_lab,,
+pslstatus_lab,,
+prc_pv_scr_lab,,
+prc_sp_scr_lab,,
+prc_pc_scr_lab,,

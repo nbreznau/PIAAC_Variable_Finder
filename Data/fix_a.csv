@@ -1,0 +1,62 @@
+generic_label_de_a,variable,generic_label_en_a,cycle_a,soft_trend_explanation_a,trend_a,trend_var_a
+Geburtsland,J_Q04b,Country of birth,Cycle 1,NA,Strict,A2_Q03b
+"Muttersprache, die in der Kindheit zu Hause gelernt wurde",J_Q05a1,First language learned at home in childhood,Cycle 1,NA,Strict,A2_Q04a1
+In der Kindheit zu Hause gelernte Zweitsprache,J_Q05a2,Second language learned at home in childhood,Cycle 1,NA,Strict,A2_Q04a2
+"Sprache, die derzeit zu Hause am häufigsten gesprochen wird",J_Q05b,Language most commonly spoken at home currently,Cycle 1,NA,Strict,A2_Q04b
+"Gesamtzeit, die für das Training aufgewendet wurde",B_Q18,Total time spent on training,Cycle 1,The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions.,Soft,B2_Q21
+"Gesamtzeit, die für das Training aufgewendet wurde",B_Q19,Total time spent on training,Cycle 1,The measurement of total time spent on training was changed asking only for the number of hours spent on the last training activity. This was done after the pretest results indicated that this measure resulted in mostly the same kind of answers as in the more complex set of questions.,Soft,B2_Q21
+Geburtsland,A2_Q03b,Country of birth,Cycle 2,NA,Strict,J_Q04b
+"Muttersprache, die in der Kindheit zu Hause gelernt wurde",A2_Q04a1,First language learned at home in childhood,Cycle 2,NA,Strict,J_Q05a1
+In der Kindheit zu Hause gelernte Zweitsprache,A2_Q04a2,Second language learned at home in childhood,Cycle 2,NA,Strict,J_Q05a2
+"Sprache, die derzeit zu Hause am häufigsten gesprochen wird",A2_Q04b,Language most commonly spoken at home currently,Cycle 2,NA,Strict,J_Q05b
+Mutter mit der höchsten Bildung,J2_Q04b,Highest education mother,Cycle 2,ISCED categories changed,Soft,J_Q06b
+Vater mit höchster Bildung,J2_Q05b,Highest education father,Cycle 2,ISCED categories changed,Soft,J_Q07b
+Ländername ausländische Bildung,B_Q01a2,Country name foreign education,Cycle 1,NA,Cy1 only,NA
+Politische Wirksamkeit,I_Q06b,Political efficacy,Cycle 1,NA,Cy1 only,NA
+Weitere Qualifikationen erworben,B2_Q02a,Obtained other qualifications,Cycle 2,NA,New in Cy2,NA
+Welche weiteren Qualifikationen erworben wurden,B2_Q02b,Which other qualifications obtained,Cycle 2,NA,New in Cy2,NA
+Land mit höchster Bildung,B2_Q03b,Country of highest education,Cycle 2,NA,New in Cy2,NA
+"Die Qualifikation, den Job zu bekommen, ist auch die Qualifikation, den Job auszuführen",D2_Q12b,Qualification to get the job is also qualification to do the job,Cycle 2,NA,New in Cy2,NA
+Erforderliche Ausbildung für die aktuelle Tätigkeit,D2_Q12c,Required education for doing current job,Cycle 2,NA,New in Cy2,NA
+"Die Qualifikation, den Job zu bekommen, ist auch die Qualifikation, den Job auszuführen",E2_Q10b,Qualification to get the job is also qualification to do the job,Cycle 2,NA,New in Cy2,NA
+Erforderliche Ausbildung für die letzte Tätigkeit,E2_Q10c,Required education for doing last job,Cycle 2,NA,New in Cy2,NA
+Lesen Sie Beiträge oder Kommentare in sozialen Medien,F2_Q01g,Read posts or commentaries on social media,Cycle 2,NA,New in Cy2,NA
+Schreiben Sie Beiträge oder Kommentare in sozialen Medien,F2_Q02d,Write posts or commentaries on social media,Cycle 2,NA,New in Cy2,NA
+Lesen Sie Beiträge oder Kommentare in sozialen Medien,G2_Q01g,Read posts or commentaries on social media,Cycle 2,NA,New in Cy2,NA
+Schreiben Sie Beiträge oder Kommentare in sozialen Medien,G2_Q02d,Write posts or commentaries on social media,Cycle 2,NA,New in Cy2,NA
+Bestimmen der Art oder des Inhalts der Arbeit,H2_Q11,Determining nature or content of work,Cycle 2,NA,New in Cy2,NA
+Leistungsbeurteilungs-/Bewertungsgespräch,H2_Q15a,Performance appraisal/evaluation interview,Cycle 2,NA,New in Cy2,NA
+Konsequenzen Leistungsbeurteilung,H2_Q16,Consequences performance appraisal,Cycle 2,NA,New in Cy2,NA
+"Fähigkeiten in Bezug auf die Anforderungen, die bei Arbeitsbeginn erforderlich sind",H2_Q20,Skills in relation to what is required when started job,Cycle 2,NA,New in Cy2,NA
+Während der Kindheit anwesende Mutter/Erziehungsberechtigte,J2_Q04a,Mother/female guardian present during childhood,Cycle 2,NA,New in Cy2,NA
+Vater/Erziehungsberechtigte während der Kindheit anwesend,J2_Q05a,Father/female guardian present during childhood,Cycle 2,NA,New in Cy2,NA
+Extraversion – Geselligkeit,K2_Q01a,Extraversion - Sociability,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Mitgefühl,K2_Q01b,Agreeableness - Compassion,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Organisation,K2_Q01c,Conscientiousness - Organization,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Angst,K2_Q01d,Emotional Stability - Anxiety,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – ästhetische Sensibilität,K2_Q01e,Open-Mindedness - Aesthetic Sensitivity,Cycle 2,NA,New in Cy2,NA
+Extraversion – Durchsetzungsvermögen,K2_Q02a,Extraversion - Assertiveness,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Respekt,K2_Q02b,Agreeableness - Respectfulness,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Produktivität,K2_Q02c,Conscientiousness - Productiveness,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Depression,K2_Q02d,Emotional Stability - Depression,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – intellektuelle Neugier,K2_Q02e,Open-Mindedness - Intellectual Curiosity,Cycle 2,NA,New in Cy2,NA
+Extraversion – Energieniveau,K2_Q03a,Extraversion - Energy level,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Vertrauen,K2_Q03b,Agreeableness - Trust,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Verantwortung,K2_Q03c,Conscientiousness - Responsibility,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Emotionale Volatilität,K2_Q03d,Emotional Stability - Emotional Volatility,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – kreative Vorstellungskraft,K2_Q03e,Open-Mindedness - Creative imagination,Cycle 2,NA,New in Cy2,NA
+Extraversion – Geselligkeit,K2_Q04a,Extraversion - Sociability,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Mitgefühl,K2_Q04b,Agreeableness - Compassion,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Organisation,K2_Q04c,Conscientiousness - Organization,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Angst,K2_Q04d,Emotional Stability - Anxiety,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – ästhetische Sensibilität,K2_Q04e,Open-Mindedness - Aesthetic Sensitivity,Cycle 2,NA,New in Cy2,NA
+Extraversion – Durchsetzungsvermögen,K2_Q05a,Extraversion - Assertiveness,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Respekt,K2_Q05b,Agreeableness - Respectfulness,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Produktivität,K2_Q05c,Conscientiousness - Productiveness,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Depression,K2_Q05d,Emotional Stability - Depression,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – intellektuelle Neugier,K2_Q05e,Open-Mindedness - Intellectual Curiosity,Cycle 2,NA,New in Cy2,NA
+Extraversion – Energieniveau,K2_Q06a,Extraversion - Energy level,Cycle 2,NA,New in Cy2,NA
+Verträglichkeit – Vertrauen,K2_Q06b,Agreeableness - Trust,Cycle 2,NA,New in Cy2,NA
+Gewissenhaftigkeit – Verantwortung,K2_Q06c,Conscientiousness - Responsibility,Cycle 2,NA,New in Cy2,NA
+Emotionale Stabilität – Emotionale Volatilität,K2_Q06d,Emotional Stability - Emotional Volatility,Cycle 2,NA,New in Cy2,NA
+Aufgeschlossenheit – kreative Vorstellungskraft,K2_Q06e,Open-Mindedness - Creative Imagination,Cycle 2,NA,New in Cy2,NA

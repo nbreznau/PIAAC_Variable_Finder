@@ -1,0 +1,10 @@
+name: PIAAC_Variable_Finder
+title:
+username: nate-breznau
+account: nate-breznau
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14126164
+bundleId: 9925888
+url: https://nate-breznau.shinyapps.io/PIAAC_Variable_Finder/
+version: 1
