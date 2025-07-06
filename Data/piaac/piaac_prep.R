@@ -13,12 +13,12 @@ library(haven)
 # https://webfs.oecd.org/piaac/index.html
 
 
-# Step 2: Identify and combine ...2.csv files
+# Step 2: Identify and combine ...1.csv files
 file_list <- list.files(path = here::here("Data", "piaac", "cycle1csvs"), pattern = "1\\.csv$", full.names = TRUE)
 
 combined_data <- file_list %>%
   lapply(read_delim, 
-         delim = ";", 
+         delim = ",", 
          col_types = cols(.default = col_character())) %>%  
   bind_rows()
 

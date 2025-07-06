@@ -327,11 +327,14 @@ write_rds(df14, here("Data", "df.RDS"))
 # for the PUF
 
 df <- readRDS(here("Data", "df.RDS"))
-df_piaac <- subset(read_csv(here("Data", "piaac_combined.csv"), show_col_types = F), CNTRYID == 276 | CNTRYID == 826)
+df_piaac <- read_csv(here("Data", "piaac_combined.csv"), show_col_types = FALSE) %>%
+  filter(CNTRYID == 276 | CNTRYID == 826)
+# playing around with filter v subset (doesn't seem to matter)
 df_piaac2 <- subset(read_csv(here("Data", "piaac_combined_2.csv"), show_col_types = F), CNTRYID == 276 | CNTRYID == 826)
 
 vars <- df$variable
 
+# find variables with non-missings for at least one of the cycle-country cases
 df$notin <- vapply(vars, function(v) {
   if (v %in% names(df_piaac)) {
     all(is.na(df_piaac[[v]]))  # 1 if column exists and all NA
