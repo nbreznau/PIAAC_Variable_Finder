@@ -57,8 +57,16 @@ ui <- fluidPage(
           strong("License CCBY4.0"), br(),
           "Please cite as:", br(),
           strong("Breznau, Nate. 2025. PIAAC Variable Finder."), br(),
-          "German Institute for Adult Education - Leibniz Center for Lifelong Learning."
+          tags$small(
+            "German Institute for Adult Education - Leibniz Center for Lifelong Learning.", br(),
+            tags$a(
+              href = "https://doi.org/10.5281/zenodo.15817634",
+              "https://doi.org/10.5281/zenodo.15817634",
+              target = "_blank"
+            )
+          )
         ),
+
         
         br(),
         

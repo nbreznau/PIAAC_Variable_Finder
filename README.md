@@ -4,6 +4,8 @@ The PIAAC Variable Finder: An interactive Shiny app for cleaning, interpreting a
 Nate Breznau, breznau.nate@gmail.com
 German Institute for Adult Education - Leibniz Centre for Lifelong Learning
 
+![Logo](/Shiny/www/zeonodo.15817634.svg)
+
 ### App Deployment Options
 
 #### Permanent deployment at shinyapps.io
