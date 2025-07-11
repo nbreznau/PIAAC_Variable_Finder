@@ -392,3 +392,28 @@ df <- df %>%
 write_rds(df, here("Data", "df16.RDS"))
 
 write_rds(df, here("Data", "df.RDS"))
+
+# Redundancy between "Cy2 only" and "New in Cy2"
+
+#df <- read_rds(here("Data", "df16.RDS"))
+
+df <- df %>%
+  mutate(trend = ifelse(trend == "New in Cy2", "Cy2 only", trend),
+         responses_en = responses_en %>%
+                    str_replace_all("c\\(", "") %>%
+                    str_replace_all("numeric\\(0\\)", "Numeric") %>%
+                    str_replace_all("=\\s?1\\)", "=1") %>%
+                    str_replace_all("=\\s?2\\)", "=2") %>%
+                    str_replace_all("=\\s?3\\)", "=3") %>%
+                    str_replace_all("=\\s?4\\)", "=4") %>%
+                    str_replace_all("=\\s?5\\)", "=5") %>%
+                    str_replace_all("=\\s?5\\)", "=6") %>%
+                    str_replace_all("=\\s?5\\)", "=7") %>%
+                    str_replace_all("=\\s?10\\)", "=10"),
+         responses_de = ifelse(responses_de == "#VALUE!", NA, responses_de)
+           )
+
+df <- df %>%
+  mutate(responses_en = ifelse(responses_en == "numeri0)", "Numeric", responses_en))
+
+

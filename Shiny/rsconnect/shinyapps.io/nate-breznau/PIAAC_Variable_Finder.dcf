@@ -5,6 +5,6 @@ account: nate-breznau
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14126164
-bundleId: 10571668
+bundleId: 10601250
 url: https://nate-breznau.shinyapps.io/PIAAC_Variable_Finder/
 version: 1

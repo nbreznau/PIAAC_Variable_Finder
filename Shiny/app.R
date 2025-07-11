@@ -48,7 +48,7 @@ ui <- fluidPage(
       ),
       
       tags$a(href = guide_link, strong("User's Guide"), target = "_blank", download = NA),
-    
+      
       br(), br(),
       
       tags$div(
@@ -66,7 +66,7 @@ ui <- fluidPage(
             )
           )
         ),
-
+        
         
         br(),
         
@@ -87,7 +87,7 @@ ui <- fluidPage(
         column(12, DTOutput("search_results"))
       ),
       fluidRow(
-        column(12, verbatimTextOutput("selected_row"))
+        column(12, uiOutput("selected_row"))
       )
     )
   )
@@ -167,27 +167,34 @@ server <- function(input, output, session) {
     df_selected[selected_index, , drop = FALSE]  
   })
   
-  output$selected_row <- renderPrint({
+  output$selected_row <- renderUI({
     row <- selected_row_data()
     
-    if (nrow(row) == 0) {
-      return("No results.")
+    if (nrow(row) == 0) return("No results.")
+    
+    explanation <- if (!is.na(row$soft_trend_explanation) && row$trend == "Soft") {
+      paste0(" <strong>Explanation:</strong> ", row$soft_trend_explanation)
+    } else {
+      ""
     }
     
-    cat("VARIABLE: ", row$variable, "\n")
-    cat("LABEL: ", row$generic_label_en, "\n")
-    cat("CYCLE: ", row$cycle, "\n")
-    cat("NON-MISSING in PUF: ", row$none, "\n")
-    cat("TREND STATUS: ", row$trend, " TREND VAR: ", row$trend_var, "\n")
-    cat(" \n")
-    cat("QUESTION TEXT EN: ", row$question_text_en, "\n")
-    cat("RESPONSES EN: ", row$responses_en, "\n")
-    cat(" \n")
-    cat("QUESTION TEXT DE: ", row$question_text_de, "\n")
-    cat("RESPONSES DE: ", row$responses_de, "\n")
-    
-    related_vars <- paste(na.omit(c(row$trend_var, row$ref_variables)), collapse = ", ")
-    cat("Related variables: ", related_vars, "\n")
+    HTML(paste0(
+      "<strong>VARIABLE:</strong> ", row$variable, "<br>",
+      "<strong>LABEL:</strong> ", row$generic_label_en, "<br>",
+      "<strong>CYCLE:</strong> ", row$cycle, "<br>",
+      "<strong>NON-MISSING in PUF:</strong> ", row$none, "<br>",
+      "<strong>TREND STATUS:</strong> ", row$trend, explanation, "<br>", 
+      "<strong>TREND VAR:</strong> ", row$trend_var, "<br>",
+      "<br>",
+      "<strong>QUESTION TEXT EN:</strong> ", row$question_text_en, "<br>",
+      "<strong>RESPONSES EN:</strong> ", row$responses_en, "<br>",
+      "<br>",
+      "<strong>QUESTION TEXT DE:</strong> ", row$question_text_de, "<br>",
+      "<strong>RESPONSES DE:</strong> ", row$responses_de, "<br>",
+      "<br>",
+      "<strong>Related variables:</strong> ",
+      paste(na.omit(c(row$trend_var, row$ref_variables)), collapse = ", ")
+    ))
   })
 }
 
