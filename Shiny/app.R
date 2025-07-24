@@ -12,7 +12,7 @@ is_local <- Sys.getenv("SHINY_PORT") == ""
 guide_link <- if (is_local) {
   "The PIAAC Variable Finder Users Guide.pdf"
 } else {
-  "https://github.com/nbreznau/PIAAC_VET_basics/blob/main/Shiny/www/The%20PIAAC%20Variable%20Finder%20Users%20Guide.pdf"
+  "https://github.com/nbreznau/PIAAC_Variable_Finder/blob/main/Shiny/www/The%20PIAAC%20Variable%20Finder%20Users%20Guide.pdf"
 }
 
 ui <- fluidPage(
