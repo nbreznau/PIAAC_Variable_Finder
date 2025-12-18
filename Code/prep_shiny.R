@@ -391,7 +391,7 @@ df <- df %>%
 
 write_rds(df, here("Data", "df16.RDS"))
 
-write_rds(df, here("Data", "df.RDS"))
+#write_rds(df, here("Data", "df.RDS"))
 
 # Redundancy between "Cy2 only" and "New in Cy2"
 
@@ -414,6 +414,117 @@ df <- df %>%
            )
 
 df <- df %>%
-  mutate(responses_en = ifelse(responses_en == "numeri0)", "Numeric", responses_en))
+  mutate(responses_en = ifelse(responses_en == "numeri0)", "Numeric", responses_en),
+         question_text_en = ifelse(variable %in% c("F2_Q01a", "F2_Q01b", "F2_Q01c", "F2_Q01d", "F2_Q01e", "F2_Q01f", "F2_Q01A_T", "F2_Q01A_T1", "F2_Q01B_T", "F2_Q01B_T1", "F2_Q01C_T", "F2_Q01C_T1", "F2_Q01E_T", "F2_Q01E_T1"),
+                                   "IF (^C2_D10 = 1) THEN =^F2_D01a = The following questions are about reading activities that you undertake as part of your current job. Please only report reading that is part of your current job, not reading you do in your non-work time. Include all forms of reading, including any reading you might do on computer screens, tablets or other electronic displays. ELSE =^F2_D01a = The following questions are about reading activities that you undertook as part of your last job. Please only report 
+                                   reading that was part of your last job, not reading you did in your non-work time. Include all forms of reading, including any reading you did on computer screens, tablets or other electronic displays.", 
+                                   question_text_en),
+         question_text_de = ifelse(variable %in% c("F2_Q01a", "F2_Q01b", "F2_Q01c", "F2_Q01d", "F2_Q01e", "F2_Q01f", "F2_Q01A_T", "F2_Q01A_T1", "F2_Q01B_T", "F2_Q01B_T1", "F2_Q01C_T", "F2_Q01C_T1", "F2_Q01E_T", "F2_Q01E_T1"),
+                                   "IF (^C2_D10 = 1) 
+                                   THEN =^F2_D01a = In den folgenden Fragen geht es darum, inwieweit Sie im Rahmen Ihrer derzeitigen Arbeit lesen. Bitte berücksichtigen Sie dabei auch das Lesen an Computerbildschirmen, Tablets oder anderen elektronischen Geräten. Bitte denken Sie jedoch nicht an das Lesen in Ihrer Freizeit.
+                                   ELSE =^F2_D01a = In den folgenden Fragen geht es darum, inwieweit Sie im Rahmen Ihrer letzten Arbeit gelesen haben. Bitte berücksichtigen Sie dabei auch das Lesen an Computerbildschirmen, Tablets oder anderen elektronischen Geräten. Bitte denken Sie jedoch nicht an das Lesen in Ihrer Freizeit.", 
+                                   question_text_de))
+
+# Fix time skill use at work questions, specific to each variable
+
+df <- df %>%
+  mutate(question_text_de = if_else(variable == "F2_Q01a", paste("wie oft haben Sie normalerweise: Anleitungen oder Anweisungen gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01a", paste("How often do you usually: read directions or instructions? ...", question_text_en, sep = ": "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q01b", paste("wie oft haben Sie normalerweise: Briefe, Notizen oder E-Mails gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01b", paste("How often do you usually: read letters, memos or e-mails? ...", question_text_en, sep = ": "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q01c", paste("wie oft haben Sie normalerweise: Artikel in Zeitungen, Zeitschriften oder Newsletter gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01c", paste("How often do you usually: read articles in newspapers, magazines or newsletters? ...", question_text_en, sep = ": "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q01d", paste("wie oft haben Sie normalerweise: Bücher, wissenschaftliche Veröffentlichungen oder Artikel in Fachzeitschriften gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01d", paste("How often do you usually: read books, scholarly publications, or articles in professional journals? ...", question_text_en, sep = ": "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q01e", paste("wie oft haben Sie normalerweise: Handbücher oder Nachschlagewerke gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01e", paste("How often do you usually: read manuals or reference materials? ...", question_text_en, sep = ": "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q01f", paste("wie oft haben Sie normalerweise: Rechnungen, Bankauszüge oder Ähnliches gelesen? ...", question_text_de, sep = ": "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q01f", paste("How often do you usually: read bills, invoices, bank statements or other financial statements? ...", question_text_en, sep = ": "), question_text_en),
+  )
 
 
+F2_Q02prompt_en <- "[The following questions are about writing activities that you undertake as part of your current job (last job). Include any writing you might do (you did) on computers, tablets or other electronic devices.] In your current job (last job), how often do you usually" 
+F2_Q02prompt_de <- "[In den folgenden Fragen geht es darum, inwieweit Sie im Rahmen Ihrer derzeitigen Arbeit (letzten Arbeit) schreiben (geschrieben haben). Bitte berücksichtigen Sie dabei auch das Schreiben am Computer, auf Tablets oder anderen elektronischen Geräten.] Bei Ihrer derzeitigen Arbeit (letzten Arbeit), wie oft haben Sie normalerweise"
+F2_Q03prompt_en <- "[The following questions are about activities that you undertake as part of your current job (last job) and that involve numbers, quantities, numerical information, statistics or mathematics.] In your current job (last job), how often do you usually" 
+F2_Q03prompt_de <- "[In den folgenden Fragen geht es um Tätigkeiten im Rahmen Ihrer derzeitigen Arbeit (letzten Arbeit), die mit Zahlen, Mengenangaben, Statistik oder Mathematik zu tun haben.] Bei Ihrer derzeitigen Arbeit (letzten Arbeit), wie oft haben Sie normalerweise"
+
+
+
+
+df <- df %>%
+  mutate(question_text_en = if_else(variable == "F2_Q02a", paste(F2_Q02prompt_en, "write letters, memos or e-mails?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q02a", paste(F2_Q02prompt_de, "Briefe, Notizen oder E-Mails geschrieben?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "G_Q02a", paste(F2_Q02prompt_en, "write letters, memos or e-mails?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "G_Q02a", paste(F2_Q02prompt_de, "Briefe, Notizen oder E-Mails geschrieben?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q02b", paste(F2_Q02prompt_en, "write reports or articles?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q02b", paste(F2_Q02prompt_de, "Berichte oder Artikel geschrieben?", sep = " "), question_text_de),
+         c_vars = if_else(variable %in% c("G_Q02b", "G_Q02c"), "F2_Q02b", c_vars),
+         question_text_en = if_else(variable == "G_Q02b", paste(F2_Q02prompt_en, "write articles?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "G_Q02b", paste(F2_Q02prompt_de, "Artikel geschrieben?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "G_Q02c", paste(F2_Q02prompt_en, "write reports?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "G_Q02c", paste(F2_Q02prompt_de, "Berichte geschrieben?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q02c", paste(F2_Q02prompt_en, "Fill in forms?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q02c", paste(F2_Q02prompt_de, "Formulare ausgefüllt?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "G_Q02d", paste(F2_Q02prompt_en, "Fill in forms?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "G_Q02d", paste(F2_Q02prompt_de, "Formulare ausgefüllt?", sep = " "), question_text_de))
+
+df <- df %>%
+  mutate(question_text_en = if_else(variable == "F2_Q03a", paste(F2_Q03prompt_en, "undertake calculations, such as calculating prices, costs or quantities?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q03a", paste(F2_Q03prompt_de, "Berechnungen durchgeführt, z.B. von Preisen, Kosten oder Mengen?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q03b", paste(F2_Q03prompt_en, "use maps, plans or GPS for finding directions and locations?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q03b", paste(F2_Q03prompt_de, "Karten, Pläne oder Navigationssysteme benutzt, um Wegbeschreibungen oder Orte zu finden?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q03c", paste(F2_Q03prompt_en, "undertake measurements such as lengths, weights, temperatures, dosages, areas or volumes?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q03c", paste(F2_Q03prompt_de, "Messungen durchgeführt, z.B. von Längen, Gewicht, Temperaturen, Dosierungen, Flächen oder Volumen?", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q03d", paste(F2_Q03prompt_en, "read and prepare charts, graphs or tables?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q03d", paste(F2_Q03prompt_de, "Diagramme, Schaubilder oder Tabellen gelesen und erstellt", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q03e", paste(F2_Q03prompt_en, "use advanced mathematics or statistics?", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q03e", paste(F2_Q03prompt_de, "Höhere Mathematik oder Statistik verwendet", sep = " "), question_text_de),
+         question_text_en = if_else(variable == "F2_Q04", "Do you use a computer in your current job (last job)? (By computer we mean a mainframe, desktop, laptop computer, tablets or any other device that can be used to do such things as sending or receiving e-mail messages, processing data or text, or finding things on the internet)", question_text_en),
+         question_text_de = if_else(variable == "F2_Q04", "Benutzen Sie bei Ihrer derzeitigen Arbeit (letzten Arbeit) einen Computer? (Hier sind auch Smartphones, Tablets sowie andere tragbare elektronische Geräte gemeint, die zur Internetnutzung und zum Lesen von E-Mails usw. verwendet werden.)", question_text_de))
+
+F2_Q05prompt_en <- "The following questions are about the use of a computer or digital device such as a tablet or smartphone as part of your current job (last job). They do not refer to the use of computers or digital devices in any jobs you may have held prior to your current job."
+F2_Q05prompt_de <- "In den folgenden Fragen geht es um die Nutzung von Computern oder digitalen Geräten wie beispielsweise Tablets oder Smartphones bei Ihrer derzeitigen Arbeit (letzten Arbeit). Sie beziehen sich nicht auf die Nutzung von Computern oder digitalen Geräten bei früheren beruflichen Tätigkeiten."
+F2_Q05resp_de <- "01	Nie	02	Seltener als einmal im Monat	03	Seltener als einmal pro Woche, aber mindestens einmal im Monat	04	Mindestens einmal pro Woche, aber nicht täglich	05	Täglich"
+
+df <- df %>%
+  mutate(question_text_en = if_else(variable == "F2_Q05a", paste(F2_Q05prompt_en, "To communicate with others (e.g. via emails, social networking sites, or internet calls). Exclude normal phone calls using a mobile phone.", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q05a", paste(F2_Q05prompt_de, "Um mit anderen zu kommunizieren, z.B. über E-Mail, soziale Netzwerke oder Internettelefonate. Nicht gemeint sind normale Telefonate mit dem Handy oder Smartphone.", sep = " "), question_text_en),
+         responses_de = if_else(variable == "F2_Q05a", F2_Q05resp_de, responses_de),
+         question_text_en = if_else(variable == "F2_Q05c", paste(F2_Q05prompt_en, "To access information (e.g. use a search engine, find information, or read documents).", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q05c", paste(F2_Q05prompt_de, "Um Informationen zu bekommen, z.B. eine Suchmaschine nutzen, Informationen finden oder Dokumente lesen.", sep = " "), question_text_en),
+         responses_de = if_else(variable == "F2_Q05c", F2_Q05resp_de, responses_de),
+         question_text_en = if_else(variable == "F2_Q05d", paste(F2_Q05prompt_en, "To create or edit electronic documents, spreadsheets or presentations (using Microsoft Word, Excel, PowerPoint, or similar software).", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q05d", paste(F2_Q05prompt_de, "Um elektronische Dokumente, Tabellenkalkulationen oder Präsentationen zu erstellen oder zu bearbeiten, z.B. mit Word, Excel, PowerPoint oder ähnlicher Software.", sep = " "), question_text_en),
+         responses_de = if_else(variable == "F2_Q05d", F2_Q05resp_de, responses_de),
+         question_text_en = if_else(variable == "F2_Q05e", paste(F2_Q05prompt_en, "To use specialized software (e.g. for computer-aided design, the processing or analysis of data, sound and images, or quality control).", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q05e", paste(F2_Q05prompt_de, "Um Spezialsoftware zu nutzen, z.B. für computergestütztes Design, für die Verarbeitung oder Analyse von Daten, für Ton- und Bildbearbeitung oder zur Qualitätskontrolle.", sep = " "), question_text_en),
+         responses_de = if_else(variable == "F2_Q05e", F2_Q05resp_de, responses_de),
+         question_text_en = if_else(variable == "F2_Q05f", paste(F2_Q05prompt_en, "To use a programming language to program software (e.g. applications) or websites.", sep = " "), question_text_en),
+         question_text_de = if_else(variable == "F2_Q05f", paste(F2_Q05prompt_de, "Um eine Programmiersprache zu nutzen, um Software, wie z.B. Apps, oder Webseiten zu programmieren.", sep = " "), question_text_en),
+         responses_de = if_else(variable == "F2_Q05f", F2_Q05resp_de, responses_de))
+
+df <- df %>%
+  mutate(constructed_vars = if_else(variable == "EDLEVEL3", "derived variable", constructed_vars),
+         question_text_en = if_else(variable == "EDLEVEL3", "PIAAC does not offer documentation, but this variable is derived from ISCED so that educational/education attainment is Low = 1-2, Mid = 3-4, and High = 5+. Essentially primary, secondary and tertiary", question_text_en),
+         trend_var = if_else(variable == "EDLEVEL3", "EDLEVEL3", trend_var),
+         c_vars = if_else(variable == "EDLEVEL3", "EDCAT6, EDCAT6_TC1, EDCAT7, EDCAT7_TC1, EDCAT8, EDCAT8_TC1", c_vars))
+
+df <- df %>%
+  mutate(responses_de = if_else(variable == "C_D05", "1 Erwerbstätig, 2 Arbeitslos, 3 Nicht erwerbstätig, 4 Unbekannt", responses_de),
+         responses_de = if_else(variable == "C2_D05", "1 Erwerbstätig, 2 Arbeitslos, 3 Nicht erwerbstätig, 4 Unbekannt", responses_de),
+         question_text_en = if_else(variable == "J_Q03a", "[Question on parent/parenthood] Do you have children? Please include stepchildren and children not living in your household.", question_text_en),
+         question_text_de = if_else(variable == "J_Q03a", "[Frage zu Elternschaft] Haben Sie Kinder? Hiermit sind auch Stiefkinder und eigene Kinder, die nicht in Ihrem Haushalt leben, gemeint.", question_text_de),
+         question_text_en = if_else(variable == "J2_Q03a", "[Question on parent/parenthood] Do you have children? Please include stepchildren and children not living in your household.", question_text_en),
+         question_text_de = if_else(variable == "J2_Q03a", "[Frage zu Elternschaft] Haben Sie Kinder? Hiermit sind auch Stiefkinder und eigene Kinder, die nicht in Ihrem Haushalt leben, gemeint.", question_text_de),
+         question_text_en = if_else(variable == "C2_Q11", "In the last 12 months, that is since ^MonthYear, did you receive unemployment benefits, disability benefits, sickness benefits, housing benefits or state pension benefits [welfare state]?", question_text_en),
+         question_text_de = if_else(variable == "C2_Q11", "Haben Sie in den letzten 12 Monaten, d.h. seit ^MonthYear, irgendwann einmal Arbeitslosengeld, Erwerbsminderungsrente, Krankengeld, Rente oder Pension erhalten [Sozialstaat / Wohlfahrtstaat]?", question_text_de),
+         c_vars = if_else(variable %in% c("A_N01", "A_N01_T", "A2_N02", "A2_N02T"), "A_N01, A_N01_T, A2_N02, A2_N02T", c_vars),
+         question_text_de = if_else(variable %in% c("A_N01", "A_N01_T", "A2_N02", "A2_N02T"), "Geschlecht: männlich oder weiblich", question_text_de))
+
+#write_rds(df, here::here("Data", "df17.RDS"))
+
+write_rds(df, here("Data", "df.RDS"))
+
+
+
+write_rds(df, here("Shiny", "df.RDS"))
