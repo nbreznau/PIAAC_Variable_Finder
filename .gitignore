@@ -4,6 +4,8 @@
 .Ruserdata
 /Data/piaac_combined.csv
 /Data/piaac_combined_2.csv
+/Data/piaac/cycle2csvs/*.*
+*.dta
 /Data/piaac/cycle2csvs/prgautp2.csv
 /Data/piaac/cycle2csvs/prgbelp2.csv
 /Data/piaac/cycle2csvs/prgcanp2.csv
